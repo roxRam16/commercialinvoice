@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>✪ Desbloquear Fila Catalog</Title>
+      <Shortcut>CatalogDesbloquearFilas</Shortcut>
+      <Description> ✪ Código para poder desbloquear filas del CatalogControl ✪ </Description>
+      <Author>Francisco Olvera</Author>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>IdCatalog</ID>
+          <ToolTip>Ingrese el ID del Catalog que se va a afectar.</ToolTip>
+          <Default>IdCatalog</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="VB">
+        <![CDATA[
+        $IdCatalog$.DisableRows = New List(Of Integer)()
+        ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

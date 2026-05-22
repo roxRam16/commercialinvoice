@@ -1,0 +1,331 @@
+﻿.img-section {
+    width: 90%;
+    max-width: 400px;
+    position: relative;
+    border: 2px dashed rgba(0,0,0,.15);
+}
+
+    .img-section:before {
+        content: "";
+        display: block;
+        padding-top: 60%;
+    }
+
+    .img-section:after {
+        content: "Subir Imagen";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 18px;
+        text-align: center;
+        color: #000;
+    }
+
+.mt-40 label {
+    margin-top: 60px;
+}
+
+.breakline {
+    display: block;
+    margin: 20px 0;
+    width: 100%
+}
+
+.custom_cat_3 table tr th:nth-child(2) {
+    width: 70px;
+}
+
+.custom_cat_3 tr th:nth-child(7), .custom_cat_3 tr th:nth-child(8) {
+    width: 205px;
+}
+
+.custom_cat_3 table tr th:nth-child(5) {
+    width: 140px;
+}
+
+.btnAction {
+    background: #43189a;
+    height: 36px;
+    padding: 0 24px;
+    border: 0;
+    outline: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.25);
+}
+
+    .btnAction:disabled {
+        background-color: #c4c0c0;
+    }
+
+.btnArchivar {
+    border-radius: 18px 0 0 18px;
+    background-image: url("../../../Librerias/Krom/imgs/archivar.png");
+}
+
+.btnRestaurar {
+    border-radius: 0 18px 18px 0;
+    background-image: url("../../../Librerias/Krom/imgs/w_reply.png");
+    margin-left: 1px;
+}
+
+.btnSubmit {
+    color: #ffffff;
+    border-radius: 18px;
+}
+
+.custom_cat_3_content {
+    border-top: 0;
+    border-radius: 0 0 15px 15px;
+    margin-top: -28px;
+}
+
+.wc-pillbox .fieldset {
+    border-bottom: 0 !important;
+    border-radius: 15px 15px 0 0 !important;
+}
+
+.cl_Secciones {
+    font-size: 24px;
+    font-weight: bold;
+    opacity: .6;
+    color: #757575;
+}
+
+.cl_Tarjeta {
+    font-size: 24px;
+    font-weight: bold;
+    color: #432776;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cl_Num__Tarjeta_principal {
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    box-shadow: -1px 3px 10px 4px rgba(0, 0, 0, 0.2);
+}
+
+.cl_Num__Tarjeta_IA {
+    background-color: #782360;
+}
+
+.cl_Num__Tarjeta_blue {
+    background-color: #432776;
+}
+
+.cl_Num__Tarjeta_gray {
+    background-color: #ababab;
+}
+
+.cl_Num__Tarjeta {
+    background: #ababab;
+    color: #ffffff;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    box-shadow: -1px 3px 10px 4px rgba(0, 0, 0, 0.2);
+}
+
+.cl_Num__Tarjeta {
+    font-size: 2.4em;
+    font-weight: bold;
+}
+
+.desactive_tarjeta {
+    background-color: #333333;
+}
+
+.cl_Num__Tarjeta_principal.cl_Num__Tarjeta_sinestado {
+    background-color: #ababab;
+}
+
+.cl_Num__Tarjeta_principal.cl_Num__Tarjeta_active {
+    background-color: #037f8c;
+}
+
+.cl_Num__Tarjeta_principal.cl_Num__Tarjeta_preliminar {
+    background-color: #634db0;
+}
+
+.cl_Num__Tarjeta_principal.cl_Num__Tarjeta_clasificado {
+    background-color: #321761
+}
+
+.cl_Num__Tarjeta_principal.cl_Num__Tarjeta_suprimido {
+    background-color: #f44336
+    /*#ababab;*/
+}
+
+.cl_Num__Tarjeta_principal.tooltip-inner {
+    font-size: 16px; /* Tamaño de fuente más grande */
+    background-color: #321761 !important; /* Color de fondo (tomato) */
+    color: #ffffff !important; /* Color del texto (blanco) */
+    padding: 10px 15px; /* Tamaño del padding para hacerlo más grande */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Cambiar el color de la flecha del tooltip */
+.cl_Num__Tarjeta_principal.tooltip-arrow {
+    border-top-color: #321761; /* Mismo color que el fondo */
+}
+
+.wc-card {
+    border-left: 3px solid #673ab7 !important;
+    border-top: 1px solid #f1f1f1 !important;
+    border-bottom: 1px solid #f1f1f1 !important;
+    border-right: 1px solid #f1f1f1 !important;
+    background-color: transparent !important;
+    padding: 16px !important;
+    border-radius: 12px !important;
+    box-shadow: 1px 3px 1px rgba(0,0,0,.16) !important;
+}
+
+.title_Card {
+    color: #757575;
+    font-weight: bold;
+    display: flex;
+    padding: 0px 0px 0px 16px;
+    border-radius: 0 16px 16px 0px;
+    font-size: 18px !important;
+    margin-top: 0px !important;
+}
+
+.btn-archivado-producto {
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.6) !important;
+}
+
+    .btn-archivado-producto:hover {
+        opacity: 0.8 !important;
+    }
+/*TAMBIEN TE PODRIA INTERESAR*/
+.a {
+    text-decoration: none;
+}
+
+.footer-interes {
+    padding-top: 16px;
+    display: block !important;
+    color: #653bb1;
+    font-size: 16px;
+}
+
+.resaltado {
+    font-weight: bold;
+}
+
+.wc-buttonNew {
+    border-radius: 10px !important;
+    padding: 1px 20px !important;
+    /* Gradiente con la paleta oficial de colores */
+    background: linear-gradient(135deg, #321761 0%, /* Morado más oscuro */
+    #634db0 25%, /* Morado medio-oscuro */
+    #9c27b0 50%, /* Morado principal */
+    #641d70 75%, /* Morado medio */
+    #79145c 100% /* Morado rojizo */
+    );
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    min-width: 100px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    /* Sombra con colores morados */
+    box-shadow: 0 4px 15px rgba(156, 39, 176, 0.3), 0 2px 8px rgba(50, 23, 97, 0.2);
+    /* Transiciones suaves */
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    /* Efecto de brillo sutil */
+    background-size: 200% 200%;
+    animation: gradientShift 3s ease infinite;
+}
+
+/* Animación del gradiente */
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Efecto hover espectacular */
+.wc-buttonNew:hover {
+    /* Gradiente más intenso en hover */
+    background: linear-gradient(135deg, #2a1354 0%, /* Más oscuro */
+    #5a42a0 25%, /* Más intenso */
+    #8e24a0 50%, /* Más vibrante */
+    #5a1a63 75%, /* Más profundo */
+    #6b1250 100% /* Más rico */
+    );
+    /* Elevación dramática */
+    transform: translateY(-3px) scale(1.02);
+    /* Sombra más intensa */
+    box-shadow: 0 8px 25px rgba(156, 39, 176, 0.4), 0 4px 15px rgba(50, 23, 97, 0.3), 0 0 20px rgba(156, 39, 176, 0.2);
+    /* Brillo interno */
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 8px 25px rgba(156, 39, 176, 0.4), 0 4px 15px rgba(50, 23, 97, 0.3);
+}
+
+/* Efecto de presión */
+.wc-buttonNew:active {
+    transform: translateY(-1px) scale(0.98);
+    box-shadow: 0 4px 15px rgba(156, 39, 176, 0.3), 0 2px 8px rgba(50, 23, 97, 0.2);
+}
+
+/* Efecto de brillo que se mueve */
+.wc-buttonNew::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent );
+    transition: left 0.5s ease;
+}
+
+.wc-buttonNew:hover::before {
+    left: 100%;
+}
+
+/* Efecto de partículas brillantes */
+.wc-buttonNew::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, transparent 70%);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+.wc-buttonNew:hover::after {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+}
+

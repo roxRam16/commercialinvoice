@@ -1,0 +1,65 @@
+
+/*BUTTON*/
+
+.wc-button {
+    --tintColor: #7e61b0;
+    background-color: var(--tintColor);
+    border: 0;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.25);
+    cursor: pointer;
+    padding: 2px 24px;
+    border-radius: 18px;
+    color: #ffffff;
+}
+
+.wc-button-icon {
+    --tintColor: #7e61b0;
+    background-color: var(--tintColor);
+    border: 0;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.25);
+    cursor: pointer;
+    padding: 2px 24px;
+    border-radius: 18px;
+    color: #ffffff;
+}
+
+.wc-button:hover {
+	background-color: var(--tintColor);
+	filter: grayscale(25%);
+}
+
+.wc-button:disabled {
+    background-color: var(--tintColor);
+}
+
+.wc-button.button-icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    padding: 8px;
+    border-radius: 50%;
+    width: 36px;
+}
+
+.wc-button.button-icontext {
+    background-position: 12px 50%;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    padding: 8px 24px 8px 40px;
+}
+
+.buttonWithIcon {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-top: 4px;
+}
+
+.labelButton {
+    color: white;
+    margin-top: 6px;
+}
+    .labelButtonIcon {
+    margin-top: 2px;
+    margin-left: 6px;
+}

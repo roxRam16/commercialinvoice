@@ -1,0 +1,8 @@
+C:\SAX\projects\synapsis.hyb\globals\libs\bin\controllers\Syn.Nucleo.RecursosComercioExterior64.0.0.0.0.dll
+C:\SAX\projects\synapsis.hyb\globals\libs\bin\controllers\Syn.Nucleo.RecursosComercioExterior64.0.0.0.0.pdb
+C:\SAX\projects\synapsis.hyb\globals\dev\controllers\syn.nucleo\1_0_stdRecursosComercioExterior64_dll\RecursosComercioExterior64\RecursosComercioExterior64\obj\Debug\RecursosComercioExterior64.vbproj.AssemblyReference.cache
+C:\SAX\projects\synapsis.hyb\globals\dev\controllers\syn.nucleo\1_0_stdRecursosComercioExterior64_dll\RecursosComercioExterior64\RecursosComercioExterior64\obj\Debug\Resources.resources
+C:\SAX\projects\synapsis.hyb\globals\dev\controllers\syn.nucleo\1_0_stdRecursosComercioExterior64_dll\RecursosComercioExterior64\RecursosComercioExterior64\obj\Debug\RecursosComercioExterior64.vbproj.GenerateResource.cache
+C:\SAX\projects\synapsis.hyb\globals\dev\controllers\syn.nucleo\1_0_stdRecursosComercioExterior64_dll\RecursosComercioExterior64\RecursosComercioExterior64\obj\Debug\RecursosComercioExterior64.vbproj.CoreCompileInputs.cache
+C:\SAX\projects\synapsis.hyb\globals\dev\controllers\syn.nucleo\1_0_stdRecursosComercioExterior64_dll\RecursosComercioExterior64\RecursosComercioExterior64\obj\Debug\Syn.Nucleo.RecursosComercioExterior64.0.0.0.0.dll
+C:\SAX\projects\synapsis.hyb\globals\dev\controllers\syn.nucleo\1_0_stdRecursosComercioExterior64_dll\RecursosComercioExterior64\RecursosComercioExterior64\obj\Debug\Syn.Nucleo.RecursosComercioExterior64.0.0.0.0.pdb

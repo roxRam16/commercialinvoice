@@ -1,0 +1,52 @@
+﻿
+/*ICON*/
+
+.wc-icon{
+    opacity: 1;
+}
+
+    .wc-icon.primario {
+        color: #432776;
+    }
+
+    .wc-icon.secundario {
+        color: #782360;
+    }
+
+    .wc-icon.advertencia {
+        color: #f39c12;
+    }
+
+    .wc-icon.error {
+        color: #8e1c31;
+    }
+
+    .wc-icon.defatult {
+        color: #424242;
+    }
+
+    .wc-icon.chico {
+        font-size: 13px;
+    }
+
+    .wc-icon.mediano {
+        font-size: 20px;
+    }
+
+    .wc-icon.grande {
+        font-size: 40px;
+    }
+
+    .wc-icon.extraGrande {
+        font-size: 70px;
+    }
+
+    .wc-icon.default-size {
+        font-size: 13px;
+    }
+
+    .wc-icon.bordeCircular {
+        border: 1px solid #432776;
+        padding: 10px;
+        border-radius: 50px;
+    }

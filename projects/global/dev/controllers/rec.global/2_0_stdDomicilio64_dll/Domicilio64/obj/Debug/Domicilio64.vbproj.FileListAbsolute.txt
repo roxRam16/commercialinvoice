@@ -1,0 +1,10 @@
+C:\SAX\projects\global\lib\controllers\rec.globals\Rec.Globals.Domicilio64.2.0.0.0.dll
+C:\SAX\projects\global\lib\controllers\rec.globals\Rec.Globals.Domicilio64.2.0.0.0.pdb
+C:\SAX\projects\global\dev\controllers\rec.global\2_0_stdDomicilio64_dll\Domicilio64\obj\Debug\Domicilio64.vbproj.AssemblyReference.cache
+C:\SAX\projects\global\dev\controllers\rec.global\2_0_stdDomicilio64_dll\Domicilio64\obj\Debug\Rec.Globals.Empresas.Resources.resources
+C:\SAX\projects\global\dev\controllers\rec.global\2_0_stdDomicilio64_dll\Domicilio64\obj\Debug\Domicilio64.vbproj.GenerateResource.cache
+C:\SAX\projects\global\dev\controllers\rec.global\2_0_stdDomicilio64_dll\Domicilio64\obj\Debug\Domicilio64.vbproj.CoreCompileInputs.cache
+C:\SAX\projects\global\dev\controllers\rec.global\2_0_stdDomicilio64_dll\Domicilio64\obj\Debug\Rec.Globals.Domicilio64.2.0.0.0.dll
+C:\SAX\projects\global\dev\controllers\rec.global\2_0_stdDomicilio64_dll\Domicilio64\obj\Debug\Rec.Globals.Domicilio64.2.0.0.0.pdb
+C:\SAX\projects\global\libs\controllers\rec.globals\Rec.Globals.Domicilio64.2.0.0.0.dll
+C:\SAX\projects\global\libs\controllers\rec.globals\Rec.Globals.Domicilio64.2.0.0.0.pdb

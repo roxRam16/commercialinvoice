@@ -1,0 +1,336 @@
+﻿/* Estilos de los proveedores */
+
+.btn-active:hover {
+    opacity: 1 !important;
+}
+
+.cl_Domicilios {
+    opacity: .6;
+    color: #757575;
+    display: inline-block;
+    padding: 0 14px;
+    border-radius: 0 16px 16px 0px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0px !important;
+}
+
+.cl_clave {
+    opacity: .4;
+    color: #757575;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 0px !important;
+    text-align: center;
+    position: absolute;
+}
+
+    .cl_clave.cl_num_clave {
+        color: #79145c !important;
+        font-size: 3.8rem !important;
+        opacity: 1;
+        top: 2.8rem;
+    }
+
+    .cl_clave.cl_online {
+        color: #757575 !important;
+        font-size: 2.8rem !important;
+        top: 7.5rem;
+        opacity: 1;
+    }
+
+.cl_clave_sec {
+    opacity: .4;
+    color: #757575;
+    font-size: 2.1rem;
+    font-weight: bold;
+    margin-top: 0px !important;
+    text-align: center;
+    position: absolute;
+}
+
+    .cl_clave_sec.cl_num_clave_secundario {
+        color: #634db0 !important;
+        font-size: 3rem !important;
+        opacity: 1;
+        top: 3rem;
+    }
+
+/* <576px */
+@media (max-width: 575.98px) {
+    .media-query-clave {
+        margin-top: 20%;
+    }
+}
+
+/* <768px */
+@media (max-width: 767.98px) {
+    .media-query-clave {
+        margin-top: 15%;
+    }
+}
+
+/* <992px */
+@media (max-width: 991.98px) {
+    .media-query-clave {
+        margin-top: 12%;
+    }
+}
+
+/* Entre sm y md (≥576px y <768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*    .media-query-clave {
+        margin-top: 18%;
+    }*/
+}
+
+
+.cl_Secciones {
+    opacity: .6;
+    color: #757575;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.title_Card {
+    opacity: .6;
+    color: #757575;
+    display: flex;
+    padding: 0px 0px 0px 16px;
+    border-radius: 0 16px 16px 0px;
+    /*font-size: 18px !important;*/
+    margin-top: 0px !important;
+}
+
+.text-danger {
+    opacity: .6;
+    color: #757575;
+    display: flex;
+    padding: 0px 0px 0px 16px;
+    border-radius: 0 16px 16px 0px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0px !important;
+}
+
+.wc-card {
+    padding: 2px 10px !important;
+}
+
+    .wc-card:focus-within {
+        max-height: 200px; /* simula que "crece" */
+    }
+
+.wc-buttonNew {
+    border-radius: 10px !important;
+    padding: 1px 20px !important;
+    /* Gradiente con la paleta oficial de colores */
+    background: linear-gradient(135deg, #321761 0%, /* Morado más oscuro */
+    #634db0 25%, /* Morado medio-oscuro */
+    #9c27b0 50%, /* Morado principal */
+    #641d70 75%, /* Morado medio */
+    #79145c 100% /* Morado rojizo */
+    );
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    min-width: 100px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    /* Sombra con colores morados */
+    box-shadow: 0 4px 15px rgba(156, 39, 176, 0.3), 0 2px 8px rgba(50, 23, 97, 0.2);
+    /* Transiciones suaves */
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    /* Efecto de brillo sutil */
+    background-size: 200% 200%;
+    animation: gradientShift 3s ease infinite;
+}
+
+/* Animación del gradiente */
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/* Efecto hover espectacular */
+.wc-buttonNew:hover {
+    /* Gradiente más intenso en hover */
+    background: linear-gradient(135deg, #2a1354 0%, /* Más oscuro */
+    #5a42a0 25%, /* Más intenso */
+    #8e24a0 50%, /* Más vibrante */
+    #5a1a63 75%, /* Más profundo */
+    #6b1250 100% /* Más rico */
+    );
+    /* Elevación dramática */
+    transform: translateY(-3px) scale(1.02);
+    /* Sombra más intensa */
+    box-shadow: 0 8px 25px rgba(156, 39, 176, 0.4), 0 4px 15px rgba(50, 23, 97, 0.3), 0 0 20px rgba(156, 39, 176, 0.2);
+    /* Brillo interno */
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 8px 25px rgba(156, 39, 176, 0.4), 0 4px 15px rgba(50, 23, 97, 0.3);
+}
+
+/* Efecto de presión */
+.wc-buttonNew:active {
+    transform: translateY(-1px) scale(0.98);
+    box-shadow: 0 4px 15px rgba(156, 39, 176, 0.3), 0 2px 8px rgba(50, 23, 97, 0.2);
+}
+
+/* Efecto de brillo que se mueve */
+.wc-buttonNew::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent );
+    transition: left 0.5s ease;
+}
+
+.wc-buttonNew:hover::before {
+    left: 100%;
+}
+
+/* Efecto de partículas brillantes */
+.wc-buttonNew::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, transparent 70%);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+.wc-buttonNew:hover::after {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+}
+
+.texto-resaltado {
+    color: #757575 !important;
+    font-weight: bold;
+    padding: 0px 5px;
+    opacity: 0.9;
+}
+
+.color-default {
+    background: #757575;
+    opacity: 0.9;
+}
+
+.title_card_purple {
+    /*opacity: .6;*/
+    color: #757575;
+    display: flex;
+    padding: 0px 0px 0px 40px;
+    /*border-radius: 0 16px 16px 0px;*/
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px !important;
+}
+
+.texto-alert {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0px 32px;
+    opacity: 0.6;
+}
+
+.wc-card-danger {
+    --tintColor: #dc3545 !important;
+    width: 100% !important;
+    border: 1px solid var(--tintColor) !important;
+    border-left-width: 8px !important;
+    padding: 14px !important;
+    border-radius: 16px !important;
+    box-shadow: 2px 4px 8px rgba(0,0,0,.16) !important;
+    background: linear-gradient(to bottom, rgba(249,249,249,1) 0%,rgba(255,255,255,0) 50%);
+    opacity: 1 !important;
+    transition: opacity 2s ease-in-out !important;
+}
+
+
+.cl_Tarjeta {
+    font-size: 24px;
+    font-weight: bold;
+    color: #432776;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cl_Num__Tarjeta {
+    background-color: #432776;
+    color: #fff;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.cl_Num__Tarjeta {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.etiqueta {
+    background-color: #673ab7;
+    opacity: .6;
+    color: #fff;
+    display: inline-block;
+    padding: 0 14px;
+    border-radius: 0 16px 16px 0px;
+}
+
+.wc-card {
+    border: 1px solid #e0e0e0;
+    /* 🟣 BORDE MORADO DEL LADO IZQUIERDO */
+    border-left: 4px solid #9c27b0;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15), 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.btn-archivado-producto {
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.6) !important;
+}
+
+    .btn-archivado-producto:hover {
+        opacity: 0.8 !important;
+    }
+/*TAMBIEN TE PODRIA INTERESAR*/
+.a {
+    text-decoration: none;
+}
+
+.footer-interes {
+    padding-top: 16px;
+    display: block !important;
+    color: #653bb1;
+    font-size: 16px;
+}
+
+.resaltado {
+    font-weight: bold;
+}

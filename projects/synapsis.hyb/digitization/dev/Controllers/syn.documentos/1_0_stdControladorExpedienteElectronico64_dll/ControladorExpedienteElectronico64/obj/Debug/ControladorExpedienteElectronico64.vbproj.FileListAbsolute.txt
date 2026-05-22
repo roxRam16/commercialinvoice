@@ -1,0 +1,9 @@
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.documentos\1_0_stdControladorExpedienteElectronico64_dll\ControladorExpedienteElectronico64\obj\Debug\ControladorExpedienteElectronico64.vbproj.AssemblyReference.cache
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.documentos\1_0_stdControladorExpedienteElectronico64_dll\ControladorExpedienteElectronico64\obj\Debug\Syn.CustomBrokers.Controllers.Resources.resources
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.documentos\1_0_stdControladorExpedienteElectronico64_dll\ControladorExpedienteElectronico64\obj\Debug\ControladorExpedienteElectronico64.vbproj.GenerateResource.cache
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.documentos\1_0_stdControladorExpedienteElectronico64_dll\ControladorExpedienteElectronico64\obj\Debug\ControladorExpedienteElectronico64.vbproj.CoreCompileInputs.cache
+C:\SAX\projects\synapsis.hyb\digitization\libs\bin\Controllers\Syn.CustomBrokers.Controllers.ControladorExpedienteElectronico64.0.0.0.0.dll
+C:\SAX\projects\synapsis.hyb\digitization\libs\bin\Controllers\Syn.CustomBrokers.Controllers.ControladorExpedienteElectronico64.0.0.0.0.pdb
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.documentos\1_0_stdControladorExpedienteElectronico64_dll\ControladorExpedienteElectronico64\obj\Debug\Syn.CustomBrokers.Controllers.ControladorExpedienteElectronico64.0.0.0.0.dll
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.documentos\1_0_stdControladorExpedienteElectronico64_dll\ControladorExpedienteElectronico64\obj\Debug\Syn.CustomBrokers.Controllers.ControladorExpedienteElectronico64.0.0.0.0.pdb
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.documentos\1_0_stdControladorExpedienteElectronico64_dll\ControladorExpedienteElectronico64\obj\Debug\Controla.D0344D86.Up2Date

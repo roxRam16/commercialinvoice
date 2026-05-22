@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>✪ Guardar Campos Invisibles Pillbox</Title>
+      <Shortcut>PillboxGuardarCamposInvisibles</Shortcut>
+      <Description> ✪ Código para poder guardar los campos NO VISIBLES dentro del Pillbox ✪ </Description>
+      <Author>Francisco Olvera</Author>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>IdPillbox</ID>
+          <ToolTip>Ingrese el ID del Pillbox que se va a afectar.</ToolTip>
+          <Default>pbPillbox</Default>
+        </Literal>
+        <Literal>
+          <ID>IdCampo</ID>
+          <ToolTip>Añada el ID del campo que se le asignara el valor</ToolTip>
+          <Default>icExample</Default>
+        </Literal>
+          <Literal>
+          <ID>Valor</ID>
+          <ToolTip>Añada el valor que se le asignara,puede ser cualquier tipo de dato</ToolTip>
+          <Default>1</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="VB">
+        <![CDATA[
+        $IdPillbox$.setValueInvisible(Of)($IdCampo$, $IdPillbox$.PageIndex, $Valor$)
+        ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

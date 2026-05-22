@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>✪ Bloquear Campos Catalog</Title>
+      <Shortcut>CatalogBloquearCampos</Shortcut>
+      <Description> ✪ Código para poder bloquear una campo o varios campos especificos del CatalogControl ✪ </Description>
+      <Author>Francisco Olvera</Author>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>IdCatalog</ID>
+          <ToolTip>Ingrese el ID del Catalog que se va a afectar.</ToolTip>
+          <Default>IdCatalog</Default>
+        </Literal>
+        <Literal>
+          <ID>RowNumber</ID>
+          <ToolTip>Ingrese el número de la fila donde seran afectados los campos.</ToolTip>
+          <Default>1</Default>
+        </Literal>
+          <Literal>
+          <ID>IdCampo</ID>
+          <ToolTip>Ingrese el ID del campo que se va a bloquear.</ToolTip>
+          <Default>icExample</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="VB">
+        <![CDATA[
+        $IdCatalog$.DisableRowsFields = New Dictionary(Of Integer, List(Of String)) From {
+            {$RowNumber$, New List(Of String) From {"$IdCampo$"}}
+            '{ccExample, New List(Of String) From {"icExample"}}, <--- Puedes repetir el proceso las veces que necesites bloquear campos
+        }
+        ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

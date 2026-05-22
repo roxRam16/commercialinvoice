@@ -1,0 +1,8 @@
+C:\SAX\projects\global\lib\controllers\rec.globals.controllers\Rec.Globals.Controllers.ControladorEmpresas64.0.0.0.0.dll
+C:\SAX\projects\global\lib\controllers\rec.globals.controllers\Rec.Globals.Controllers.ControladorEmpresas64.0.0.0.0.pdb
+C:\SAX\projects\global\dev\controllers\rec.global.controllers\1_0_stdControladorEmpresas64_dll\ControladorEmpresas64\obj\Debug\ControladorEmpresas64.vbproj.AssemblyReference.cache
+C:\SAX\projects\global\dev\controllers\rec.global.controllers\1_0_stdControladorEmpresas64_dll\ControladorEmpresas64\obj\Debug\Rec.Globals.Controllers.Resources.resources
+C:\SAX\projects\global\dev\controllers\rec.global.controllers\1_0_stdControladorEmpresas64_dll\ControladorEmpresas64\obj\Debug\ControladorEmpresas64.vbproj.GenerateResource.cache
+C:\SAX\projects\global\dev\controllers\rec.global.controllers\1_0_stdControladorEmpresas64_dll\ControladorEmpresas64\obj\Debug\ControladorEmpresas64.vbproj.CoreCompileInputs.cache
+C:\SAX\projects\global\dev\controllers\rec.global.controllers\1_0_stdControladorEmpresas64_dll\ControladorEmpresas64\obj\Debug\Rec.Globals.Controllers.ControladorEmpresas64.0.0.0.0.dll
+C:\SAX\projects\global\dev\controllers\rec.global.controllers\1_0_stdControladorEmpresas64_dll\ControladorEmpresas64\obj\Debug\Rec.Globals.Controllers.ControladorEmpresas64.0.0.0.0.pdb

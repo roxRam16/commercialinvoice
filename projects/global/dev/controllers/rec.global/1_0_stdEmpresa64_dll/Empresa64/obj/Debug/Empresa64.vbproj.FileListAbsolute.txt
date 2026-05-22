@@ -1,0 +1,8 @@
+C:\SAX\projects\global\lib\controllers\rec.globals\Rec.Globals.Empresa64.0.0.0.0.dll
+C:\SAX\projects\global\lib\controllers\rec.globals\Rec.Globals.Empresa64.0.0.0.0.pdb
+C:\SAX\projects\global\dev\controllers\rec.global\1_0_stdEmpresa64_dll\Empresa64\obj\Debug\Empresa64.vbproj.AssemblyReference.cache
+C:\SAX\projects\global\dev\controllers\rec.global\1_0_stdEmpresa64_dll\Empresa64\obj\Debug\Rec.Globals.Resources.resources
+C:\SAX\projects\global\dev\controllers\rec.global\1_0_stdEmpresa64_dll\Empresa64\obj\Debug\Empresa64.vbproj.GenerateResource.cache
+C:\SAX\projects\global\dev\controllers\rec.global\1_0_stdEmpresa64_dll\Empresa64\obj\Debug\Empresa64.vbproj.CoreCompileInputs.cache
+C:\SAX\projects\global\dev\controllers\rec.global\1_0_stdEmpresa64_dll\Empresa64\obj\Debug\Rec.Globals.Empresa64.0.0.0.0.dll
+C:\SAX\projects\global\dev\controllers\rec.global\1_0_stdEmpresa64_dll\Empresa64\obj\Debug\Rec.Globals.Empresa64.0.0.0.0.pdb

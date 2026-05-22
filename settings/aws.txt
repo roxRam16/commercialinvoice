@@ -1,0 +1,198 @@
+Paso 1
+- AWSDeploymentArchive_ebs-syn-commercialinvoice-sandbox_v20251226222434.zip
+
+-Extraemos el .zip que descargamos de S3 de la siguiente ruta:
+
+Amazon S3/ Buckets / elasticbeanstalk-us-east-1-682033485007 / ebs-syn-commercialinvoice-sandbox/ AWSDeploymentArchive_ebs-syn-commercialinvoice-sandbox_v20251226222434.zip
+
+Paso 2
+
+Publicamos nuestro proyecto desde visual studio en la siguiente ruta:
+
+C:\inetpub\wwwroot\saxcomercialinvoice\sax\projects\synapsis\dev\main
+
+
+Paso 3:
+
+Copiamos los bins del proyecto original de Synapsis (la ruta siguiente):
+
+C:\SAX\projects\synapsis.hyb\comercialinvoice\dev\main\bin
+
+Hacia la ruta publicada de nuestro proyecto:
+
+Importante: no se deben copiar los siguientes archivos: 
+ * CommercialInvoiceInput64.dll
+ * ComemrcialInvoiceInput64.pdb
+
+C:\inetpub\wwwroot\saxcomercialinvoice\sax\projects\synapsis\dev\main\bin
+
+
+Paso 4: 
+
+Copiamos las siguientes carpetas del proyecto original (ruta):
+
+C:\SAX\projects\synapsis.hyb\comercialinvoice\dev\main\FrontEnd
+
+las siguientes carpetas:
+
+* Librerias
+* Recursos
+* Scripts
+
+y las pegamos en: 
+
+C:\inetpub\wwwroot\saxcomercialinvoice\sax\projects\synapsis\dev\main\FrontEnd
+
+
+Paso 5:
+
+Copiar todo el contenido del main:
+
+C:\inetpub\wwwroot\saxcomercialinvoice\sax\projects\synapsis\dev\main
+
+y pegarlo en:
+
+C:\awsCommercial\Content\C_C\SAX\projects\synapsis.hyb\comercialinvoice\dev\main\obj\Debug\Package\PackageTmp
+
+Paso 6:
+
+En nuestra carpeta C:\awsCommercial, debemos comprimir las siguientes carpetas en .zip y ponerle el siguiente nombre:
+
+AWSDeploymentArchive_ebs-syn-commercialinvoice-sandbox_v20251226222434.zip
+
+
+Paso 7:
+
+Ir a AWS, e eliminar el archivo.zip que se encuentra en el s3 de comercial invoice:
+
+Nos pedirá que confirmemos que queremos eliminar el archivo de forma permanente, y confirmamos.
+
+Paso 8:
+
+Volvemos a cargar nuestro archivo.zip  en s3
+
+Paso 9: 
+
+Ahora nos dirijimos a Elastic Beanstalk
+
+Aplicaciones/ebs-syn-commercialinvoice-sandbox 
+
+Acciones restaurar entorno, con esto nos aseguramos que nuestro elastic tome los cambios nuevos de nuestro proyecto cargado en s3
+
+Paso 10:
+
+Probamos nuestro entorno, en los avisos que elastic ARROJa , debemos copiar la ip dinámica que este arroja para probar el estado de nuestro proyecto de forma local:
+
+Created EIP: 3.228.112.189
+
+Paso 11:
+
+Abrimos nuestro archivos host que se encuentra en:
+
+C:\Windows\System32\drivers\etc
+
+y lo editamos, es decir pegamos nuestra nueva ip en la configuración de: comercialinvoice.synapsis-sandbox.click
+
+Nota importante, esa ip es dinámica, cada vez que cambie el elastik va a cambiar.
+
+Paso 12:
+
+Probamos de forma local en la siguiente dirección:
+
+comercialinvoice.synapsis-sandbox.click/FrontEnd/Modulos/TraficoAA/FacturasComerciales/FacturaComercialExportacion/Ges022_FacturaComercialExportacion
+comercialinvoice.synapsis-sandbox.click/FrontEnd/Modulos/TraficoAA/FacturasComerciales/FacturaComercialImportacion/Ges003-001-FacturasComerciales
+
+comercialinvoice.synapsis-sandbox.click/FrontEnd/Modulos/TraficoAA/AcusesValor/Ges022-001-AcuseValor
+
+Paso 13:
+
+Una vez probado el proyecto en el elastic, procesdemos a publicarnos completamente en AWS:
+
+Paso 14:
+
+Detenemos nuestra instancia actual
+
+Paso 15:
+
+Apagamos nuestros asg
+
+Paso 16:
+
+Nos dirigimos a nuestro EC2 a las intancias e identificamos la instancia provisional que crea ebs:
+ebs-syn-commercialinvoice-sandbox-dev
+
+Paso 17:
+
+Creamos nuestra ami partir del ebs-syn-commercialinvoice-sandbox-dev
+
+ami-syn-commercialinvoice-sandbox-v31
+
+verificando la versión en la que va.
+
+Nombre de la ami:
+ami-syn-commercialinvoice-sandbox-v32
+
+Descripción de la ami:
+Imagen del segmento de commercialinvoice en sandbox
+
+Quitar el marcado de reiniciar de la instancia
+
+Etiqueta: Name
+Valor: ami-syn-commercialinvoice-sandbox-v32
+
+Paso 18:
+
+Eliminar la última ami para que solo queden 2 amis en real
+
+
+Paso 19:
+
+Agregamos otra versión a las plantillas de lanzamiento
+
+La seleccionamos y nos vamos a versiones
+
+Descripción: Plantilla de lanzamiento del segmento de commercialinvoice en sandbox
+Tipo de instancia: t3a.micro
+Key pars: keypair-syn-commercialinvoice-sandbox
+Grupo de seguridad: sg-0503445cb1861edd4
+Etiqueta: Name
+Valor: lte-syn-commercialinvoice-sandbox
+Valor: ec2-syn-commercialinvoice-sandbox
+
+Paso 20:
+
+Seleccionamos la plantilla y damos clic en el botón de Modificar plantilla (Crear nueva versión)
+
+Debemos verificar que nuestra plantilla nueva sea la versión por default
+
+Paso 21:
+
+verificar si la versión de la plantilla es la ultima que tenemos que tomar antes de encender el autoscaling 
+Nota: ver donde va esto: ec2-syn-commercialinvoice-sandbox
+
+Paso 22:
+
+Levantar el autoscaling
+
+Paso 23:
+
+Terminar el elastick beaktel ese para que se limpie toda su basura
+
+Paso 24: 
+Verificar que lo que no este en nuestras etiquetas ya no esten
+
+Paso 25:
+Verificar nuestros nuevos enlaces de aws
+
+https://synapsis-sandbox.click/FrontEnd/Modulos/TraficoAA/FacturasComerciales/FacturaComercialImportacion/Ges003-001-FacturasComerciales
+
+
+-Apagar el autoscaling
+- a partir de la instancia beasteac creado, generamos la ami
+- Generamos la ami
+- Buscar la plantilla de lanzamiento y añadir nueva versión de plantilla
+- asg asegurarnos que esta por defecto la nueva verison de la plantilla
+-- asegurarnos que la plantilla tenga la versión que es
+--encendemos el asg
+--y eliminamos toas las instancias , amis y demás cosas adicionales
+--- terminar entorno del beasktok

@@ -1,0 +1,10 @@
+﻿
+/*PANEL*/
+
+
+.disabled-panel {
+    opacity: 0.6;
+    pointer-events: none;
+    user-select: none;
+    cursor: not-allowed;
+}

@@ -1,0 +1,8 @@
+C:\SAX\projects\synapsis.hyb\digitization\libs\bin\Controllers\Syn.Documento.ConstructorExpedienteElectronico64.0.0.0.0.dll
+C:\SAX\projects\synapsis.hyb\digitization\libs\bin\Controllers\Syn.Documento.ConstructorExpedienteElectronico64.0.0.0.0.pdb
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.documentos\1_0_stdConstructorExpedienteElectronico64_dll\ConstructorExpedienteElectronico64\obj\Debug\ConstructorExpedienteElectronico64.vbproj.AssemblyReference.cache
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.documentos\1_0_stdConstructorExpedienteElectronico64_dll\ConstructorExpedienteElectronico64\obj\Debug\ConstructorExpedienteElectronico64.Resources.resources
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.documentos\1_0_stdConstructorExpedienteElectronico64_dll\ConstructorExpedienteElectronico64\obj\Debug\ConstructorExpedienteElectronico64.vbproj.GenerateResource.cache
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.documentos\1_0_stdConstructorExpedienteElectronico64_dll\ConstructorExpedienteElectronico64\obj\Debug\ConstructorExpedienteElectronico64.vbproj.CoreCompileInputs.cache
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.documentos\1_0_stdConstructorExpedienteElectronico64_dll\ConstructorExpedienteElectronico64\obj\Debug\Syn.Documento.ConstructorExpedienteElectronico64.0.0.0.0.dll
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.documentos\1_0_stdConstructorExpedienteElectronico64_dll\ConstructorExpedienteElectronico64\obj\Debug\Syn.Documento.ConstructorExpedienteElectronico64.0.0.0.0.pdb

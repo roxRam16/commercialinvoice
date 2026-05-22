@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>✪ Modificar Campos Catalog</Title>
+      <Shortcut>CatalogModificarCampos</Shortcut>
+      <Description> ✪ Código para poder modificar una campo o varios campos especificos del CatalogControl ✪ </Description>
+      <Author>Francisco Olvera</Author>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>IdCatalog</ID>
+          <ToolTip>Ingrese el ID del Catalog que se va a afectar.</ToolTip>
+          <Default>ccCatalog</Default>
+        </Literal>
+        <Literal>
+          <ID>IdCampo</ID>
+          <ToolTip>Ingrese el ID del campo que se va a Modificar.</ToolTip>
+          <Default>icExample</Default>
+        </Literal>
+        <Literal>
+          <ID>RowNumber</ID>
+          <ToolTip>Ingrese el número de la fila donde seran afectados los campos.</ToolTip>
+          <Default>1</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="VB">
+        <![CDATA[
+        SetValueCatalog(Of String)($icExample$, $IdCatalog$, 1, 1, 1)
+        ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

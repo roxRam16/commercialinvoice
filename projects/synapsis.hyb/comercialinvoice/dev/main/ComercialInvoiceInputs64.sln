@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ComercialInvoiceInputs64", "ComercialInvoiceInputs64.vbproj", "{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "controls", "controls", "{DAFC1B07-0790-48BB-87AD-91DF432FFFD3}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ControladorFacturaComercial64", "..\controllers\syn.custombrokers\1_0_stdControladorFacturaComercial64_dll\ControladorFacturaComercial64\ControladorFacturaComercial64.vbproj", "{CAB4FB2B-93E5-4D40-8383-A777926CBE2E}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SubdivisionFacturaComercial64", "..\controllers\syn.custombrokers\1_0_stdSubdivisionFacturaComercial64_dll\SubdivisionFacturaComercial64\SubdivisionFacturaComercial64.vbproj", "{44DE0337-269D-4BB2-8445-B3712C53E8D1}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FacturaSubdividible64", "..\controllers\syn.custombrokers\1_0_stdFacturaSubdividible64_dll\FacturaSubdividible64\FacturaSubdividible64.vbproj", "{1046F721-B08B-4C27-8EA8-AF8CDA292EF7}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ConstructorFacturaComercial64", "..\controllers\syn.documentos\1_0_stdConstructorFacturaComercial64_dll\ConstructorFacturaComercial64\ConstructorFacturaComercial64.vbproj", "{BE55BAFA-4822-4F2D-88CE-6EAC06AED12C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CommercialInvoiceCustomsDocument64", "..\controllers\syn.custombrokers\1_0_stdCommercialInvoiceCustomsDocument64_dll\CommercialInvoiceCustomsDocument64\CommercialInvoiceCustomsDocument64.vbproj", "{2F469630-3ED2-4F87-95F7-B782EBD1C979}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ICommercialInvoiceCustomsDocument", "..\controllers\syn.custombrokers\1_0_stdICommercialInvoiceCustomsDocument_dll\ICommercialInvoiceCustomsDocument\ICommercialInvoiceCustomsDocument.vbproj", "{BFAFBCB8-D626-4764-8E4D-500896A02D28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAB4FB2B-93E5-4D40-8383-A777926CBE2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAB4FB2B-93E5-4D40-8383-A777926CBE2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAB4FB2B-93E5-4D40-8383-A777926CBE2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAB4FB2B-93E5-4D40-8383-A777926CBE2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44DE0337-269D-4BB2-8445-B3712C53E8D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44DE0337-269D-4BB2-8445-B3712C53E8D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44DE0337-269D-4BB2-8445-B3712C53E8D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44DE0337-269D-4BB2-8445-B3712C53E8D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1046F721-B08B-4C27-8EA8-AF8CDA292EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1046F721-B08B-4C27-8EA8-AF8CDA292EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1046F721-B08B-4C27-8EA8-AF8CDA292EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1046F721-B08B-4C27-8EA8-AF8CDA292EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE55BAFA-4822-4F2D-88CE-6EAC06AED12C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE55BAFA-4822-4F2D-88CE-6EAC06AED12C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE55BAFA-4822-4F2D-88CE-6EAC06AED12C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE55BAFA-4822-4F2D-88CE-6EAC06AED12C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F469630-3ED2-4F87-95F7-B782EBD1C979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F469630-3ED2-4F87-95F7-B782EBD1C979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F469630-3ED2-4F87-95F7-B782EBD1C979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F469630-3ED2-4F87-95F7-B782EBD1C979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFAFBCB8-D626-4764-8E4D-500896A02D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFAFBCB8-D626-4764-8E4D-500896A02D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFAFBCB8-D626-4764-8E4D-500896A02D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFAFBCB8-D626-4764-8E4D-500896A02D28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CAB4FB2B-93E5-4D40-8383-A777926CBE2E} = {DAFC1B07-0790-48BB-87AD-91DF432FFFD3}
+		{44DE0337-269D-4BB2-8445-B3712C53E8D1} = {DAFC1B07-0790-48BB-87AD-91DF432FFFD3}
+		{1046F721-B08B-4C27-8EA8-AF8CDA292EF7} = {DAFC1B07-0790-48BB-87AD-91DF432FFFD3}
+		{BE55BAFA-4822-4F2D-88CE-6EAC06AED12C} = {DAFC1B07-0790-48BB-87AD-91DF432FFFD3}
+		{2F469630-3ED2-4F87-95F7-B782EBD1C979} = {DAFC1B07-0790-48BB-87AD-91DF432FFFD3}
+		{BFAFBCB8-D626-4764-8E4D-500896A02D28} = {DAFC1B07-0790-48BB-87AD-91DF432FFFD3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27B78F8E-9A2D-4AF5-872E-D49595012A68}
+	EndGlobalSection
+EndGlobal

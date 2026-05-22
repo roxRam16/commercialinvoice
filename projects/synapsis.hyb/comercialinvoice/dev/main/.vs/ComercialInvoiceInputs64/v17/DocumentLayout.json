@@ -1,0 +1,247 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\SAX\\projects\\synapsis.hyb\\comercialinvoice\\dev\\main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|ComercialInvoiceInputs64.vbproj|C:\\SAX\\projects\\synapsis.hyb\\comercialinvoice\\dev\\main\\frontend\\modulos\\traficoaa\\facturascomerciales\\facturacomercialexportacion\\ges022_facturacomercialexportacion.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|ComercialInvoiceInputs64.vbproj|solutionrelative:frontend\\modulos\\traficoaa\\facturascomerciales\\facturacomercialexportacion\\ges022_facturacomercialexportacion.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|ComercialInvoiceInputs64.vbproj|c:\\sax\\projects\\synapsis.hyb\\comercialinvoice\\dev\\main\\frontend\\modulos\\traficoaa\\facturascomerciales\\facturacomercialimportacion\\ges003-001-facturascomerciales.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|ComercialInvoiceInputs64.vbproj|solutionrelative:frontend\\modulos\\traficoaa\\facturascomerciales\\facturacomercialimportacion\\ges003-001-facturascomerciales.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|ComercialInvoiceInputs64.vbproj|c:\\sax\\projects\\synapsis.hyb\\comercialinvoice\\dev\\main\\frontend\\modulos\\traficoaa\\facturascomerciales\\facturacomercialimportacion\\ges003-001-facturascomerciales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}|ComercialInvoiceInputs64.vbproj|solutionrelative:frontend\\modulos\\traficoaa\\facturascomerciales\\facturacomercialimportacion\\ges003-001-facturascomerciales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB4FB2B-93E5-4D40-8383-A777926CBE2E}|..\\controllers\\syn.custombrokers\\1_0_stdControladorFacturaComercial64_dll\\ControladorFacturaComercial64\\ControladorFacturaComercial64.vbproj|c:\\sax\\projects\\synapsis.hyb\\comercialinvoice\\dev\\controllers\\syn.custombrokers\\1_0_stdcontroladorfacturacomercial64_dll\\controladorfacturacomercial64\\controladorfacturacomercial.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1046F721-B08B-4C27-8EA8-AF8CDA292EF7}|..\\controllers\\syn.custombrokers\\1_0_stdFacturaSubdividible64_dll\\FacturaSubdividible64\\FacturaSubdividible64.vbproj|c:\\sax\\projects\\synapsis.hyb\\comercialinvoice\\dev\\controllers\\syn.custombrokers\\1_0_stdfacturasubdividible64_dll\\facturasubdividible64\\detallecontrolsaldo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44DE0337-269D-4BB2-8445-B3712C53E8D1}|..\\controllers\\syn.custombrokers\\1_0_stdSubdivisionFacturaComercial64_dll\\SubdivisionFacturaComercial64\\SubdivisionFacturaComercial64.vbproj|c:\\sax\\projects\\synapsis.hyb\\comercialinvoice\\dev\\controllers\\syn.custombrokers\\1_0_stdsubdivisionfacturacomercial64_dll\\subdivisionfacturacomercial64\\subdivisionfacturacomercial.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 37,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{28836128-fc2c-11d2-a433-00c04f72d18a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ecb7191a-597b-41f5-9843-03a4cf275dde}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{be4d7042-ba3f-11d2-840e-00c04f9902c1}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{2bb8137c-bac8-4d04-820a-c52b5d5b82da}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{757affbd-aba2-4a34-a9d0-98e3035e33ef}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ca8cc5c7-0231-406a-95cd-aa5ed6ac0190}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ges003-001-FacturasComerciales.aspx",
+              "DocumentMoniker": "C:\\SAX\\projects\\synapsis.hyb\\comercialinvoice\\dev\\main\\FrontEnd\\Modulos\\TraficoAA\\FacturasComerciales\\FacturaComercialImportacion\\Ges003-001-FacturasComerciales.aspx",
+              "RelativeDocumentMoniker": "FrontEnd\\Modulos\\TraficoAA\\FacturasComerciales\\FacturaComercialImportacion\\Ges003-001-FacturasComerciales.aspx",
+              "ToolTip": "C:\\SAX\\projects\\synapsis.hyb\\comercialinvoice\\dev\\main\\FrontEnd\\Modulos\\TraficoAA\\FacturasComerciales\\FacturaComercialImportacion\\Ges003-001-FacturasComerciales.aspx",
+              "RelativeToolTip": "FrontEnd\\Modulos\\TraficoAA\\FacturasComerciales\\FacturaComercialImportacion\\Ges003-001-FacturasComerciales.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-21T17:52:38.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SubdivisionFacturaComercial.vb",
+              "DocumentMoniker": "C:\\SAX\\projects\\synapsis.hyb\\comercialinvoice\\dev\\controllers\\syn.custombrokers\\1_0_stdSubdivisionFacturaComercial64_dll\\SubdivisionFacturaComercial64\\SubdivisionFacturaComercial.vb",
+              "RelativeDocumentMoniker": "..\\controllers\\syn.custombrokers\\1_0_stdSubdivisionFacturaComercial64_dll\\SubdivisionFacturaComercial64\\SubdivisionFacturaComercial.vb",
+              "ToolTip": "C:\\SAX\\projects\\synapsis.hyb\\comercialinvoice\\dev\\controllers\\syn.custombrokers\\1_0_stdSubdivisionFacturaComercial64_dll\\SubdivisionFacturaComercial64\\SubdivisionFacturaComercial.vb",
+              "RelativeToolTip": "..\\controllers\\syn.custombrokers\\1_0_stdSubdivisionFacturaComercial64_dll\\SubdivisionFacturaComercial64\\SubdivisionFacturaComercial.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-21T17:10:09.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ges003-001-FacturasComerciales.aspx.vb",
+              "DocumentMoniker": "C:\\SAX\\projects\\synapsis.hyb\\comercialinvoice\\dev\\main\\FrontEnd\\Modulos\\TraficoAA\\FacturasComerciales\\FacturaComercialImportacion\\Ges003-001-FacturasComerciales.aspx.vb",
+              "RelativeDocumentMoniker": "FrontEnd\\Modulos\\TraficoAA\\FacturasComerciales\\FacturaComercialImportacion\\Ges003-001-FacturasComerciales.aspx.vb",
+              "ToolTip": "C:\\SAX\\projects\\synapsis.hyb\\comercialinvoice\\dev\\main\\FrontEnd\\Modulos\\TraficoAA\\FacturasComerciales\\FacturaComercialImportacion\\Ges003-001-FacturasComerciales.aspx.vb",
+              "RelativeToolTip": "FrontEnd\\Modulos\\TraficoAA\\FacturasComerciales\\FacturaComercialImportacion\\Ges003-001-FacturasComerciales.aspx.vb",
+              "ViewState": "AQIAAMEAAAAAAAAAAAAywMoAAACMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-20T23:35:59.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DetalleControlSaldo.vb",
+              "DocumentMoniker": "C:\\SAX\\projects\\synapsis.hyb\\comercialinvoice\\dev\\controllers\\syn.custombrokers\\1_0_stdFacturaSubdividible64_dll\\FacturaSubdividible64\\DetalleControlSaldo.vb",
+              "RelativeDocumentMoniker": "..\\controllers\\syn.custombrokers\\1_0_stdFacturaSubdividible64_dll\\FacturaSubdividible64\\DetalleControlSaldo.vb",
+              "ToolTip": "C:\\SAX\\projects\\synapsis.hyb\\comercialinvoice\\dev\\controllers\\syn.custombrokers\\1_0_stdFacturaSubdividible64_dll\\FacturaSubdividible64\\DetalleControlSaldo.vb",
+              "RelativeToolTip": "..\\controllers\\syn.custombrokers\\1_0_stdFacturaSubdividible64_dll\\FacturaSubdividible64\\DetalleControlSaldo.vb",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA1wAcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-21T17:09:24.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ControladorFacturaComercial.vb",
+              "DocumentMoniker": "C:\\SAX\\projects\\synapsis.hyb\\comercialinvoice\\dev\\controllers\\syn.custombrokers\\1_0_stdControladorFacturaComercial64_dll\\ControladorFacturaComercial64\\ControladorFacturaComercial.vb",
+              "RelativeDocumentMoniker": "..\\controllers\\syn.custombrokers\\1_0_stdControladorFacturaComercial64_dll\\ControladorFacturaComercial64\\ControladorFacturaComercial.vb",
+              "ToolTip": "C:\\SAX\\projects\\synapsis.hyb\\comercialinvoice\\dev\\controllers\\syn.custombrokers\\1_0_stdControladorFacturaComercial64_dll\\ControladorFacturaComercial64\\ControladorFacturaComercial.vb",
+              "RelativeToolTip": "..\\controllers\\syn.custombrokers\\1_0_stdControladorFacturaComercial64_dll\\ControladorFacturaComercial64\\ControladorFacturaComercial.vb",
+              "ViewState": "AQIAAMoHAAAAAAAAAAA0wNgHAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-20T00:07:21.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ges022_FacturaComercialExportacion.aspx.vb",
+              "DocumentMoniker": "C:\\SAX\\projects\\synapsis.hyb\\comercialinvoice\\dev\\main\\FrontEnd\\Modulos\\TraficoAA\\FacturasComerciales\\FacturaComercialExportacion\\Ges022_FacturaComercialExportacion.aspx.vb",
+              "RelativeDocumentMoniker": "FrontEnd\\Modulos\\TraficoAA\\FacturasComerciales\\FacturaComercialExportacion\\Ges022_FacturaComercialExportacion.aspx.vb",
+              "ToolTip": "C:\\SAX\\projects\\synapsis.hyb\\comercialinvoice\\dev\\main\\FrontEnd\\Modulos\\TraficoAA\\FacturasComerciales\\FacturaComercialExportacion\\Ges022_FacturaComercialExportacion.aspx.vb",
+              "RelativeToolTip": "FrontEnd\\Modulos\\TraficoAA\\FacturasComerciales\\FacturaComercialExportacion\\Ges022_FacturaComercialExportacion.aspx.vb",
+              "ViewState": "AQIAAEMTAAAAAAAAAAAAAEMTAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-20T00:07:21.648Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

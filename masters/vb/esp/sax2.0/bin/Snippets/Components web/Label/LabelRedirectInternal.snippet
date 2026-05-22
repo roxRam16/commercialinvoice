@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title> ✪ Label Redirect Internal</Title>
+			<Shortcut>labelRedirectInternal</Shortcut>
+			<Description> ✪ Genera un sencillo GWC:Label que redirige a otros módulos ✪ </Description>
+			<Author>Francisco Olvera</Author>
+		</Header>
+		<Snippet>
+			<Code Language="HTML">
+				<![CDATA[<GWC:LabelControl runat="server" ID="$Id$" Visible="$Visible$" Internal="true" Redirect="true" RedirectUrl="$Direccion$" Color="$Color$" FontStyle="$Style$" Size="$Tamaño$" Text="$Texto$"/>]]>
+			</Code>
+			<Declarations>
+				<Literal>
+					<ID>Id</ID>
+					<ToolTip>Ingrese el ID correspondiente que debe utilizar.</ToolTip>
+					<Default>lLabel</Default>
+				</Literal>
+				<Literal>
+					<ID>Visible</ID>
+					<ToolTip>Especifique si debe ser visible, utilizando 'true' o 'false'.</ToolTip>
+					<Default>true</Default>
+				</Literal>
+				<Literal>
+					<ID>Color</ID>
+					<ToolTip>
+						🎨 Colores disponibles
+
+🔹 primario:     Púrpura oscuro
+
+🔸 secundario:   Magenta oscuro
+
+⚠️ advertencia:  Amber
+
+🚫 deshabilitado: Gris Humo
+
+❌ error:        Rojo burdeos
+
+⚫ estandar:      Gris oscuro
+
+					</ToolTip>
+					<Default>estandar</Default>
+				</Literal>
+				<Literal>
+					<ID>Style</ID>
+					<ToolTip>
+						🖋️ Estilos disponibles:
+
+✍️ italic
+
+🔡 bold
+
+⚙️ normal
+					</ToolTip>
+						
+					<Default>default</Default>
+				</Literal>
+				<Literal>
+					<ID>Tamaño</ID>
+					<ToolTip>
+						🔠 Tamaños disponibles:
+
+📏 chico:        font-size: 13px
+
+📐 mediano:      font-size: 20px
+
+📦 grande:       font-size: 40px
+
+🎯 extraGrande:  font-size: 70px
+
+					</ToolTip>
+					<Default>chico</Default>
+				</Literal>
+				<Literal>
+					<ID>Direccion</ID>
+					<ToolTip>Escriba la dirección de su módulo.</ToolTip>
+					<Default>/FrontEnd/Modulos/TraficoAA/Modulo/Ges022-001-Modulo.aspx</Default>
+				</Literal>
+				<Literal>
+					<ID>Texto</ID>
+					<ToolTip>Escriba el texto para la etiqueta.</ToolTip>
+					<Default>Ingrese texto...</Default>
+				</Literal>
+			</Declarations>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

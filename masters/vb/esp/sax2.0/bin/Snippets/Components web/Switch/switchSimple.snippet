@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>✪ Switch Simple</Title>
+			<Shortcut>switchSimple</Shortcut>
+			<Description> ✪ Genera un GWC:SwitchControl normal✪ </Description>
+			<Author>Francisco Olvera</Author>
+		</Header>
+		<Snippet>
+			<Code Language="HTML">
+				<![CDATA[<GWC:SwitchControl runat="server" ID="$Id$" Label="$Label$" LabelVisible="$LabelVisible$" OnText="$OnText$" OffText="$OffText$" Checked="$Checked$"/>]]>
+			</Code>
+			<Declarations>
+				<Literal>
+					<ID>Id</ID>
+					<ToolTip>Ingrese el ID correspondiente que debe utilizar.</ToolTip>
+					<Default>swEjemplo</Default>
+				</Literal>
+					<Literal>
+					<ID>Label</ID>
+					<ToolTip>Escriba el texto para la etiqueta.</ToolTip>
+					<Default>Ingrese texto...</Default>
+				</Literal>
+					<Literal>
+					<ID>LabelVisible</ID>
+					<ToolTip>Esconda o muestre el texto superior del SwitchControl.</ToolTip>
+					<Default>true</Default>
+				</Literal>
+					<Literal>
+					<ID>OnText</ID>
+					<ToolTip>	Texto que aparecera al estar encendido el Switch.</ToolTip>
+					<Default>ON</Default>
+				</Literal>
+					<Literal>
+					<ID>OffText</ID>
+					<ToolTip>	Texto que aparecera al estar apagado el Switch.</ToolTip>
+					<Default>OFF</Default>
+				</Literal>
+					<Literal>
+					<ID>Checked</ID>
+					<ToolTip>	Elige el estado del Switch al iniciar.</ToolTip>
+					<Default>false</Default>
+				</Literal>
+			</Declarations>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

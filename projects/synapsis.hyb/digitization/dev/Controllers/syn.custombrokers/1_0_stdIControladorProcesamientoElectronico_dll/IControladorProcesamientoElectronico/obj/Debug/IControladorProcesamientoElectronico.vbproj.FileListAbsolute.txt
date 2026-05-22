@@ -1,0 +1,17 @@
+C:\sax\projects\synapsis\libs\bin\controllers\Syn.CustomBrokers.Controllers.IControladorProcesamientoElectronico64.0.0.0.0.dll
+C:\sax\projects\synapsis\libs\bin\controllers\Syn.CustomBrokers.Controllers.IControladorProcesamientoElectronico64.0.0.0.0.pdb
+C:\sax\projects\synapsis\dev\controllers\syn.custombrokers\1_0_stdIControladorProcesamientoElectronico_dll\IControladorProcesamientoElectronico\obj\Debug\IControladorProcesamientoElectronico.vbproj.AssemblyReference.cache
+C:\sax\projects\synapsis\dev\controllers\syn.custombrokers\1_0_stdIControladorProcesamientoElectronico_dll\IControladorProcesamientoElectronico\obj\Debug\Syn.CustomBrokers.Controllers.Resources.resources
+C:\sax\projects\synapsis\dev\controllers\syn.custombrokers\1_0_stdIControladorProcesamientoElectronico_dll\IControladorProcesamientoElectronico\obj\Debug\IControladorProcesamientoElectronico.vbproj.GenerateResource.cache
+C:\sax\projects\synapsis\dev\controllers\syn.custombrokers\1_0_stdIControladorProcesamientoElectronico_dll\IControladorProcesamientoElectronico\obj\Debug\IControladorProcesamientoElectronico.vbproj.CoreCompileInputs.cache
+C:\sax\projects\synapsis\dev\controllers\syn.custombrokers\1_0_stdIControladorProcesamientoElectronico_dll\IControladorProcesamientoElectronico\obj\Debug\IControl.86AF2746.Up2Date
+C:\sax\projects\synapsis\dev\controllers\syn.custombrokers\1_0_stdIControladorProcesamientoElectronico_dll\IControladorProcesamientoElectronico\obj\Debug\Syn.CustomBrokers.Controllers.IControladorProcesamientoElectronico64.0.0.0.0.dll
+C:\sax\projects\synapsis\dev\controllers\syn.custombrokers\1_0_stdIControladorProcesamientoElectronico_dll\IControladorProcesamientoElectronico\obj\Debug\Syn.CustomBrokers.Controllers.IControladorProcesamientoElectronico64.0.0.0.0.pdb
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.custombrokers\1_0_stdIControladorProcesamientoElectronico_dll\IControladorProcesamientoElectronico\obj\Debug\IControladorProcesamientoElectronico.vbproj.AssemblyReference.cache
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.custombrokers\1_0_stdIControladorProcesamientoElectronico_dll\IControladorProcesamientoElectronico\obj\Debug\Syn.CustomBrokers.Controllers.Resources.resources
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.custombrokers\1_0_stdIControladorProcesamientoElectronico_dll\IControladorProcesamientoElectronico\obj\Debug\IControladorProcesamientoElectronico.vbproj.GenerateResource.cache
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.custombrokers\1_0_stdIControladorProcesamientoElectronico_dll\IControladorProcesamientoElectronico\obj\Debug\IControladorProcesamientoElectronico.vbproj.CoreCompileInputs.cache
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.custombrokers\1_0_stdIControladorProcesamientoElectronico_dll\IControladorProcesamientoElectronico\obj\Debug\Syn.CustomBrokers.Controllers.IControladorProcesamientoElectronico64.0.0.0.0.dll
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.custombrokers\1_0_stdIControladorProcesamientoElectronico_dll\IControladorProcesamientoElectronico\obj\Debug\Syn.CustomBrokers.Controllers.IControladorProcesamientoElectronico64.0.0.0.0.pdb
+C:\SAX\projects\synapsis.hyb\digitization\libs\bin\controllers\Syn.CustomBrokers.Controllers.IControladorProcesamientoElectronico64.0.0.0.0.dll
+C:\SAX\projects\synapsis.hyb\digitization\libs\bin\controllers\Syn.CustomBrokers.Controllers.IControladorProcesamientoElectronico64.0.0.0.0.pdb

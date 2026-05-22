@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>✪ Icon Simple</Title>
+			<Shortcut>iconSimple</Shortcut>
+			<Description> ✪ Genera un GWC:Icon utilizando un ícono de Google Icons, que se mostrará dentro del formulario ✪ </Description>
+			<Author>Francisco Olvera</Author>
+		</Header>
+		<Snippet>
+			<Code Language="HTML">
+				<![CDATA[<GWC:IconControl runat="server" ID="$Id$" Color="$Color$" Icon="$Icon$" Size="$Tamaño$" Design="$Diseño$"/>]]>
+			</Code>
+			<Declarations>
+				<Literal>
+					<ID>Id</ID>
+					<ToolTip>Ingrese el ID correspondiente que debe utilizar.</ToolTip>
+					<Default>iIcono</Default>
+				</Literal>
+				<Literal>
+					<ID>Color</ID>
+					<ToolTip>
+				    
+					    🎨 Colores disponibles
+						
+🔹 primario:    Púrpura oscuro 
+					
+🔸 secundario:  Magenta oscuro 
+					
+❌ error:       Rojo burdeos   
+					
+⚫ default:      Gris oscuro   
+
+					</ToolTip>
+					<Default>default</Default>
+				</Literal>
+				<Literal>
+					<ID>Tamaño</ID>
+					<ToolTip>
+						🔠 Tamaños disponibles:
+
+						📏 chico:        font-size: 13px
+
+						📐 mediano:      font-size: 20px
+
+						📦 grande:       font-size: 40px
+
+						🎯 extraGrande:  font-size: 70px
+
+					</ToolTip>
+					<Default>chico</Default>
+				</Literal>
+				<Literal>
+					<ID>Icon</ID>
+					<ToolTip>Visite la página de Google Icons y seleccione el icono que desea utilizar.</ToolTip>
+					<Default>favorite</Default>
+				</Literal>
+				<Literal>
+					<ID>Diseño</ID>
+					<ToolTip>
+						֎ Diseños disponibles:
+
+						◯ bordeCircular: Crea un borde circular de color Púrpura oscuro al rededor del icono
+
+					</ToolTip>
+					<Default>ninguno</Default>
+				</Literal>
+			</Declarations>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

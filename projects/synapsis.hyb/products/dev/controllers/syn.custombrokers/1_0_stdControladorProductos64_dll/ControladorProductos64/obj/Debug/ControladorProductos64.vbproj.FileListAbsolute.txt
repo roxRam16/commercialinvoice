@@ -1,0 +1,9 @@
+C:\SAX\projects\synapsis.hyb\products\libs\bin\controllers\Syn.CustomBrokers.Controllers.ControladorProductos64.0.0.0.0.dll
+C:\SAX\projects\synapsis.hyb\products\libs\bin\controllers\Syn.CustomBrokers.Controllers.ControladorProductos64.0.0.0.0.pdb
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.custombrokers\1_0_stdControladorProductos64_dll\ControladorProductos64\obj\Debug\ControladorProductos64.vbproj.AssemblyReference.cache
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.custombrokers\1_0_stdControladorProductos64_dll\ControladorProductos64\obj\Debug\Syn.CustomBrokers.Controllers.Resources.resources
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.custombrokers\1_0_stdControladorProductos64_dll\ControladorProductos64\obj\Debug\ControladorProductos64.vbproj.GenerateResource.cache
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.custombrokers\1_0_stdControladorProductos64_dll\ControladorProductos64\obj\Debug\ControladorProductos64.vbproj.CoreCompileInputs.cache
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.custombrokers\1_0_stdControladorProductos64_dll\ControladorProductos64\obj\Debug\Controla.8FA67831.Up2Date
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.custombrokers\1_0_stdControladorProductos64_dll\ControladorProductos64\obj\Debug\Syn.CustomBrokers.Controllers.ControladorProductos64.0.0.0.0.dll
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.custombrokers\1_0_stdControladorProductos64_dll\ControladorProductos64\obj\Debug\Syn.CustomBrokers.Controllers.ControladorProductos64.0.0.0.0.pdb

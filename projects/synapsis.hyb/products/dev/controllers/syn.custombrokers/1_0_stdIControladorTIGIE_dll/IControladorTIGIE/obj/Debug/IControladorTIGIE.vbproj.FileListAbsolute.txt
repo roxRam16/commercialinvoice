@@ -1,0 +1,8 @@
+C:\SAX\projects\synapsis.hyb\products\libs\bin\Controllers\Syn.Custombrokers.IControladorTIGIE64.0.0.0.0.dll
+C:\SAX\projects\synapsis.hyb\products\libs\bin\Controllers\Syn.Custombrokers.IControladorTIGIE64.0.0.0.0.pdb
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.custombrokers\1_0_stdIControladorTIGIE_dll\IControladorTIGIE\obj\Debug\IControladorTIGIE.vbproj.AssemblyReference.cache
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.custombrokers\1_0_stdIControladorTIGIE_dll\IControladorTIGIE\obj\Debug\Syn.Custombrokers.Resources.resources
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.custombrokers\1_0_stdIControladorTIGIE_dll\IControladorTIGIE\obj\Debug\IControladorTIGIE.vbproj.GenerateResource.cache
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.custombrokers\1_0_stdIControladorTIGIE_dll\IControladorTIGIE\obj\Debug\IControladorTIGIE.vbproj.CoreCompileInputs.cache
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.custombrokers\1_0_stdIControladorTIGIE_dll\IControladorTIGIE\obj\Debug\Syn.Custombrokers.IControladorTIGIE64.0.0.0.0.dll
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.custombrokers\1_0_stdIControladorTIGIE_dll\IControladorTIGIE\obj\Debug\Syn.Custombrokers.IControladorTIGIE64.0.0.0.0.pdb

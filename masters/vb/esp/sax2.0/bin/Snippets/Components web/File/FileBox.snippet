@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title> ✪ File Simple</Title>
+			<Shortcut>fileBox</Shortcut>
+			<Description> ✪ Genera un GWC:FilleFileControl ancho, con estilo de un recuadro✪ </Description>
+			<Author>Francisco Olvera</Author>
+		</Header>
+		<Snippet>
+			<Code Language="HTML">
+				<![CDATA[<GWC:FileControl runat="server" ID="$Id$" Label="$Label$" Dragable="true" CssClass="col-xs-12 col-md-6"/>]]>
+			</Code>
+			<Declarations>
+				<Literal>
+					<ID>Id</ID>
+					<ToolTip>Ingrese el ID correspondiente que debe utilizar.</ToolTip>
+					<Default>lLabel</Default>
+				</Literal>
+				<Literal>
+					<ID>Label</ID>
+					<ToolTip>Escriba el texto de presentación que tendra su FileControl.</ToolTip>
+					<Default>Subir archivo</Default>
+				</Literal>
+			</Declarations>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

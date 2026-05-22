@@ -1,0 +1,8 @@
+C:\SAX\projects\synapsis.hyb\products\libs\bin\Controllers\Syn.Documento.ConstructorDestinatario64.0.0.0.0.dll
+C:\SAX\projects\synapsis.hyb\products\libs\bin\Controllers\Syn.Documento.ConstructorDestinatario64.0.0.0.0.pdb
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.documentos\1_0_stdConstructorDestinatario64_dll\ConstructorDestinatario64\obj\Debug\ConstructorDestinatario64.vbproj.AssemblyReference.cache
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.documentos\1_0_stdConstructorDestinatario64_dll\ConstructorDestinatario64\obj\Debug\Resources.resources
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.documentos\1_0_stdConstructorDestinatario64_dll\ConstructorDestinatario64\obj\Debug\ConstructorDestinatario64.vbproj.GenerateResource.cache
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.documentos\1_0_stdConstructorDestinatario64_dll\ConstructorDestinatario64\obj\Debug\ConstructorDestinatario64.vbproj.CoreCompileInputs.cache
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.documentos\1_0_stdConstructorDestinatario64_dll\ConstructorDestinatario64\obj\Debug\Syn.Documento.ConstructorDestinatario64.0.0.0.0.dll
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.documentos\1_0_stdConstructorDestinatario64_dll\ConstructorDestinatario64\obj\Debug\Syn.Documento.ConstructorDestinatario64.0.0.0.0.pdb

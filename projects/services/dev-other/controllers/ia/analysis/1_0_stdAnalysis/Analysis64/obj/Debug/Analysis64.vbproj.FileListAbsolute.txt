@@ -1,0 +1,8 @@
+C:\SAX\projects\services\libs\bin\controllers\ia\Ia.Analysis.Analysis64.0.0.0.0.dll
+C:\SAX\projects\services\libs\bin\controllers\ia\Ia.Analysis.Analysis64.0.0.0.0.pdb
+C:\SAX\projects\services\dev\controllers\ia\analysis\1_0_stdAnalysis\Analysis64\obj\Debug\Analysis64.vbproj.AssemblyReference.cache
+C:\SAX\projects\services\dev\controllers\ia\analysis\1_0_stdAnalysis\Analysis64\obj\Debug\Ia.Analysis.Resources.resources
+C:\SAX\projects\services\dev\controllers\ia\analysis\1_0_stdAnalysis\Analysis64\obj\Debug\Analysis64.vbproj.GenerateResource.cache
+C:\SAX\projects\services\dev\controllers\ia\analysis\1_0_stdAnalysis\Analysis64\obj\Debug\Analysis64.vbproj.CoreCompileInputs.cache
+C:\SAX\projects\services\dev\controllers\ia\analysis\1_0_stdAnalysis\Analysis64\obj\Debug\Ia.Analysis.Analysis64.0.0.0.0.dll
+C:\SAX\projects\services\dev\controllers\ia\analysis\1_0_stdAnalysis\Analysis64\obj\Debug\Ia.Analysis.Analysis64.0.0.0.0.pdb

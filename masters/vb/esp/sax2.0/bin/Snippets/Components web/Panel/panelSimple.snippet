@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>✪ Panel Simple</Title>
+			<Shortcut>PanelSimple</Shortcut>
+			<Description> ✪ Genera un GWC:Panel personalizado y dinámico✪ </Description>
+			<Author>Francisco Olvera</Author>
+		</Header>
+		<Snippet>
+			<Code Language="HTML">
+				<![CDATA[<GWC:PanelControl runat="server" ID="$ID$" CssClass="$CssClass$"  Visible="$Visible$">
+	<ListControls>
+	$Seguimiento$
+	</ListControls>
+
+</GWC:PanelControl>]]>
+			</Code>
+			<Declarations>
+				<Literal>
+					<ID>ID</ID>
+					<ToolTip>Ingrese el ID correspondiente que debe utilizar.</ToolTip>
+					<Default>pcEjemplo</Default>
+				</Literal>
+				<Literal>
+					<ID>CssClass</ID>
+					<ToolTip>Ingrese estilo de bootstrap para la personalización.</ToolTip>
+					<Default>d-flex flex-column justify-content-between w-100</Default>
+				</Literal>
+				<Literal>
+					<ID>Visible</ID>
+					<ToolTip>Para poder mostrar u ocultar el panel.</ToolTip>
+					<Default>True</Default>
+				</Literal>
+				<Literal>
+					<ID>Seguimiento</ID>
+					<ToolTip></ToolTip>
+					<Default>&lt;%--Añade los componentes que tendra en su interior.--%&gt;.</Default>
+				</Literal>
+			</Declarations>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

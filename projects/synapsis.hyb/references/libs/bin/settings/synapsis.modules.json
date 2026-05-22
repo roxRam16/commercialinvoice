@@ -1,0 +1,945 @@
+{
+    "about": "Krombase",
+    "scope": "project",
+    "version": "5.0.0.0",
+    "workspace": {
+        "defaults": {
+            "_id": 0,
+            "activated": true,
+            "alternativedatasource": null,
+            "autosets": false,
+            "config": {
+                "EV": null,
+                "WV": null,
+                "allenvironments": "-1",
+                "assemblyname": "Gsol.Modulos.GenericCatalog64.1.0.0.0.dll",
+                "formname": "Gsol.Modulos.GenericCatalog64.Frm000Generic",
+                "keyfield": null,
+                "table": null,
+                "upsertkeyname": null
+            },
+            "customcolumns": null,
+            "datamirrors": null,
+            "datasource": null,
+            "dboperators": {
+                "deleteoperator": "Sp000OperadorCatalogosBorrado",
+                "insertoperator": "Sp000OperadorCatalogosInserciones",
+                "updateoperator": "Sp000OperadorCatalogosModificaciones"
+            },
+            "info": "",
+            "lnksets": {
+                "dimension": "auto",
+                "entity": null,
+                "granularity": null
+            },
+            "operatorform": {
+                "assembly": "Gsol.Modulos.GenericOperators64.1.0.0.0.dll",
+                "cancontrolsw": true,
+                "formname": "Gsol.Modulos.GenericOperators64.frm000Formulario",
+                "showsinglewindow": false
+            },
+            "permissions": {
+                "delete": "118",
+                "insert": "118",
+                "query": "118",
+                "refresh": "118",
+                "update": "118"
+            },
+            "title": "New module",
+            "tokenid": null,
+            "type": "module",
+            "version": "0.0.0.0"
+        },
+        "modules": [
+            {
+                "_id": 0,
+                "activated": true,
+                "alternativedatasource": null,
+                "autosets": false,
+                "config": {
+                    "EV": "Ve000IUVinRolesPerfiles",
+                    "WV": "Vt000VinRolesPerfiles",
+                    "allenvironments": "-1",
+                    "assemblyname": "Gsol.Modulos.GenericCatalog64.1.0.0.0.dll",
+                    "formname": "Gsol.Modulos.GenericCatalog64.Frm000Generic",
+                    "keyfield": "i_Cve_RolPerfil",
+                    "table": "Det000RolesPerfiles",
+                    "upsertkeyname": null
+                },
+                "customcolumns": null,
+                "datamirrors": null,
+                "datasource": null,
+                "dboperators": {
+                    "deleteoperator": "auto",
+                    "insertoperator": "auto",
+                    "updateoperator": "auto"
+                },
+                "info": "Vinculación Roles-Perfiles",
+                "lnksets": null,
+                "operatorform": {
+                    "assembly": null,
+                    "cancontrolsw": false,
+                    "formname": "",
+                    "showsinglewindow": false
+                },
+                "permissions": {
+                    "delete": "auto",
+                    "insert": "0",
+                    "query": "auto",
+                    "refresh": "auto",
+                    "update": "0"
+                },
+                "title": "Vinculación Roles-Perfiles",
+                "tokenid": "GestionPerfilRoles",
+                "type": "module",
+                "version": null
+            },
+            {
+                "_id": 1,
+                "activated": true,
+                "alternativedatasource": "SQLServer",
+                "autosets": false,
+                "config": {
+                    "EV": "[SynapsisN].[dbo].[Ve022IUAduanaSeccionA01]",
+                    "WV": "[SynapsisN].[dbo].[Vt022AduanaSeccionA01]",
+                    "allenvironments": "-1",
+                    "assemblyname": "Gsol.Modulos.GenericCatalog64.1.0.0.0.dll",
+                    "formname": "Gsol.Modulos.GenericCatalog64.Frm000Generic",
+                    "keyfield": "i_Cve_AduanaSeccion",
+                    "table": "[SynapsisN].[dbo].[Cat022AduanaSeccionA01]",
+                    "upsertkeyname": null
+                },
+                "customcolumns": null,
+                "datamirrors": null,
+                "datasource": "SQLServer",
+                "dboperators": {
+                    "deleteoperator": "auto",
+                    "insertoperator": "auto",
+                    "updateoperator": "auto"
+                },
+                "info": "Catálogo Apendice 01",
+                "lnksets": {
+                    "dimension": "Vt022AduanaSeccionA01",
+                    "entity": "Anexo22",
+                    "granularity": "Anexo22"
+                },
+                "operatorform": {
+                    "assembly": "Gsol.Modulos.GesMaestroOperaciones64.0.0.0.0.dll",
+                    "cancontrolsw": false,
+                    "formname": "Gsol.Modulos.GesMaestroOperaciones64.frm009GesMaestroOperaciones",
+                    "showsinglewindow": false
+                },
+                "permissions": {
+                    "delete": "auto",
+                    "insert": "auto",
+                    "query": "auto",
+                    "refresh": "auto",
+                    "update": "auto"
+                },
+                "title": "Catálogo Apendice 01",
+                "tokenid": "Vt022AduanaSeccionA01",
+                "type": "module",
+                "version": "0.0.0.0"
+            },
+            {
+                "_id": 2,
+                "activated": true,
+                "alternativedatasource": "SQLServer",
+                "autosets": false,
+                "config": {
+                    "EV": "[SynapsisN].[dbo].[Ve022IUClavesPedimentoA02]",
+                    "WV": "[SynapsisN].[dbo].[Vt022ClavesPedimentoA02]",
+                    "allenvironments": "-1",
+                    "assemblyname": "Gsol.Modulos.GenericCatalog64.1.0.0.0.dll",
+                    "formname": "Gsol.Modulos.GenericCatalog64.Frm000Generic",
+                    "keyfield": "i_Cve_ClavePedimento",
+                    "table": "[SynapsisN].[dbo].[Cat022ClavesPedimentoA02]",
+                    "upsertkeyname": null
+                },
+                "customcolumns": null,
+                "datamirrors": null,
+                "datasource": "SQLServer",
+                "dboperators": {
+                    "deleteoperator": "auto",
+                    "insertoperator": "auto",
+                    "updateoperator": "auto"
+                },
+                "info": "Catálogo Apendice 02",
+                "lnksets": {
+                    "dimension": "Vt022ClavesPedimentoA02",
+                    "entity": "Anexo22",
+                    "granularity": "Anexo22"
+                },
+                "operatorform": {
+                    "assembly": "Gsol.Modulos.GesMaestroOperaciones64.0.0.0.0.dll",
+                    "cancontrolsw": false,
+                    "formname": "Gsol.Modulos.GesMaestroOperaciones64.frm009GesMaestroOperaciones",
+                    "showsinglewindow": false
+                },
+                "permissions": {
+                    "delete": "auto",
+                    "insert": "auto",
+                    "query": "auto",
+                    "refresh": "auto",
+                    "update": "auto"
+                },
+                "title": "Catálogo Apendice 02",
+                "tokenid": "Vt022ClavesPedimentoA02",
+                "type": "module",
+                "version": "0.0.0.0"
+            },
+            {
+                "_id": 3,
+                "activated": true,
+                "alternativedatasource": "SQLServer",
+                "autosets": false,
+                "config": {
+                    "EV": "[SynapsisN].[dbo].[Ve022IUContribucionesA12]",
+                    "WV": "[SynapsisN].[dbo].[Vt022ContribucionesA12]",
+                    "allenvironments": "-1",
+                    "assemblyname": "Gsol.Modulos.GenericCatalog64.1.0.0.0.dll",
+                    "formname": "Gsol.Modulos.GenericCatalog64.Frm000Generic",
+                    "keyfield": "i_Cve_Contribucion",
+                    "table": "[SynapsisN].[dbo].[Cat022ContribucionesA12]",
+                    "upsertkeyname": null
+                },
+                "customcolumns": null,
+                "datamirrors": null,
+                "datasource": "SQLServer",
+                "dboperators": {
+                    "deleteoperator": "auto",
+                    "insertoperator": "auto",
+                    "updateoperator": "auto"
+                },
+                "info": "Catálogo Apendice 12",
+                "lnksets": {
+                    "dimension": "Vt022ContribucionesA12",
+                    "entity": "Anexo22",
+                    "granularity": "Anexo22"
+                },
+                "operatorform": {
+                    "assembly": "Gsol.Modulos.GesMaestroOperaciones64.0.0.0.0.dll",
+                    "cancontrolsw": false,
+                    "formname": "Gsol.Modulos.GesMaestroOperaciones64.frm009GesMaestroOperaciones",
+                    "showsinglewindow": false
+                },
+                "permissions": {
+                    "delete": "auto",
+                    "insert": "auto",
+                    "query": "auto",
+                    "refresh": "auto",
+                    "update": "auto"
+                },
+                "title": "Catálogo Apendice 12",
+                "tokenid": "Vt022ContribucionesA12",
+                "type": "module",
+                "version": "0.0.0.0"
+            },
+            {
+                "_id": 4,
+                "activated": true,
+                "alternativedatasource": "SQLServer",
+                "autosets": false,
+                "config": {
+                    "EV": "[SynapsisN].[dbo].[Ve022IUDestinosMercanciasA15]",
+                    "WV": "[SynapsisN].[dbo].[Vt022DestinosMercanciasA15]",
+                    "allenvironments": "-1",
+                    "assemblyname": "Gsol.Modulos.GenericCatalog64.1.0.0.0.dll",
+                    "formname": "Gsol.Modulos.GenericCatalog64.Frm000Generic",
+                    "keyfield": "i_Cve_DestinoMercancia",
+                    "table": "[SynapsisN].[dbo].[Cat022DestinosMercanciasA15]",
+                    "upsertkeyname": null
+                },
+                "customcolumns": null,
+                "datamirrors": null,
+                "datasource": "SQLServer",
+                "dboperators": {
+                    "deleteoperator": "auto",
+                    "insertoperator": "auto",
+                    "updateoperator": "auto"
+                },
+                "info": "Catálogo Apendice 15",
+                "lnksets": {
+                    "dimension": "Vt022DestinosMercanciasA15",
+                    "entity": "Anexo22",
+                    "granularity": "Anexo22"
+                },
+                "operatorform": {
+                    "assembly": "Gsol.Modulos.GesMaestroOperaciones64.0.0.0.0.dll",
+                    "cancontrolsw": false,
+                    "formname": "Gsol.Modulos.GesMaestroOperaciones64.frm009GesMaestroOperaciones",
+                    "showsinglewindow": false
+                },
+                "permissions": {
+                    "delete": "auto",
+                    "insert": "auto",
+                    "query": "auto",
+                    "refresh": "auto",
+                    "update": "auto"
+                },
+                "title": "Catálogo Apendice 15",
+                "tokenid": "Vt022DestinosMercanciasA15",
+                "type": "module",
+                "version": "0.0.0.0"
+            },
+            {
+                "_id": 5,
+                "activated": true,
+                "alternativedatasource": "SQLServer",
+                "autosets": false,
+                "config": {
+                    "EV": "[SynapsisN].[dbo].[Ve022IUFormasPagoA13]",
+                    "WV": "[SynapsisN].[dbo].[Vt022FormasPagoA13]",
+                    "allenvironments": "-1",
+                    "assemblyname": "Gsol.Modulos.GenericCatalog64.1.0.0.0.dll",
+                    "formname": "Gsol.Modulos.GenericCatalog64.Frm000Generic",
+                    "keyfield": "i_Cve_FormaPago",
+                    "table": "[SynapsisN].[dbo].[Cat022FormasPagoA13]",
+                    "upsertkeyname": null
+                },
+                "customcolumns": null,
+                "datamirrors": null,
+                "datasource": "SQLServer",
+                "dboperators": {
+                    "deleteoperator": "auto",
+                    "insertoperator": "auto",
+                    "updateoperator": "auto"
+                },
+                "info": "Catálogo Apendice 13",
+                "lnksets": {
+                    "dimension": "Vt022FormasPagoA13",
+                    "entity": "Anexo22",
+                    "granularity": "Anexo22"
+                },
+                "operatorform": {
+                    "assembly": "Gsol.Modulos.GesMaestroOperaciones64.0.0.0.0.dll",
+                    "cancontrolsw": false,
+                    "formname": "Gsol.Modulos.GesMaestroOperaciones64.frm009GesMaestroOperaciones",
+                    "showsinglewindow": false
+                },
+                "permissions": {
+                    "delete": "auto",
+                    "insert": "auto",
+                    "query": "auto",
+                    "refresh": "auto",
+                    "update": "auto"
+                },
+                "title": "Catálogo Apendice 13",
+                "tokenid": "Vt022FormasPagoA13",
+                "type": "module",
+                "version": "0.0.0.0"
+            },
+            {
+                "_id": 6,
+                "activated": true,
+                "alternativedatasource": "SQLServer",
+                "autosets": false,
+                "config": {
+                    "EV": "[SynapsisN].[dbo].[Ve022IUIdentificadoresA08]",
+                    "WV": "[SynapsisN].[dbo].[Vt022IdentificadoresA08]",
+                    "allenvironments": "-1",
+                    "assemblyname": "Gsol.Modulos.GenericCatalog64.1.0.0.0.dll",
+                    "formname": "Gsol.Modulos.GenericCatalog64.Frm000Generic",
+                    "keyfield": "i_Cve_Identificador",
+                    "table": "[SynapsisN].[dbo].[Cat022IdentificadoresA08]",
+                    "upsertkeyname": null
+                },
+                "customcolumns": null,
+                "datamirrors": null,
+                "datasource": "SQLServer",
+                "dboperators": {
+                    "deleteoperator": "auto",
+                    "insertoperator": "auto",
+                    "updateoperator": "auto"
+                },
+                "info": "Catálogo Apendice 08",
+                "lnksets": {
+                    "dimension": "Vt022IdentificadoresA08",
+                    "entity": "Anexo22",
+                    "granularity": "Anexo22"
+                },
+                "operatorform": {
+                    "assembly": "Gsol.Modulos.GesMaestroOperaciones64.0.0.0.0.dll",
+                    "cancontrolsw": false,
+                    "formname": "Gsol.Modulos.GesMaestroOperaciones64.frm009GesMaestroOperaciones",
+                    "showsinglewindow": false
+                },
+                "permissions": {
+                    "delete": "auto",
+                    "insert": "auto",
+                    "query": "auto",
+                    "refresh": "auto",
+                    "update": "auto"
+                },
+                "title": "Catálogo Apendice 08",
+                "tokenid": "Vt022IdentificadoresA08",
+                "type": "module",
+                "version": "0.0.0.0"
+            },
+            {
+                "_id": 7,
+                "activated": true,
+                "alternativedatasource": "SQLServer",
+                "autosets": false,
+                "config": {
+                    "EV": "[SynapsisN].[dbo].[Ve022IUMediosTransporteA03]",
+                    "WV": "[SynapsisN].[dbo].[Vt022MediosTransporteA03]",
+                    "allenvironments": "-1",
+                    "assemblyname": "Gsol.Modulos.GenericCatalog64.1.0.0.0.dll",
+                    "formname": "Gsol.Modulos.GenericCatalog64.Frm000Generic",
+                    "keyfield": "i_Cve_MedioTransporte",
+                    "table": "[SynapsisN].[dbo].[Cat022MediosTransporteA03]",
+                    "upsertkeyname": null
+                },
+                "customcolumns": null,
+                "datamirrors": null,
+                "datasource": "SQLServer",
+                "dboperators": {
+                    "deleteoperator": "auto",
+                    "insertoperator": "auto",
+                    "updateoperator": "auto"
+                },
+                "info": "Catálogo Apendice 03",
+                "lnksets": {
+                    "dimension": "Vt022MediosTransporteA03",
+                    "entity": "Anexo22",
+                    "granularity": "Anexo22"
+                },
+                "operatorform": {
+                    "assembly": "Gsol.Modulos.GesMaestroOperaciones64.0.0.0.0.dll",
+                    "cancontrolsw": false,
+                    "formname": "Gsol.Modulos.GesMaestroOperaciones64.frm009GesMaestroOperaciones",
+                    "showsinglewindow": false
+                },
+                "permissions": {
+                    "delete": "auto",
+                    "insert": "auto",
+                    "query": "auto",
+                    "refresh": "auto",
+                    "update": "auto"
+                },
+                "title": "Catálogo Apendice 03",
+                "tokenid": "Vt022MediosTransporteA03",
+                "type": "module",
+                "version": "0.0.0.0"
+            },
+            {
+                "_id": 8,
+                "activated": true,
+                "alternativedatasource": "SQLServer",
+                "autosets": false,
+                "config": {
+                    "EV": "[SynapsisN].[dbo].[Ve022IUMetodosValoracionA11]",
+                    "WV": "[SynapsisN].[dbo].[Vt022MetodosValoracionA11]",
+                    "allenvironments": "-1",
+                    "assemblyname": "Gsol.Modulos.GenericCatalog64.1.0.0.0.dll",
+                    "formname": "Gsol.Modulos.GenericCatalog64.Frm000Generic",
+                    "keyfield": "i_Cve_MetodoValoracion",
+                    "table": "[SynapsisN].[dbo].[Cat022MetodosValoracionA11]",
+                    "upsertkeyname": null
+                },
+                "customcolumns": null,
+                "datamirrors": null,
+                "datasource": "SQLServer",
+                "dboperators": {
+                    "deleteoperator": "auto",
+                    "insertoperator": "auto",
+                    "updateoperator": "auto"
+                },
+                "info": "Catálogo Apendice 11",
+                "lnksets": {
+                    "dimension": "Vt022MetodosValoracionA11",
+                    "entity": "Anexo22",
+                    "granularity": "Anexo22"
+                },
+                "operatorform": {
+                    "assembly": "Gsol.Modulos.GesMaestroOperaciones64.0.0.0.0.dll",
+                    "cancontrolsw": false,
+                    "formname": "Gsol.Modulos.GesMaestroOperaciones64.frm009GesMaestroOperaciones",
+                    "showsinglewindow": false
+                },
+                "permissions": {
+                    "delete": "auto",
+                    "insert": "auto",
+                    "query": "auto",
+                    "refresh": "auto",
+                    "update": "auto"
+                },
+                "title": "Catálogo Apendice 11",
+                "tokenid": "Vt022MetodosValoracionA11",
+                "type": "module",
+                "version": "0.0.0.0"
+            },
+            {
+                "_id": 9,
+                "activated": true,
+                "alternativedatasource": "SQLServer",
+                "autosets": false,
+                "config": {
+                    "EV": "[SynapsisN].[dbo].[Ve022IUMonedasA05]",
+                    "WV": "[SynapsisN].[dbo].[Vt022MonedasA05]",
+                    "allenvironments": "-1",
+                    "assemblyname": "Gsol.Modulos.GenericCatalog64.1.0.0.0.dll",
+                    "formname": "Gsol.Modulos.GenericCatalog64.Frm000Generic",
+                    "keyfield": "i_Cve_Moneda",
+                    "table": "[SynapsisN].[dbo].[Cat022MonedasA05]",
+                    "upsertkeyname": null
+                },
+                "customcolumns": null,
+                "datamirrors": null,
+                "datasource": "SQLServer",
+                "dboperators": {
+                    "deleteoperator": "auto",
+                    "insertoperator": "auto",
+                    "updateoperator": "auto"
+                },
+                "info": "Catálogo Apendice 05",
+                "lnksets": {
+                    "dimension": "Vt022MonedasA05",
+                    "entity": "Anexo22",
+                    "granularity": "Anexo22"
+                },
+                "operatorform": {
+                    "assembly": "Gsol.Modulos.GesMaestroOperaciones64.0.0.0.0.dll",
+                    "cancontrolsw": false,
+                    "formname": "Gsol.Modulos.GesMaestroOperaciones64.frm009GesMaestroOperaciones",
+                    "showsinglewindow": false
+                },
+                "permissions": {
+                    "delete": "auto",
+                    "insert": "auto",
+                    "query": "auto",
+                    "refresh": "auto",
+                    "update": "auto"
+                },
+                "title": "Catálogo Apendice 05",
+                "tokenid": "Vt022MonedasA05",
+                "type": "module",
+                "version": "0.0.0.0"
+            },
+            {
+                "_id": 10,
+                "activated": true,
+                "alternativedatasource": "SQLServer",
+                "autosets": false,
+                "config": {
+                    "EV": "[SynapsisN].[dbo].[Ve022IUPaisesA04]",
+                    "WV": "[SynapsisN].[dbo].[Vt022PaisesA04]",
+                    "allenvironments": "-1",
+                    "assemblyname": "Gsol.Modulos.GenericCatalog64.1.0.0.0.dll",
+                    "formname": "Gsol.Modulos.GenericCatalog64.Frm000Generic",
+                    "keyfield": "i_Cve_Pais",
+                    "table": "[SynapsisN].[dbo].[Cat022PaisesA04]",
+                    "upsertkeyname": null
+                },
+                "customcolumns": null,
+                "datamirrors": null,
+                "datasource": "SQLServer",
+                "dboperators": {
+                    "deleteoperator": "auto",
+                    "insertoperator": "auto",
+                    "updateoperator": "auto"
+                },
+                "info": "Catálogo Apendice 04",
+                "lnksets": {
+                    "dimension": "Vt022PaisesA04",
+                    "entity": "Anexo22",
+                    "granularity": "Anexo22"
+                },
+                "operatorform": {
+                    "assembly": "Gsol.Modulos.GesMaestroOperaciones64.0.0.0.0.dll",
+                    "cancontrolsw": false,
+                    "formname": "Gsol.Modulos.GesMaestroOperaciones64.frm009GesMaestroOperaciones",
+                    "showsinglewindow": false
+                },
+                "permissions": {
+                    "delete": "auto",
+                    "insert": "auto",
+                    "query": "auto",
+                    "refresh": "auto",
+                    "update": "auto"
+                },
+                "title": "Catálogo Apendice 04",
+                "tokenid": "Vt022PaisesA04",
+                "type": "module",
+                "version": "0.0.0.0"
+            },
+            {
+                "_id": 11,
+                "activated": true,
+                "alternativedatasource": "SQLServer",
+                "autosets": false,
+                "config": {
+                    "EV": "[SynapsisN].[dbo].[Ve022IURecintosFiscalizadosA06]",
+                    "WV": "[SynapsisN].[dbo].[Vt022RecintosFiscalizadosA06]",
+                    "allenvironments": "-1",
+                    "assemblyname": "Gsol.Modulos.GenericCatalog64.1.0.0.0.dll",
+                    "formname": "Gsol.Modulos.GenericCatalog64.Frm000Generic",
+                    "keyfield": "i_Cve_RecintoFiscalizado",
+                    "table": "[SynapsisN].[dbo].[Cat022RecintosFiscalizadosA06]",
+                    "upsertkeyname": null
+                },
+                "customcolumns": null,
+                "datamirrors": null,
+                "datasource": "SQLServer",
+                "dboperators": {
+                    "deleteoperator": "auto",
+                    "insertoperator": "auto",
+                    "updateoperator": "auto"
+                },
+                "info": "Catálogo Apendice 06",
+                "lnksets": {
+                    "dimension": "Vt022RecintosFiscalizadosA06",
+                    "entity": "Anexo22",
+                    "granularity": "Anexo22"
+                },
+                "operatorform": {
+                    "assembly": "Gsol.Modulos.GesMaestroOperaciones64.0.0.0.0.dll",
+                    "cancontrolsw": false,
+                    "formname": "Gsol.Modulos.GesMaestroOperaciones64.frm009GesMaestroOperaciones",
+                    "showsinglewindow": false
+                },
+                "permissions": {
+                    "delete": "auto",
+                    "insert": "auto",
+                    "query": "auto",
+                    "refresh": "auto",
+                    "update": "auto"
+                },
+                "title": "Catálogo Apendice 06",
+                "tokenid": "Vt022RecintosFiscalizadosA06",
+                "type": "module",
+                "version": "0.0.0.0"
+            },
+            {
+                "_id": 12,
+                "activated": true,
+                "alternativedatasource": "SQLServer",
+                "autosets": false,
+                "config": {
+                    "EV": "[SynapsisN].[dbo].[Ve022IURecintosFiscalizadosEstrategicosA21]",
+                    "WV": "[SynapsisN].[dbo].[Vt022RecintosFiscalizadosEstrategicosA21]",
+                    "allenvironments": "-1",
+                    "assemblyname": "Gsol.Modulos.GenericCatalog64.1.0.0.0.dll",
+                    "formname": "Gsol.Modulos.GenericCatalog64.Frm000Generic",
+                    "keyfield": "i_Cve_RecintoFiscalizadoEstrategico",
+                    "table": "[SynapsisN].[dbo].[Cat022RecintosFiscalizadosEstrategicosA21]",
+                    "upsertkeyname": null
+                },
+                "customcolumns": null,
+                "datamirrors": null,
+                "datasource": "SQLServer",
+                "dboperators": {
+                    "deleteoperator": "auto",
+                    "insertoperator": "auto",
+                    "updateoperator": "auto"
+                },
+                "info": "Catálogo Apendice 21",
+                "lnksets": {
+                    "dimension": "Vt022RecintosFiscalizadosEstrategicosA21",
+                    "entity": "Anexo22",
+                    "granularity": "Anexo22"
+                },
+                "operatorform": {
+                    "assembly": "Gsol.Modulos.GesMaestroOperaciones64.0.0.0.0.dll",
+                    "cancontrolsw": false,
+                    "formname": "Gsol.Modulos.GesMaestroOperaciones64.frm009GesMaestroOperaciones",
+                    "showsinglewindow": false
+                },
+                "permissions": {
+                    "delete": "auto",
+                    "insert": "auto",
+                    "query": "auto",
+                    "refresh": "auto",
+                    "update": "auto"
+                },
+                "title": "Catálogo Apendice 21",
+                "tokenid": "Vt022RecintosFiscalizadosEstrategicosA21",
+                "type": "module",
+                "version": "0.0.0.0"
+            },
+            {
+                "_id": 13,
+                "activated": true,
+                "alternativedatasource": "SQLServer",
+                "autosets": false,
+                "config": {
+                    "EV": "[SynapsisN].[dbo].[Ve022IURegimenesA16]",
+                    "WV": "[SynapsisN].[dbo].[Vt022RegimenesA16]",
+                    "allenvironments": "-1",
+                    "assemblyname": "Gsol.Modulos.GenericCatalog64.1.0.0.0.dll",
+                    "formname": "Gsol.Modulos.GenericCatalog64.Frm000Generic",
+                    "keyfield": "i_Cve_Regimen",
+                    "table": "[SynapsisN].[dbo].[Cat022RegimenesA16]",
+                    "upsertkeyname": null
+                },
+                "customcolumns": null,
+                "datamirrors": null,
+                "datasource": "SQLServer",
+                "dboperators": {
+                    "deleteoperator": "auto",
+                    "insertoperator": "auto",
+                    "updateoperator": "auto"
+                },
+                "info": "Catálogo Apendice 16",
+                "lnksets": {
+                    "dimension": "Vt022RegimenesA16",
+                    "entity": "Anexo22",
+                    "granularity": "Anexo22"
+                },
+                "operatorform": {
+                    "assembly": "Gsol.Modulos.GesMaestroOperaciones64.0.0.0.0.dll",
+                    "cancontrolsw": false,
+                    "formname": "Gsol.Modulos.GesMaestroOperaciones64.frm009GesMaestroOperaciones",
+                    "showsinglewindow": false
+                },
+                "permissions": {
+                    "delete": "auto",
+                    "insert": "auto",
+                    "query": "auto",
+                    "refresh": "auto",
+                    "update": "auto"
+                },
+                "title": "Catálogo Apendice 16",
+                "tokenid": "Vt022RegimenesA16",
+                "type": "module",
+                "version": "0.0.0.0"
+            },
+            {
+                "_id":14,
+                "activated": true,
+                "alternativedatasource": "SQLServer",
+                "autosets": false,
+                "config": {
+                    "EV": "[SynapsisN].[dbo].[Ve022IURegulacionesRestriccionesNoArancelariasA09]",
+                    "WV": "[SynapsisN].[dbo].[Vt022RegulacionesRestriccionesNoArancelariasA09]",
+                    "allenvironments": "-1",
+                    "assemblyname": "Gsol.Modulos.GenericCatalog64.1.0.0.0.dll",
+                    "formname": "Gsol.Modulos.GenericCatalog64.Frm000Generic",
+                    "keyfield": "i_Cve_RegulacionRestriccionNoArancelaria",
+                    "table": "[SynapsisN].[dbo].[Cat022RegulacionesRestriccionesNoArancelariasA09]",
+                    "upsertkeyname": null
+                },
+                "customcolumns": null,
+                "datamirrors": null,
+                "datasource": "SQLServer",
+                "dboperators": {
+                    "deleteoperator": "auto",
+                    "insertoperator": "auto",
+                    "updateoperator": "auto"
+                },
+                "info": "Catálogo Apendice 09",
+                "lnksets": {
+                    "dimension": "Vt022RegulacionesRestriccionesNoArancelariasA09",
+                    "entity": "Anexo22",
+                    "granularity": "Anexo22"
+                },
+                "operatorform": {
+                    "assembly": "Gsol.Modulos.GesMaestroOperaciones64.0.0.0.0.dll",
+                    "cancontrolsw": false,
+                    "formname": "Gsol.Modulos.GesMaestroOperaciones64.frm009GesMaestroOperaciones",
+                    "showsinglewindow": false
+                },
+                "permissions": {
+                    "delete": "auto",
+                    "insert": "auto",
+                    "query": "auto",
+                    "refresh": "auto",
+                    "update": "auto"
+                },
+                "title": "Catálogo Apendice 09",
+                "tokenid": "Vt022RegulacionesRestriccionesNoArancelariasA09",
+                "type": "module",
+                "version": "0.0.0.0"
+            },
+            {
+                "_id": 15,
+                "activated": true,
+                "alternativedatasource": "SQLServer",
+                "autosets": false,
+                "config": {
+                    "EV": "[SynapsisN].[dbo].[Ve022IUTerminosFacturacionA14]",
+                    "WV": "[SynapsisN].[dbo].[Vt022TerminosFacturacionA14]",
+                    "allenvironments": "-1",
+                    "assemblyname": "Gsol.Modulos.GenericCatalog64.1.0.0.0.dll",
+                    "formname": "Gsol.Modulos.GenericCatalog64.Frm000Generic",
+                    "keyfield": "i_Cve_TerminoFacturacion",
+                    "table": "[SynapsisN].[dbo].[Cat022TerminosFacturacionA14]",
+                    "upsertkeyname": null
+                },
+                "customcolumns": null,
+                "datamirrors": null,
+                "datasource": "SQLServer",
+                "dboperators": {
+                    "deleteoperator": "auto",
+                    "insertoperator": "auto",
+                    "updateoperator": "auto"
+                },
+                "info": "Catálogo Apendice 14",
+                "lnksets": {
+                    "dimension": "Vt022TerminosFacturacionA14",
+                    "entity": "Anexo22",
+                    "granularity": "Anexo22"
+                },
+                "operatorform": {
+                    "assembly": "Gsol.Modulos.GesMaestroOperaciones64.0.0.0.0.dll",
+                    "cancontrolsw": false,
+                    "formname": "Gsol.Modulos.GesMaestroOperaciones64.frm009GesMaestroOperaciones",
+                    "showsinglewindow": false
+                },
+                "permissions": {
+                    "delete": "auto",
+                    "insert": "auto",
+                    "query": "auto",
+                    "refresh": "auto",
+                    "update": "auto"
+                },
+                "title": "Catálogo Apendice 14",
+                "tokenid": "Vt022TerminosFacturacionA14",
+                "type": "module",
+                "version": "0.0.0.0"
+            },
+            {
+                "_id": 16,
+                "activated": true,
+                "alternativedatasource": "SQLServer",
+                "autosets": false,
+                "config": {
+                    "EV": "[SynapsisN].[dbo].[Ve022IUTiposContenedoresVehiculosTransporteA10]",
+                    "WV": "[SynapsisN].[dbo].[Vt022TiposContenedoresVehiculosTransporteA10]",
+                    "allenvironments": "-1",
+                    "assemblyname": "Gsol.Modulos.GenericCatalog64.1.0.0.0.dll",
+                    "formname": "Gsol.Modulos.GenericCatalog64.Frm000Generic",
+                    "keyfield": "i_Cve_TipoContenedorVehiculoTransporte",
+                    "table": "[SynapsisN].[dbo].[Cat022TiposContenedoresVehiculosTransporteA10]",
+                    "upsertkeyname": null
+                },
+                "customcolumns": null,
+                "datamirrors": null,
+                "datasource": "SQLServer",
+                "dboperators": {
+                    "deleteoperator": "auto",
+                    "insertoperator": "auto",
+                    "updateoperator": "auto"
+                },
+                "info": "Catálogo Apendice 10",
+                "lnksets": {
+                    "dimension": "Vt022TiposContenedoresVehiculosTransporteA10",
+                    "entity": "Anexo22",
+                    "granularity": "Anexo22"
+                },
+                "operatorform": {
+                    "assembly": "Gsol.Modulos.GesMaestroOperaciones64.0.0.0.0.dll",
+                    "cancontrolsw": false,
+                    "formname": "Gsol.Modulos.GesMaestroOperaciones64.frm009GesMaestroOperaciones",
+                    "showsinglewindow": false
+                },
+                "permissions": {
+                    "delete": "auto",
+                    "insert": "auto",
+                    "query": "auto",
+                    "refresh": "auto",
+                    "update": "auto"
+                },
+                "title": "Catálogo Apendice 10",
+                "tokenid": "Vt022TiposContenedoresVehiculosTransporteA10",
+                "type": "module",
+                "version": "0.0.0.0"
+            },
+            {
+                "_id": 17,
+                "activated": true,
+                "alternativedatasource": "SQLServer",
+                "autosets": false,
+                "config": {
+                    "EV": "[SynapsisN].[dbo].[Ve022IUTiposTasasA18]",
+                    "WV": "[SynapsisN].[dbo].[Vt022TiposTasasA18]",
+                    "allenvironments": "-1",
+                    "assemblyname": "Gsol.Modulos.GenericCatalog64.1.0.0.0.dll",
+                    "formname": "Gsol.Modulos.GenericCatalog64.Frm000Generic",
+                    "keyfield": "i_Cve_TipoTasa",
+                    "table": "[SynapsisN].[dbo].[Cat022TiposTasasA18]",
+                    "upsertkeyname": null
+                },
+                "customcolumns": null,
+                "datamirrors": null,
+                "datasource": "SQLServer",
+                "dboperators": {
+                    "deleteoperator": "auto",
+                    "insertoperator": "auto",
+                    "updateoperator": "auto"
+                },
+                "info": "Catálogo Apendice 18",
+                "lnksets": {
+                    "dimension": "Vt022TiposTasasA18",
+                    "entity": "Anexo22",
+                    "granularity": "Anexo22"
+                },
+                "operatorform": {
+                    "assembly": "Gsol.Modulos.GesMaestroOperaciones64.0.0.0.0.dll",
+                    "cancontrolsw": false,
+                    "formname": "Gsol.Modulos.GesMaestroOperaciones64.frm009GesMaestroOperaciones",
+                    "showsinglewindow": false
+                },
+                "permissions": {
+                    "delete": "auto",
+                    "insert": "auto",
+                    "query": "auto",
+                    "refresh": "auto",
+                    "update": "auto"
+                },
+                "title": "Catálogo Apendice 18",
+                "tokenid": "Vt022TiposTasasA18",
+                "type": "module",
+                "version": "0.0.0.0"
+            },
+            {
+                "_id": 18,
+                "activated": true,
+                "alternativedatasource": "SQLServer",
+                "autosets": false,
+                "config": {
+                    "EV": "[SynapsisN].[dbo].[Ve022IUUnidadesMedidaA07]",
+                    "WV": "[SynapsisN].[dbo].[Vt022UnidadesMedidaA07]",
+                    "allenvironments": "-1",
+                    "assemblyname": "Gsol.Modulos.GenericCatalog64.1.0.0.0.dll",
+                    "formname": "Gsol.Modulos.GenericCatalog64.Frm000Generic",
+                    "keyfield": "i_Cve_UnidadMedida",
+                    "table": "[SynapsisN].[dbo].[Cat022UnidadesMedidaA07]",
+                    "upsertkeyname": null
+                },
+                "customcolumns": null,
+                "datamirrors": null,
+                "datasource": "SQLServer",
+                "dboperators": {
+                    "deleteoperator": "auto",
+                    "insertoperator": "auto",
+                    "updateoperator": "auto"
+                },
+                "info": "Catálogo Apendice 07",
+                "lnksets": {
+                    "dimension": "Vt022UnidadesMedidaA07",
+                    "entity": "Anexo22",
+                    "granularity": "Anexo22"
+                },
+                "operatorform": {
+                    "assembly": "Gsol.Modulos.GesMaestroOperaciones64.0.0.0.0.dll",
+                    "cancontrolsw": false,
+                    "formname": "Gsol.Modulos.GesMaestroOperaciones64.frm009GesMaestroOperaciones",
+                    "showsinglewindow": false
+                },
+                "permissions": {
+                    "delete": "auto",
+                    "insert": "auto",
+                    "query": "auto",
+                    "refresh": "auto",
+                    "update": "auto"
+                },
+                "title": "Catálogo Apendice 07",
+                "tokenid": "Vt022UnidadesMedidaA07",
+                "type": "module",
+                "version": "0.0.0.0"
+            }            
+        ]
+    }
+}

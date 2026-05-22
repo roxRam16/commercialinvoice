@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>✪ Input Calendar Blocked</Title>
+			<Shortcut>inputCalendarBlocked</Shortcut>
+			<Description> ✪ Genera un GWC:InputControl de formato de calendario con limite de fechas disponibles ✪ </Description>
+			<Author>Francisco Olvera</Author>
+		</Header>
+		<Snippet>
+			<Code Language="HTML">
+				<![CDATA[<GWC:InputControl runat="server"  ID="$Id$" Type="Text" Format="CalendarBlocked" MinDate="$MinDate$" MaxDate="$MaxDate$" Label="$Texto$" ExternalAutoPostBack="$Evento$"/>]]>
+			</Code>
+			<Declarations>
+				<Literal>
+					<ID>Id</ID>
+					<ToolTip>Ingrese el ID correspondiente que debe utilizar.</ToolTip>
+					<Default>icEjemplo</Default>
+				</Literal>
+				<Literal>
+					<ID>Texto</ID>
+					<ToolTip>Escriba el texto para la etiqueta.</ToolTip>
+					<Default>Ingrese texto...</Default>
+				</Literal>
+					<Literal>
+					<ID>Evento</ID>
+					<ToolTip>Ponerlo en "true" si se va a estar utilizando algun evento.</ToolTip>
+					<Default>false</Default>
+				</Literal>
+				<Literal>
+					<ID>MinDate</ID>
+					<ToolTip>Escriba la fecha minima donde comenzara la disponibilidad "dd/mm/yyyy" </ToolTip>
+					<Default>21/05/2025</Default>
+				</Literal>
+				<Literal>
+					<ID>MaxDate</ID>
+					<ToolTip>Escriba la fecha maxima donde terminara la disponibilidad "dd/mm/yyyy" </ToolTip>
+					<Default>21/06/2025</Default>
+				</Literal>
+			</Declarations>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,189 @@
+﻿/*ESTILOS FACTURA COMERCIAL IMPORTACIÓN*/
+.cl_Secciones {
+    opacity: .8;
+    color: #757575;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.campo-requerido [class*="label"]::first-letter,
+.campo-requerido label::first-letter {
+    color: red !important;
+}
+
+.iconClose-advertencia, ..iconClose-normal {
+    display: none !important;
+}
+
+.btnActions-advertencia{
+    font-size: 1.5rem !important;
+    font-weight: normal !important;
+    border: 1px solid #c1c1c1 !important;
+    background: #f1f1f1 !important
+
+}
+
+.advertencia-Important
+{
+
+}
+
+.btnAction-advertencia{
+    font-weight: normal !important;
+    font-size: 1.5rem !important
+}
+/* Cuando está deshabilitado */
+/* Prioridad a la clase lowercase */
+/*.lowercase label,
+label.lowercase,
+div.lowercase > label {
+    text-transform: lowercase !important;
+}*/
+/* Asegurar que funcione con campos deshabilitados */
+/*label {
+    text-transform: none !important;
+}*/
+/*input,
+textarea {
+    text-transform: uppercase !important;
+}*/
+.cl_Tarjeta {
+    font-size: 24px;
+    font-weight: bold;
+    color: #432776;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cl_Num__Tarjeta_principal {
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    box-shadow: -1px 3px 10px 4px rgba(0, 0, 0, 0.2);
+}
+
+.cl_Num__Tarjeta_IA {
+    background-color: #782360;
+}
+
+.cl_Num__Tarjeta_blue {
+    background-color: #432776;
+}
+
+.cl_Num__Tarjeta_gray {
+    background-color: #ababab;
+}
+
+.cl_Num__Tarjeta {
+    background: #ababab;
+    color: #ffffff;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    box-shadow: -1px 3px 10px 4px rgba(0, 0, 0, 0.2);
+}
+
+.cl_Num__Tarjeta {
+    font-size: 2.4em;
+    font-weight: bold;
+}
+
+.desactive_tarjeta {
+    background-color: #333333;
+}
+
+/*TAMBIEN TE PODRIA INTERESAR*/
+.a {
+    text-decoration: none;
+}
+
+.footer-interes {
+    padding-top: 16px;
+    display: block !important;
+    color: #653bb1;
+    font-size: 16px;
+}
+
+.resaltado {
+    font-weight: bold;
+}
+
+.wc-file-dragable > div::before {
+    content: attr(data-placeholder) " ";
+        font-size:1.5rem !important;
+}
+
+.CFDI-custom {
+
+}
+
+.wc-file-dragable > div > div:nth-child(1)::after{
+    font-size:0.9rem !important;
+}
+
+.wc-file-dragable {
+    border: 1px dashed #782360 !important;
+    font-weight:500;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 40px -10px rgba(147, 51, 234, 0.25), 0 4px 20px -5px rgba(0, 0, 0, 0.1);
+    height:15rem;
+    border-radius:16px;
+}
+
+.CFDI-custom-bloqueado {
+    border: 1px solid #bdbdbd !important;
+    font-weight: 500;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 40px -10px rgba(147, 51, 234, 0.25), 0 4px 20px -5px rgba(0, 0, 0, 0.1);
+    height: 15rem;
+    border-radius: 16px;
+    text-align: center;
+    padding: 7rem;
+    margin-bottom: 1.5rem;
+    background: #f5f5f5;
+    opacity: 0.8;
+}
+
+.custom-btn-small {
+    padding: 0.6rem 2.9rem;
+    font-size: 1.3rem;
+    /*    min-width: 90px;*/
+    /* font-weight: bold;*/
+
+    border-radius: 14px !important;
+}
+
+.boder-outline-purple {
+    color: #ffffff;
+    background: #782360 !important;
+    box-shadow: 0 4px 14px -2px rgba(147, 51, 234, 0.5), 0 2px 6px -1px rgba(0, 0, 0, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    margin-right: 1rem;
+}
+
+.boder-outline-grey {
+    background-color: #c1c1c1;
+    box-shadow: 0 4px 14px -2px #757575, 0 2px 6px -1px rgba(0, 0, 0, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+   .boder-outline-purple:hover {
+        opacity: 0.9 !important;
+        color:#ffffff !important;
+    }
+
+
+    .boder-outline-grey:hover {
+        opacity: 0.9 !important;
+    }
+
+.wc-dualitybar label:nth-child(1) input:not(:placeholder-shown){
+    font-size: 1.3rem !important;
+}

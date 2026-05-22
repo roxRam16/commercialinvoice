@@ -1,0 +1,357 @@
+{
+    "about": "ia",
+    "version": "1.0.0.0",
+    "scope": "project",
+    "saxidapp":18,
+    "logs": {
+        "logcontrol": true,
+        "slots": [
+            
+        ]
+    },
+    "globals": {
+        "startAppId": 18,
+        "startCompanyGroupId": 1,
+        "startCompanySucId": 1
+    },
+    "endpointsservice": [      
+        {
+            "_id": 1,
+            "info": "bigdataops Cluster Mongo",
+            "mode" : "produccion",
+            "uri": null,
+            "ip": "cluster1-shard-00-00.eyzwc.mongodb.net:27017,cluster1-shard-00-01.eyzwc.mongodb.net:27017,cluster1-shard-00-02.eyzwc.mongodb.net:27017",
+            "stringoptions": "test?ssl=true&replicaSet=atlas-net7mh-shard-0&authSource=admin&retryWrites=true&w=majority",
+            "port": null,
+            "claims" : [
+                {"key" : "key", "value" : "value"}
+            ],
+            "quota" : null
+        }
+    ],
+    "services": [
+        {
+            "_id": 1,            
+            "servicetypeid" : 1,
+            "info" : "GPT",
+            "securitysettings" : null,
+            "environmentsettings" : [
+                { 
+                    "environmentid" : 1,
+                    "claims" : [
+                        {"key" : "key", "value" : "value"}
+                    ],
+                    "security" : {
+                        "secretkey" : "sk-jd67Gq9geFyQzxZN2KnJCw_viWyxGI1VzfGoCycSqPT3BlbkFJqIkMFgJV7psc9D3q8JEAu4xDWZm9WSUrMSLH7WiiwA",
+                        "accesskey" : null,
+                        "expirationdate" : null
+                    }
+                },
+                { 
+                    "environmentid" : 3,
+                    "claims" : [
+                        {"key" : "key", "value" : "value"}
+                    ],
+                    "security" : {
+                        "secretkey" : "sk-jd67Gq9geFyQzxZN2KnJCw_viWyxGI1VzfGoCycSqPT3BlbkFJqIkMFgJV7psc9D3q8JEAu4xDWZm9WSUrMSLH7WiiwA",
+                        "accesskey" : null,
+                        "expirationdate" : null
+                    }
+                },
+                { 
+                    "environmentid" : 4,
+                    "claims" : [
+                        {"key" : "key", "value" : "value"}
+                    ],
+                    "security" : {
+                        "secretkey" : "sk-jd67Gq9geFyQzxZN2KnJCw_viWyxGI1VzfGoCycSqPT3BlbkFJqIkMFgJV7psc9D3q8JEAu4xDWZm9WSUrMSLH7WiiwA",
+                        "accesskey" : null,
+                        "expirationdate" : null
+                    }
+                },
+                { 
+                    "environmentid" : 8,
+                    "claims" : [
+                        {"key" : "key", "value" : "value"}
+                    ],
+                    "security" : {
+                        "secretkey" : "sk-jd67Gq9geFyQzxZN2KnJCw_viWyxGI1VzfGoCycSqPT3BlbkFJqIkMFgJV7psc9D3q8JEAu4xDWZm9WSUrMSLH7WiiwA",
+                        "accesskey" : null,
+                        "expirationdate" : null
+                    }
+                },
+                { 
+                    "environmentid" : 6,
+                    "claims" : [
+                        {"key" : "key", "value" : "value"}
+                    ],
+                    "security" : {
+                        "secretkey" : "sk-jd67Gq9geFyQzxZN2KnJCw_viWyxGI1VzfGoCycSqPT3BlbkFJqIkMFgJV7psc9D3q8JEAu4xDWZm9WSUrMSLH7WiiwA",
+                        "accesskey" : null,
+                        "expirationdate" : null
+                    }
+                },
+                { 
+                    "environmentid" : 7,
+                    "claims" : [
+                        {"key" : "key", "value" : "value"}
+                    ],
+                    "security" : {
+                        "secretkey" : "sk-jd67Gq9geFyQzxZN2KnJCw_viWyxGI1VzfGoCycSqPT3BlbkFJqIkMFgJV7psc9D3q8JEAu4xDWZm9WSUrMSLH7WiiwA",
+                        "accesskey" : null,
+                        "expirationdate" : null
+                    }
+                },
+                { 
+                    "environmentid" : 9,
+                    "claims" : [
+                        {"key" : "key", "value" : "value"}
+                    ],
+                    "security" : {
+                        "secretkey" : "sk-jd67Gq9geFyQzxZN2KnJCw_viWyxGI1VzfGoCycSqPT3BlbkFJqIkMFgJV7psc9D3q8JEAu4xDWZm9WSUrMSLH7WiiwA",
+                        "accesskey" : null,
+                        "expirationdate" : null
+                    }
+                },
+                { 
+                    "environmentid" : 10,
+                    "claims" : [
+                        {"key" : "key", "value" : "value"}
+                    ],
+                    "security" : {
+                        "secretkey" : "sk-jd67Gq9geFyQzxZN2KnJCw_viWyxGI1VzfGoCycSqPT3BlbkFJqIkMFgJV7psc9D3q8JEAu4xDWZm9WSUrMSLH7WiiwA",
+                        "accesskey" : null,
+                        "expirationdate" : null
+                    }
+                },
+                { 
+                    "environmentid" : 7780,
+                    "claims" : [
+                        {"key" : "key", "value" : "value"}
+                    ],
+                    "security" : {
+                        "secretkey" : "sk-jd67Gq9geFyQzxZN2KnJCw_viWyxGI1VzfGoCycSqPT3BlbkFJqIkMFgJV7psc9D3q8JEAu4xDWZm9WSUrMSLH7WiiwA",
+                        "accesskey" : null,
+                        "expirationdate" : null
+                    }
+                },
+                { 
+                    "environmentid" : 7785,
+                    "claims" : [
+                        {"key" : "key", "value" : "value"}
+                    ],
+                    "security" : {
+                        "secretkey" : "sk-jd67Gq9geFyQzxZN2KnJCw_viWyxGI1VzfGoCycSqPT3BlbkFJqIkMFgJV7psc9D3q8JEAu4xDWZm9WSUrMSLH7WiiwA",
+                        "accesskey" : null,
+                        "expirationdate" : null
+                    }
+                }
+            ],
+            "supplierid" : 1,     
+            "supplierdescription" : "OpenAI",     
+            "online" : true,
+            "endpointserviceid" : 1 
+        }, 
+        {
+            "_id": 2,            
+            "servicetypeid" : 1,
+            "info" : "AWS",
+            "securitysettings" : null,
+            "environmentsettings" : [
+                { 
+                    "environmentid" : 0,
+                    "claims" : [
+                        {"key" : "key", "value" : "value"}
+                    ],
+                    "security" : {
+                        "secretkey" : "ZKk33ZB19uIFDWZXO6qraLJVdfgfhKr1bzy6PLhq",
+                        "accesskey" : "AKIAZ5TC5CTHYFISAOG3",
+                        "expirationdate" : null
+                    }
+                }
+            ],
+            "supplierid" : 2,     
+            "supplierdescription" : "AWS",     
+            "online" : true,
+            "endpointserviceid" : 1 
+        },
+        {
+            "_id": 3,            
+            "servicetypeid" : 1,
+            "info" : "API CUSTOMBROKERS",
+            "securitysettings" : null,
+            "environmentsettings" : [
+                { 
+                    "environmentid" : 0,
+                    "claims" : [
+                        {"key" : "v1", "value" : "U3cA7kYqzbT1WmHjN2xRo6LbPGfMueVAqXK9"}
+                    ],
+                    "security" : {
+                        "secretkey" : "U3cA7kYqzbT1WmHjN2xRo6LbPGfMueVAqXK9",
+                        "accesskey" : "",
+                        "expirationdate" : null
+                    }
+                }
+            ],
+            "supplierid" : 3,     
+            "supplierdescription" : "API CUSTOMERBROKERS",     
+            "online" : true,
+            "endpointserviceid" : 1 
+        }        
+    ],
+    "credentials": [        
+        {
+            "_id": 0,
+            "info": "API",
+            "user": "",
+            "password": "",
+            "card": ""
+        }
+    ],
+    "roots": [
+        {
+
+            "_id": 1,
+            "info": "Colección para el Inicio de Sesión con Identity",
+            "name": "Users",
+            "level": 3,
+            "rolnamelinked": "bigdataops",
+            "collection": "Users",
+            "type": "Unique",
+            "linkedresources": [
+                {
+                    "info": "Colección para el Inicio de Sesión con Identity",
+                    "name": "Users"
+                }
+            ]
+        }
+        ],
+    "endpoints": [      
+        {
+            "_id": 1,
+            "info": "bigdataops Cluster Mongo",
+            "url": null,
+            "ip": "cluster1-shard-00-00.eyzwc.mongodb.net:27017,cluster1-shard-00-01.eyzwc.mongodb.net:27017,cluster1-shard-00-02.eyzwc.mongodb.net:27017",
+            "stringoptions": "test?ssl=true&replicaSet=atlas-net7mh-shard-0&authSource=admin&retryWrites=true&w=majority",
+            "port": null
+        }
+    ],
+    "environments": [
+        {
+            "_id": 1,
+            "name": "Veracruz",
+            "pref": "RKU",
+            "taxid": "GRK030919NX4",
+            "info": "Grupo Reyes Kuri. S. C.",
+            "online": false,
+            "type": "production"
+        },
+        {
+            "_id": 3,
+            "name": "CDMX",
+            "pref": "DAI",
+            "taxid": "DAI920805RH0",
+            "info": "Despachos Aereos Integrados S. C.",
+            "online": false,
+            "type": "tester"
+        },
+        {
+            "_id": 4,
+            "name": "Virtual",
+            "pref": "DEM",
+            "taxid": "DEMOVERSION",
+            "info": "Demo. S. C.",
+            "online": false,
+            "type": "demo"
+        },
+        {
+            "_id": 8,
+            "name": "Manzanillo",
+            "pref": "SAP",
+            "taxid": "SAP960117TM6",
+            "info": "Servicios Aduanales del Pacífico. S. C.",
+            "online": false,
+            "type": "production"
+        },
+        {
+            "_id": 6,
+            "name": "Altamira",
+            "pref": "CEG",
+            "taxid": "CEG911220CU0",
+            "info": "Comercio Exterior del Golfo. S. C.",
+            "online": false,
+            "type": "production"
+        },
+        {
+            "_id": 7,
+            "name": "Toluca",
+            "pref": "TOL",
+            "taxid": "CEG911220CU0",
+            "info": "Comercio Exterior del Golfo. S. C.",
+            "online": false,
+            "type": "production"
+        },
+        {
+            "_id": 9,
+            "name": "Lázaro Cárdenas",
+            "pref": "ALC",
+            "taxid": "SAP960117TM6",
+            "info": "Servicios Aduanales del Pacífico. S. C.",
+            "online": false,
+            "type": "production"
+        },
+        {
+            "_id": 10,
+            "name": "Tuxpan",
+            "pref": "TUX",
+            "taxid": "GRK030919NX4",
+            "info": "Grupo Reyes Kuri. S. C.",
+            "online": false,
+            "type": "production"
+        },
+        {
+            "_id": 7780,
+            "name": "Nuevo Laredo",
+            "pref": "LAR",
+            "taxid": "09-0894008",
+            "info": "Krom Forwarding Inc.",
+            "online": false,
+            "type": "production"
+        },
+        {
+            "_id": 7785,
+            "name": "Nogales",
+            "pref": "NOG",
+            "taxid": "GRK030919NX4",
+            "info": "Grupo Reyes Kuri. S. C.",
+            "online": false,
+            "type": "production"
+        }
+    ],
+    "servers": {
+        "nosql": {
+            "mongodb": {
+                "version": null,
+                "rol": [
+                   ]
+            },
+            "firebase": {
+                "version": null,
+                "rol": [                   
+                ]
+            }
+        },
+        "sql": {
+            "mssql": {
+                "version": "12",
+                "rol": [                   
+                ]
+            },
+            "mysql": {
+                "version": "6.5",
+                "rol": [                  
+                ]
+            }
+        }
+    }
+}

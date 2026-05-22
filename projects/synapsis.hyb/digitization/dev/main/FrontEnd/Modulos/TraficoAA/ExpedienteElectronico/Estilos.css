@@ -1,0 +1,458 @@
+﻿/* Variables de color personalizado */
+:root {
+    --purple-color: #782360;
+    --purple-light: #7e61b0;
+    --gray-light: #a4a4a4;
+    --gray-lighter: #6C757D;
+    --border-color: #DEE2E6;
+    --separator-color: #E5E5E5;
+    --blue-color: #31026c;
+}
+
+/* Estilos generales */
+body {
+
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS para alinear el ícono SVG con el texto */
+.stat-label svg {
+    vertical-align: middle;
+    display: inline-block;
+    height: 2.5rem !important;
+    width: 2.5rem !important;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.btn-utils-expediente {
+    border: 1px solid var(--blue-color);
+    background: transparent;
+    color: var(--blue-color);
+    font-size: 1.5rem;
+    border-radius: 15px 15px;
+}
+
+.btn-utils-expediente-purple {
+    border: 1px solid var(--purple-color);
+    background: var(--purple-color);
+    color: #ffffff;
+    font-size: 1.5rem;
+    border-radius: 15px 15px;
+}
+
+    .btn-utils-expediente-purple:hover{
+        opacity:0.9;
+    }
+
+    .btn-utils-expediente:hover {
+        background: var(--blue-color);
+        color: #ffffff;
+    }
+
+    .stat-label svg:hover {
+        opacity: 0.9;
+    }
+
+/* Asegurar que todos los elementos inline se alineen correctamente */
+.stat-label .d-inline {
+    vertical-align: middle;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* Clase para el contenedor de texto púrpura */
+.text-purple-light {
+    color: #8B5FBF;
+}
+
+/* Asegurar alineación vertical en el contenedor flex */
+.stat-label.d-flex {
+    align-items: center !important;
+    flex-wrap: wrap;
+}
+
+.text-cursive{
+    font-style:italic;
+}
+
+.txt-bold{
+    font-weight:bold;
+}
+
+.small{
+    position:absolute !important;
+    top:45px !important;
+    left: 10px !important;
+}
+
+/*.wc-dualitybar a {
+    border-color: #03738c !important;
+}
+
+.wc-dualitybar a::before {
+    background-color: #03738c !important;
+}*/
+
+.wc-card {
+    border: 1px solid var(--purple-color) !important;
+}
+
+.wc-card > div:nth-child(1) a {
+    background-color: var(--border-color) !important;
+}
+
+.text-card {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--purple-color)
+}
+
+.txt-light{
+    font-weight:300;
+}
+.text-bold-day {
+    color: #404040;
+}
+
+.text-cursive{
+    font-style:italic;
+}
+
+.txt-16{
+    font-size:16px;
+}
+
+.enlace-btn
+{
+   color: var(--gray-light)
+}
+
+.text-bold-light {
+    font-weight: 800;
+}
+/* Panel principal del dashboard */
+.dashboard-banner {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--border-color);
+    margin: 0;
+    width: 100%;
+}
+
+/* Contenido de cada sección */
+.section-content {
+    padding: 2.5rem 1.5rem 3rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Títulos de sección */
+.section-title {
+    color: var(--gray-light);
+    font-size: 2.8rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.section-title-secondary {
+    color: var(--gray-light);
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+/* Separador vertical principal entre secciones */
+.expedientes-section {
+    position: relative;
+}
+
+.expedientes-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 1px;
+    background-color: var(--border-color);
+}
+.cl_Num__Tarjeta_principal {
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    height: 7rem;
+    box-shadow: -1px 3px 10px 4px rgba(0, 0, 0, 0.2);
+    background: var(--gray-light)
+}
+
+/* Fila de números */
+.numbers-row {
+    flex: 1;
+    align-items: center;
+    display: flex;
+}
+
+/* Columnas de números */
+.number-column {
+    position: relative;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+    /* Separadores verticales entre números */
+    .number-column.with-separator::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 60px;
+        width: 1px;
+        background-color: var(--separator-color);
+    }
+
+/* Contenedor de cada número */
+.number-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+/*    padding: 1rem 0.5rem;*/
+}
+
+/* Números de estadísticas */
+.stat-folio {
+    font-size: 4.5rem !important;
+    font-weight: 400;
+/*    margin-bottom: 0.5rem;
+    letter-spacing: -2px;*/
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+    letter-spacing: -2px;
+}
+
+/* Etiquetas de estadísticas */
+.stat-label {
+    font-size: 1.5rem;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+/* Contenedor de botones */
+.button-container {
+   /* margin-top: 0.5rem;*/
+   border:1px solid red;
+}
+
+/* Colores personalizados */
+.text-purple {
+    color: var(--purple-color) !important;
+}
+
+.text-purple-light {
+    color: var(--purple-light) !important;
+}
+
+.text-secondary {
+    color: var(--gray-light) !important;
+}
+
+.text-muted {
+    color: var(--gray-lighter) !important;
+}
+
+/* Botones personalizados */
+.btn-outline-purple {
+    color: var(--purple-color);
+    border-color: var(--purple-color);
+    background-color: transparent;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+    border-width: 1px;
+}
+
+.btn-outline-purple:hover {
+    color: white;
+    background-color: var(--purple-color);
+    border-color: var(--purple-color);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(139, 95, 191, 0.3);
+}
+
+
+.btn-outline-gray {
+    color: var(--gray-light);
+    border-color: var(--gray-light);
+    background-color: transparent;
+    /*font-weight: 500;*/
+    transition: all 0.2s ease-in-out;
+    border-width: 1px;
+}
+
+.btn-outline-gray:hover {
+    color: var(--gray-lighter);
+    border-color: var(--gray-lighter);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(139, 95, 191, 0.3);
+}
+
+.custom-btn {
+    padding: 0.6rem 2rem;
+    font-size: 1.2rem;
+    min-width: 160px;
+    font-weight: bold;
+    border-radius: 12px !important;
+}
+
+.custom-btn-small {
+    padding: 0.4rem 1.2rem;
+    font-size: 1.2rem;
+    min-width: 90px;
+    font-weight:bold;
+    border-radius:12px !important;
+}
+
+/* Peso de fuente negrita */
+.font-weight-bold {
+    font-weight: 600 !important;
+}
+
+/* Responsive Design */
+@media (max-width: 991.98px) {
+    .expedientes-section::after {
+        display: none;
+    }
+
+    .expedientes-section {
+        border-bottom: 1px solid var(--border-color);
+        margin-bottom: 0;
+    }
+
+    .section-content {
+        padding: 1.5rem 1rem;
+    }
+
+    .stat-number {
+        font-size: 4.5rem;
+    }
+
+    .number-column.with-separator::before {
+        height: 100px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .dashboard-banner {
+        border-radius: 6px;
+        margin: 0.5rem;
+    }
+
+    .section-content {
+        padding: 1rem 0.75rem;
+    }
+
+    .stat-number {
+        font-size: 3rem;
+    }
+
+    .section-title {
+        font-size: 3.1rem;
+     /*   margin-bottom: 1.5rem;*/
+    }
+
+    .custom-btn {
+        padding: 0.5rem 1.5rem;
+        font-size: 0.85rem;
+        min-width: 140px;
+    }
+
+    .custom-btn-small {
+        padding: 0.3rem 1rem;
+        font-size: 0.75rem;
+        min-width: 80px;
+    }
+
+    .number-column.with-separator::before {
+        height: 80px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .numbers-row {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .number-column {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+        .number-column.with-separator::before {
+            display: none;
+        }
+
+    .stat-number {
+        font-size: 2.5rem;
+    }
+
+    .section-content {
+        padding: 1rem 0.5rem;
+    }
+}
+
+/* Efectos adicionales */
+/*.dashboard-banner:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}*/
+/*
+.number-container:hover .stat-number {
+    transform: scale(1.02);
+    transition: transform 0.2s ease-in-out;
+}*/
+
+/* Animaciones sutiles */
+/*.stat-number,
+.stat-label,
+.custom-btn,
+.custom-btn-small {
+    animation: fadeInUp 0.6s ease-out;
+}*/
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Asegurar contenedor fluid completo */
+.container-fluid {
+    width: 100% !important;
+    max-width: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}

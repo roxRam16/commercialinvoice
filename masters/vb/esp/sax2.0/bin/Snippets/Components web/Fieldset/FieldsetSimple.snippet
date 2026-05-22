@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>✪ Fieldset Simple</Title>
+			<Shortcut>FieldsetSimple</Shortcut>
+			<Description> ✪ Genera un GWC:Fieldset para una nueva sección en tu modulo✪ </Description>
+			<Author>Francisco Olvera</Author>
+		</Header>
+		<Snippet>
+			<Code Language="HTML">
+				<![CDATA[
+				
+				<GWC:FieldsetControl ID="$Id$" runat="server" Detail="$Detail$" Label="$Label$">
+                    
+				 <ListControls>       
+
+					$Seguimiento$
+
+                     </ListControls>
+                    
+				 </GWC:FieldsetControl>
+
+				]]>
+			</Code>
+			<Declarations>
+				<Literal>
+					<ID>Id</ID>
+					<ToolTip>Ingrese el ID correspondiente que debe utilizar.</ToolTip>
+					<Default>fsExample</Default>
+				</Literal>
+				<Literal>
+					<ID>Detail</ID>
+					<ToolTip>Ingrese texto que aparecera en el encabezado de la sección.</ToolTip>
+					<Default>Sección</Default>
+				</Literal>
+				<Literal>
+					<ID>Label</ID>
+					<ToolTip>Ingrese texto que aparecera la barra de navegación.</ToolTip>
+					<Default>Nueva Sección</Default>
+				</Literal>
+				<Literal>
+					<ID>Seguimiento</ID>
+					<ToolTip></ToolTip>
+					<Default>&lt;%--Añade los componentes que tendra en su interior.--%&gt;.</Default>
+				</Literal>
+			</Declarations>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

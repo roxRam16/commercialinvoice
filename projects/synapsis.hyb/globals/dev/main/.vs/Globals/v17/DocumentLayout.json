@@ -1,0 +1,188 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\SAX\\projects\\synapsis.hyb\\globals\\dev\\main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB5FFD0B-C909-4372-A4E3-F7709CA7677C}|..\\controllers\\syn.nucleo\\1_0_stdRecursosComercioExterior64_dll\\RecursosComercioExterior64\\RecursosComercioExterior64\\RecursosComercioExterior64.vbproj|c:\\sax\\projects\\synapsis.hyb\\globals\\dev\\controllers\\syn.nucleo\\1_0_stdrecursoscomercioexterior64_dll\\recursoscomercioexterior64\\recursoscomercioexterior64\\recursoscomercioexterior64.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6637EDCD-6DF8-4017-A36F-CFEDF357E8CB}|..\\controllers\\syn.custombrokers\\1_0_stdControladorRecursosAduanales64_dll\\ControladorRecursosAduanales64\\ControladorRecursosAduanales64.vbproj|c:\\sax\\projects\\synapsis.hyb\\globals\\dev\\controllers\\syn.custombrokers\\1_0_stdcontroladorrecursosaduanales64_dll\\controladorrecursosaduanales64\\controladorrecursosaduanales.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DD30DC5-D2ED-4A0F-9B63-0A8F78F5E14B}|..\\controllers\\syn.custombrokers\\1_0_stdControladorRecursosAduanalesGral64_dll\\ControladorRecursosAduanalesGral64\\ControladorRecursosAduanalesGral64.vbproj|c:\\sax\\projects\\synapsis.hyb\\globals\\dev\\controllers\\syn.custombrokers\\1_0_stdcontroladorrecursosaduanalesgral64_dll\\controladorrecursosaduanalesgral64\\controladorrecursosaduanalesgral.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 432,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{28836128-fc2c-11d2-a433-00c04f72d18a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ecb7191a-597b-41f5-9843-03a4cf275dde}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{be4d7042-ba3f-11d2-840e-00c04f9902c1}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ControladorRecursosAduanalesGral.vb",
+              "DocumentMoniker": "C:\\SAX\\projects\\synapsis.hyb\\globals\\dev\\controllers\\syn.custombrokers\\1_0_stdControladorRecursosAduanalesGral64_dll\\ControladorRecursosAduanalesGral64\\ControladorRecursosAduanalesGral.vb",
+              "RelativeDocumentMoniker": "..\\controllers\\syn.custombrokers\\1_0_stdControladorRecursosAduanalesGral64_dll\\ControladorRecursosAduanalesGral64\\ControladorRecursosAduanalesGral.vb",
+              "ToolTip": "C:\\SAX\\projects\\synapsis.hyb\\globals\\dev\\controllers\\syn.custombrokers\\1_0_stdControladorRecursosAduanalesGral64_dll\\ControladorRecursosAduanalesGral64\\ControladorRecursosAduanalesGral.vb",
+              "RelativeToolTip": "..\\controllers\\syn.custombrokers\\1_0_stdControladorRecursosAduanalesGral64_dll\\ControladorRecursosAduanalesGral64\\ControladorRecursosAduanalesGral.vb",
+              "ViewState": "AQIAAA8AAAAAAAAAAIBGwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-09-18T14:02:38.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ControladorRecursosAduanales.vb",
+              "DocumentMoniker": "C:\\SAX\\projects\\synapsis.hyb\\globals\\dev\\controllers\\syn.custombrokers\\1_0_stdControladorRecursosAduanales64_dll\\ControladorRecursosAduanales64\\ControladorRecursosAduanales.vb",
+              "RelativeDocumentMoniker": "..\\controllers\\syn.custombrokers\\1_0_stdControladorRecursosAduanales64_dll\\ControladorRecursosAduanales64\\ControladorRecursosAduanales.vb",
+              "ToolTip": "C:\\SAX\\projects\\synapsis.hyb\\globals\\dev\\controllers\\syn.custombrokers\\1_0_stdControladorRecursosAduanales64_dll\\ControladorRecursosAduanales64\\ControladorRecursosAduanales.vb",
+              "RelativeToolTip": "..\\controllers\\syn.custombrokers\\1_0_stdControladorRecursosAduanales64_dll\\ControladorRecursosAduanales64\\ControladorRecursosAduanales.vb",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAuwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-09-08T22:41:13.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RecursosComercioExterior64.vb",
+              "DocumentMoniker": "C:\\SAX\\projects\\synapsis.hyb\\globals\\dev\\controllers\\syn.nucleo\\1_0_stdRecursosComercioExterior64_dll\\RecursosComercioExterior64\\RecursosComercioExterior64\\RecursosComercioExterior64.vb",
+              "RelativeDocumentMoniker": "..\\controllers\\syn.nucleo\\1_0_stdRecursosComercioExterior64_dll\\RecursosComercioExterior64\\RecursosComercioExterior64\\RecursosComercioExterior64.vb",
+              "ToolTip": "C:\\SAX\\projects\\synapsis.hyb\\globals\\dev\\controllers\\syn.nucleo\\1_0_stdRecursosComercioExterior64_dll\\RecursosComercioExterior64\\RecursosComercioExterior64\\RecursosComercioExterior64.vb",
+              "RelativeToolTip": "..\\controllers\\syn.nucleo\\1_0_stdRecursosComercioExterior64_dll\\RecursosComercioExterior64\\RecursosComercioExterior64\\RecursosComercioExterior64.vb",
+              "ViewState": "AQIAALwEAAAAAAAAAAApwL0EAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-09-07T01:17:14.92Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 272,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{2bb8137c-bac8-4d04-820a-c52b5d5b82da}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{757affbd-aba2-4a34-a9d0-98e3035e33ef}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ca8cc5c7-0231-406a-95cd-aa5ed6ac0190}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

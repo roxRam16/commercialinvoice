@@ -1,0 +1,262 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\SAX\\projects\\global\\dev\\main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B1495192-15BC-4584-8A5F-17BD9B435A5D}|..\\controllers\\rec.global.utils\\ControladorSecuencia64\\ControladorSecuencia64.vbproj|c:\\sax\\projects\\global\\dev\\controllers\\rec.global.utils\\controladorsecuencia64\\controladorsecuencia.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A3CDE1-7194-4559-AF35-C5CA9E12153C}|..\\controllers\\rec.global\\2_0_stdBus64_dll\\Bus64\\Bus64.vbproj|c:\\sax\\projects\\global\\dev\\controllers\\rec.global\\2_0_stdbus64_dll\\bus64\\bus.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA166BF4-0AFA-48C1-9411-DEE7EA53FD11}|..\\controllers\\rec.global.controllers\\2_0_stdControladorEmpresas64_dll\\ControladorEmpresas64\\ControladorEmpresas64.vbproj|c:\\sax\\projects\\global\\dev\\controllers\\rec.global.controllers\\2_0_stdcontroladorempresas64_dll\\controladorempresas64\\controladorempresas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DAF6E5A-466F-495B-89B1-759D54226EEC}|..\\controllers\\rec.global.controllers\\2_0_stdIControladorEmpresas_dll\\IControladorEmpresas64\\IControladorEmpresas.vbproj|c:\\sax\\projects\\global\\dev\\controllers\\rec.global.controllers\\2_0_stdicontroladorempresas_dll\\icontroladorempresas64\\icontroladorempresas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BD03ED1-0A60-451B-82FA-94D87BD3D561}|..\\controllers\\rec.global\\2_0_stdEmpresaInternacional64_dll\\EmpresaInternacional64\\EmpresaInternacional64.vbproj|c:\\sax\\projects\\global\\dev\\controllers\\rec.global\\2_0_stdempresainternacional64_dll\\empresainternacional64\\empresainternacional.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FF2477-57B8-433A-96A8-2D2FEAD16200}|..\\controllers\\rec.global\\2_0_stdEmpresa64_dll\\Empresa64\\Empresa64.vbproj|c:\\sax\\projects\\global\\dev\\controllers\\rec.global\\2_0_stdempresa64_dll\\empresa64\\empresa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF2F0B27-FDAE-4E33-8F6F-07AA4ECA6995}|..\\controllers\\rec.global\\2_0_stdEmpresaNacional64_dll\\EmpresaNacional64\\EmpresaNacional64.vbproj|c:\\sax\\projects\\global\\dev\\controllers\\rec.global\\2_0_stdempresanacional64_dll\\empresanacional64\\empresanacional.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53957AB3-CEDB-4532-B641-0C8FAC7FC0D1}|..\\controllers\\rec.global\\2_0_stdPaisDomicilio64_dll\\PaisDomicilio64\\PaisDomicilio64.vbproj|c:\\sax\\projects\\global\\dev\\controllers\\rec.global\\2_0_stdpaisdomicilio64_dll\\paisdomicilio64\\paisdomicilio.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23715DE3-4936-47C9-84EE-75263A6CB89D}|..\\controllers\\rec.global.controllers\\1_0_stdControladorPaises64_dll\\ControladorPaises64\\ControladorPaises64.vbproj|c:\\sax\\projects\\global\\dev\\controllers\\rec.global.controllers\\1_0_stdcontroladorpaises64_dll\\controladorpaises64\\controladorpaises.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86895146-1CD7-4661-9A09-8D4B91C5993F}|..\\controllers\\rec.global\\2_0_stdDomicilio64_dll\\Domicilio64\\Domicilio64.vbproj|c:\\sax\\projects\\global\\dev\\controllers\\rec.global\\2_0_stddomicilio64_dll\\domicilio64\\domicilio.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 432,
+          "SelectedChildIndex": 22,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{2bb8137c-bac8-4d04-820a-c52b5d5b82da}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{757affbd-aba2-4a34-a9d0-98e3035e33ef}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ca8cc5c7-0231-406a-95cd-aa5ed6ac0190}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{28836128-fc2c-11d2-a433-00c04f72d18a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ecb7191a-597b-41f5-9843-03a4cf275dde}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{be4d7042-ba3f-11d2-840e-00c04f9902c1}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ControladorSecuencia.vb",
+              "DocumentMoniker": "C:\\SAX\\projects\\global\\dev\\controllers\\rec.global.utils\\ControladorSecuencia64\\ControladorSecuencia.vb",
+              "RelativeDocumentMoniker": "..\\controllers\\rec.global.utils\\ControladorSecuencia64\\ControladorSecuencia.vb",
+              "ToolTip": "C:\\SAX\\projects\\global\\dev\\controllers\\rec.global.utils\\ControladorSecuencia64\\ControladorSecuencia.vb",
+              "RelativeToolTip": "..\\controllers\\rec.global.utils\\ControladorSecuencia64\\ControladorSecuencia.vb",
+              "ViewState": "AQIAAFIAAAAAAAAAAAA3wFYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-08-21T16:51:42.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IControladorEmpresas.vb",
+              "DocumentMoniker": "C:\\SAX\\projects\\global\\dev\\controllers\\rec.global.controllers\\2_0_stdIControladorEmpresas_dll\\IControladorEmpresas64\\IControladorEmpresas.vb",
+              "RelativeDocumentMoniker": "..\\controllers\\rec.global.controllers\\2_0_stdIControladorEmpresas_dll\\IControladorEmpresas64\\IControladorEmpresas.vb",
+              "ToolTip": "C:\\SAX\\projects\\global\\dev\\controllers\\rec.global.controllers\\2_0_stdIControladorEmpresas_dll\\IControladorEmpresas64\\IControladorEmpresas.vb",
+              "RelativeToolTip": "..\\controllers\\rec.global.controllers\\2_0_stdIControladorEmpresas_dll\\IControladorEmpresas64\\IControladorEmpresas.vb",
+              "ViewState": "AQIAACMAAAAAAAAAAAA5wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-08-21T16:46:53.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ControladorEmpresas.vb",
+              "DocumentMoniker": "C:\\SAX\\projects\\global\\dev\\controllers\\rec.global.controllers\\2_0_stdControladorEmpresas64_dll\\ControladorEmpresas64\\ControladorEmpresas.vb",
+              "RelativeDocumentMoniker": "..\\controllers\\rec.global.controllers\\2_0_stdControladorEmpresas64_dll\\ControladorEmpresas64\\ControladorEmpresas.vb",
+              "ToolTip": "C:\\SAX\\projects\\global\\dev\\controllers\\rec.global.controllers\\2_0_stdControladorEmpresas64_dll\\ControladorEmpresas64\\ControladorEmpresas.vb",
+              "RelativeToolTip": "..\\controllers\\rec.global.controllers\\2_0_stdControladorEmpresas64_dll\\ControladorEmpresas64\\ControladorEmpresas.vb",
+              "ViewState": "AQIAAMADAAAAAAAAAAAAAIQCAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-07-03T18:36:38.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bus.vb",
+              "DocumentMoniker": "C:\\SAX\\projects\\global\\dev\\controllers\\rec.global\\2_0_stdBus64_dll\\Bus64\\Bus.vb",
+              "RelativeDocumentMoniker": "..\\controllers\\rec.global\\2_0_stdBus64_dll\\Bus64\\Bus.vb",
+              "ToolTip": "C:\\SAX\\projects\\global\\dev\\controllers\\rec.global\\2_0_stdBus64_dll\\Bus64\\Bus.vb",
+              "RelativeToolTip": "..\\controllers\\rec.global\\2_0_stdBus64_dll\\Bus64\\Bus.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-07-21T16:51:00.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ControladorPaises.vb",
+              "DocumentMoniker": "C:\\SAX\\projects\\global\\dev\\controllers\\rec.global.controllers\\1_0_stdControladorPaises64_dll\\ControladorPaises64\\ControladorPaises.vb",
+              "RelativeDocumentMoniker": "..\\controllers\\rec.global.controllers\\1_0_stdControladorPaises64_dll\\ControladorPaises64\\ControladorPaises.vb",
+              "ToolTip": "C:\\SAX\\projects\\global\\dev\\controllers\\rec.global.controllers\\1_0_stdControladorPaises64_dll\\ControladorPaises64\\ControladorPaises.vb",
+              "RelativeToolTip": "..\\controllers\\rec.global.controllers\\1_0_stdControladorPaises64_dll\\ControladorPaises64\\ControladorPaises.vb",
+              "ViewState": "AQIAAJcCAAAAAAAAAAAswJICAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-07-11T16:40:54.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmpresaInternacional.vb",
+              "DocumentMoniker": "C:\\SAX\\projects\\global\\dev\\controllers\\rec.global\\2_0_stdEmpresaInternacional64_dll\\EmpresaInternacional64\\EmpresaInternacional.vb",
+              "RelativeDocumentMoniker": "..\\controllers\\rec.global\\2_0_stdEmpresaInternacional64_dll\\EmpresaInternacional64\\EmpresaInternacional.vb",
+              "ToolTip": "C:\\SAX\\projects\\global\\dev\\controllers\\rec.global\\2_0_stdEmpresaInternacional64_dll\\EmpresaInternacional64\\EmpresaInternacional.vb",
+              "RelativeToolTip": "..\\controllers\\rec.global\\2_0_stdEmpresaInternacional64_dll\\EmpresaInternacional64\\EmpresaInternacional.vb",
+              "ViewState": "AQIAABoAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-07-21T16:50:01.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Domicilio.vb",
+              "DocumentMoniker": "C:\\SAX\\projects\\global\\dev\\controllers\\rec.global\\2_0_stdDomicilio64_dll\\Domicilio64\\Domicilio.vb",
+              "RelativeDocumentMoniker": "..\\controllers\\rec.global\\2_0_stdDomicilio64_dll\\Domicilio64\\Domicilio.vb",
+              "ToolTip": "C:\\SAX\\projects\\global\\dev\\controllers\\rec.global\\2_0_stdDomicilio64_dll\\Domicilio64\\Domicilio.vb",
+              "RelativeToolTip": "..\\controllers\\rec.global\\2_0_stdDomicilio64_dll\\Domicilio64\\Domicilio.vb",
+              "ViewState": "AQIAAAIAAAAAAAAAAAA8wB0AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-07-03T23:00:45.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Empresa.vb",
+              "DocumentMoniker": "C:\\SAX\\projects\\global\\dev\\controllers\\rec.global\\2_0_stdEmpresa64_dll\\Empresa64\\Empresa.vb",
+              "RelativeDocumentMoniker": "..\\controllers\\rec.global\\2_0_stdEmpresa64_dll\\Empresa64\\Empresa.vb",
+              "ToolTip": "C:\\SAX\\projects\\global\\dev\\controllers\\rec.global\\2_0_stdEmpresa64_dll\\Empresa64\\Empresa.vb",
+              "RelativeToolTip": "..\\controllers\\rec.global\\2_0_stdEmpresa64_dll\\Empresa64\\Empresa.vb",
+              "ViewState": "AQIAAAIAAAAAAAAAAAA8wCYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-07-21T16:50:18.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmpresaNacional.vb",
+              "DocumentMoniker": "C:\\SAX\\projects\\global\\dev\\controllers\\rec.global\\2_0_stdEmpresaNacional64_dll\\EmpresaNacional64\\EmpresaNacional.vb",
+              "RelativeDocumentMoniker": "..\\controllers\\rec.global\\2_0_stdEmpresaNacional64_dll\\EmpresaNacional64\\EmpresaNacional.vb",
+              "ToolTip": "C:\\SAX\\projects\\global\\dev\\controllers\\rec.global\\2_0_stdEmpresaNacional64_dll\\EmpresaNacional64\\EmpresaNacional.vb",
+              "RelativeToolTip": "..\\controllers\\rec.global\\2_0_stdEmpresaNacional64_dll\\EmpresaNacional64\\EmpresaNacional.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-07-11T17:18:26.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PaisDomicilio.vb",
+              "DocumentMoniker": "C:\\SAX\\projects\\global\\dev\\controllers\\rec.global\\2_0_stdPaisDomicilio64_dll\\PaisDomicilio64\\PaisDomicilio.vb",
+              "RelativeDocumentMoniker": "..\\controllers\\rec.global\\2_0_stdPaisDomicilio64_dll\\PaisDomicilio64\\PaisDomicilio.vb",
+              "ToolTip": "C:\\SAX\\projects\\global\\dev\\controllers\\rec.global\\2_0_stdPaisDomicilio64_dll\\PaisDomicilio64\\PaisDomicilio.vb",
+              "RelativeToolTip": "..\\controllers\\rec.global\\2_0_stdPaisDomicilio64_dll\\PaisDomicilio64\\PaisDomicilio.vb",
+              "ViewState": "AQIAADUAAAAAAAAAAAA2wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-07-11T17:03:47.54Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

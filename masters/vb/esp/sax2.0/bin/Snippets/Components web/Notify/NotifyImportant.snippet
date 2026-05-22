@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Notify Important</Title>
+			<Shortcut>notifyImportant</Shortcut>
+			<Description> ✪ Genera un GWC:NotifyControl sobresaliente, en color purpura, al frente del formulario, con un solo botón visible ✪ </Description>
+			<Author>Francisco Olvera</Author>
+		</Header>
+		<Snippet>
+			<Code Language="HTML">
+				<![CDATA[
+        <GWC:NotifyControl runat="server" ID="$Id$" Important="true" Color="normal" Icon="$Icono$" Message="$Mensaje$" TextButton="$TextoBoton$"  />
+        ]]>
+			</Code>
+			<Declarations>
+				<Literal>
+					<ID>Id</ID>
+					<ToolTip>Ingrese el ID correspondiente que debe utilizar.</ToolTip>
+					<Default>ntNotify</Default>
+				</Literal>
+				<Literal>
+					<ID>Icono</ID>
+					<ToolTip>Visite la página de Google Icons y seleccione el icono que desea utilizar.</ToolTip>
+					<Default>notifications</Default>
+				</Literal>
+				<Literal>
+					<ID>Mensaje</ID>
+					<ToolTip>Ingrese el mensaje que se mostrará en la advertencia.</ToolTip>
+					<Default>Texto del mensaje...</Default>
+				</Literal>
+				<Literal>
+					<ID>TextoBoton</ID>
+					<ToolTip>Ingrese el texto que tendrá el botón.</ToolTip>
+					<Default>OK.</Default>
+				</Literal>
+			</Declarations>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>✪ Select WithOptions</Title>
+			<Shortcut>SelectWithOptions</Shortcut>
+			<Description> ✪ Genera un GWC:SelectControl con opciones a poner ✪ </Description>
+			<Author>Francisco Olvera</Author>
+		</Header>
+		<Snippet>
+			<Code Language="HTML">
+				<![CDATA[<GWC:SelectControl  runat="server" ID="$Id$"  Label="$Label$">
+                                            <Options>
+                                                <GWC:SelectOption Text="$TextOption$" Value="$ValueOption$" />
+                                            </Options>
+                                        </GWC:SelectControl>]]>
+			</Code>
+			<Declarations>
+				<Literal>
+					<ID>Id</ID>
+					<ToolTip>Ingrese el ID correspondiente que debe utilizar.</ToolTip>
+					<Default>icEjemplo</Default>
+				</Literal>
+				<Literal>
+					<ID>Label</ID>
+					<ToolTip>Escriba el texto para la etiqueta.</ToolTip>
+					<Default>Ingrese texto...</Default>
+				</Literal>
+				<Literal>
+					<ID>TextOption</ID>
+					<ToolTip>Escriba el texto para la opción.</ToolTip>
+					<Default>Ingrese texto...</Default>
+				</Literal>
+				<Literal>
+					<ID>ValueOption</ID>
+					<ToolTip>Escriba el valor para la opción.</ToolTip>
+					<Default>Ingrese valor...</Default>
+				</Literal>
+			</Declarations>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

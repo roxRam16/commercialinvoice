@@ -1,0 +1,117 @@
+[
+  {
+    "ContainingType": "CompaniesApi.Controllers.CompanyController",
+    "Method": "GetAll",
+    "RelativePath": "api/Company/companies/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CompaniesApi.Models.Company, CompaniesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CompaniesApi.Controllers.CompanyController",
+    "Method": "GetById",
+    "RelativePath": "api/Company/company/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CompaniesApi.Models.Company",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CompaniesApi.Controllers.CompanyController",
+    "Method": "ActiveCompany",
+    "RelativePath": "api/Company/company/active/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CompaniesApi.Controllers.CompanyController",
+    "Method": "Create",
+    "RelativePath": "api/Company/company/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "company",
+        "Type": "CompaniesApi.Models.Company",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CompaniesApi.Controllers.CompanyController",
+    "Method": "DeactiveCompany",
+    "RelativePath": "api/Company/company/deactive/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CompaniesApi.Controllers.CompanyController",
+    "Method": "Update",
+    "RelativePath": "api/Company/company/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "company",
+        "Type": "CompaniesApi.Models.Company",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

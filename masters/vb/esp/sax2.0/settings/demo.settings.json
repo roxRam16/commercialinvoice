@@ -1,0 +1,463 @@
+{
+    "about": "demo",
+    "version": "1.0.0.0",
+    "scope": "project",
+    "saxidapp":3,
+    "logs": {
+        "logcontrol": true,
+        "slots": [
+            {
+                "_id": 1,
+                "type": "basic",
+                "activated": false
+            },
+            {
+                "_id": 2,
+                "type": "full",
+                "activated": false
+            },
+            {
+                "_id": 3,
+                "type": "fsbasic",
+                "activated": true,
+                "pathlog": "c:\\logs\\"
+            },
+            {
+                "_id": 4,
+                "type": "fsbasic",
+                "activated": true,
+                "pathlog": "c:\\TransaccionesContables\\"
+            }
+        ]
+    },
+    "globals": {
+        "startAppId": 4,
+        "startCompanyGroupId": 1,
+        "startCompanySucId": 1
+    },
+    "credentials": [
+        {
+            "_id": 1,
+            "info": "for Microsoft Sql Server",
+            "user": null,
+            "password": null,
+            "card": "\\sqlserverLocalhost.key"
+        },
+        {
+            "_id": 2,
+            "info": "for MongoDB localhost",
+            "user": null,
+            "password": null,
+            "card": "\\mongodbLocalhost.key"
+        },
+        {
+            "_id": 3,
+            "info": "for MongoDB Atlas Clúster onCloud",
+            "user": null,
+            "password": null,
+            "card": "\\serverMontoAtlasCluster.key"
+        },
+        {
+            "_id": 4,
+            "info": "for Google FireBase",
+            "user": "",
+            "password": "",
+            "card": "\\googlefirebaseTest.key"
+        },
+        {
+            "_id": 5,
+            "info": "for mysql",
+            "user": null,
+            "password": null,
+            "card": "\\keymongodbLocalhost.key"
+        },
+        {
+            "_id": 6,
+            "info": "for Microsoft Sql Server",
+            "user": null,
+            "password": null,
+            "card": "\\keysqlserverLocalhost.key"
+        }
+    ],
+    "roots": [
+        {
+            "_id": 1,
+            "info": "Colección Partial",
+            "name": "PartialCollection",
+            "level": 3,
+            "rolnamelinked": "bigdataops",
+            "collection": "Reg007PartialCollection",
+            "type": "Partial",
+            "linkedresources": [
+                {
+                    "info": "Colección Partial de ejemplo",
+                    "name": "ConstructorPartialColection"
+                },
+                {
+                    "info": "Colección Partial de ejemplo 2",
+                    "name": "ConstructorPartialColectionComplementaria"
+                }
+            ]
+        },
+        {
+            "_id": 2,
+            "info": "Colección para catálogos globales",
+            "name": "Catálogos globales",
+            "level": 1,
+            "rolnamelinked": "bigdataglobals",
+            "collection": "auto",
+            "type": "Unique",
+          "linkedresources": [
+            {
+              "info": "Recurso ODF",
+              "name": "[Demo].[dbo].[Vt000Recurso]"
+            },            
+            {
+              "info": "Colección",
+              "name": "Reg000Datos"
+            }
+          ]
+        },        
+        {
+            "_id": 3,
+            "info": "Colección para catálogo de contructores por oficina",
+            "name": "CatalogoClientes",
+            "level": 3,
+            "rolnamelinked": "bigdataglobalkrom",
+            "collection": "Glo007Clientes",
+            "type": "Global",
+            "linkedresources": [
+                {
+                    "info": "Catálogo de clientes por oficina",
+                    "name": "ConstructorCliente"
+                },
+				{
+                    "info": "Catálogo de clientes por oficina",
+                    "name": "FafGlo007Clientes"
+                }
+            ]
+        },
+		{
+            "_id": 4,
+            "info": "Colección para documentos digitales",
+            "name": "CatalogoDocumentos",
+            "level": 3,
+            "rolnamelinked": "bigdatadocs",
+            "collection": "fs.files",
+            "type": "Global",
+            "linkedresources": [
+                {
+                    "info": "Catálogo de documentos",
+                    "name": "ConstructorDocumentos"
+                }
+            ]
+        } 
+    ],
+    "endpoints": [
+        {
+            "_id": 1,
+            "info": "sql server production in KROM Aduanal, include all offices",
+            "url": null,
+            "ip": "localhost",
+            "port": "default"
+        },
+        {
+            "_id": 2,
+            "info": "bigdataops Cluster Mongo",
+            "url": null,
+            "ip": "Aquí va los host que aparecen en tu mongo compass",
+            "stringoptions": "test?ssl=true&replicaSet=AQUIVALOQUEAPARECEENREPLICASETENTUMONGOCOMPASS&authSource=admin&retryWrites=true&w=majority",
+            "port": null
+        },
+        {
+            "_id": 3,
+            "info": "bigdataglobals Cluster Mongo",
+            "url": null,
+            "ip": "Aquí va los host que aparecen en tu mongo compass",
+            "stringoptions": "test?ssl=true&replicaSet=AQUIVALOQUEAPARECEENREPLICASETENTUMONGOCOMPASS&authSource=admin&retryWrites=true&w=majority",
+            "port": null
+        },
+        {
+            "_id": 4,
+            "info": "bigdataodfs Cluster Mongo",
+            "url": null,
+            "ip": "Aquí va los host que aparecen en tu mongo compass",
+            "stringoptions": "test?ssl=true&replicaSet=AQUIVALOQUEAPARECEENREPLICASETENTUMONGOCOMPASS&authSource=admin&retryWrites=true&w=majority",
+            "port": "27017"
+        },
+        {
+            "_id": 5,
+            "info": "bigdataops local Mongo",
+            "url": null,
+            "ip": "localhost",
+            "port": "27017"
+        },
+        {
+            "_id": 8,
+            "info": "for firebase",
+            "url": null,
+            "ip": null,
+            "port": "default"
+        },
+        {
+            "_id": 9,
+            "info": "for mysql",
+            "url": null,
+            "ip": "localhost",
+            "port": "3306"
+        },
+        {
+            "_id": 10,
+            "info": "sql server default",
+            "url": null,
+            "ip": "localhost",
+            "port": null
+        },
+        {
+            "_id": 11,
+            "info": "bigdataops Cluster Mongo",
+            "url": null,
+            "ip": "Aquí va los host que aparecen en tu mongo compass",
+            "stringoptions": "test?ssl=true&replicaSet=AQUIVALOQUEAPARECEENREPLICASETENTUMONGOCOMPASS&authSource=admin&retryWrites=true&w=majority",
+            "port": "27017"
+        },
+		{
+            "_id": 12,
+            "info": "bigdatadocs Cluster Mongo",
+            "url": null,
+            "ip": "Aquí va los host que aparecen en tu mongo compass",
+            "stringoptions": "test?ssl=true&replicaSet=AQUIVALOQUEAPARECEENREPLICASETENTUMONGOCOMPASS&authSource=admin&retryWrites=true&w=majority",
+            "port": "27017"
+        }        
+    ],
+    "environments": [
+        {
+            "_id": 1,
+            "name": "Veracruz",
+            "pref": "RKU",
+            "taxid": "XAXX010101000",
+            "info": "Grupo Reyes Kuri. S. C.",
+            "online": false,
+            "type": "production"
+        },
+        {
+            "_id": 3,
+            "name": "CDMX",
+            "pref": "DAI",
+            "taxid": "XAXX010101000",
+            "info": "Despachos Aereos Integrados S. C.",
+            "online": false,
+            "type": "tester"
+        }
+    ],
+    "servers": {
+        "nosql": {
+            "mongodb": {
+                "version": "3.4",
+                "rol": [
+                    {
+                        "_id": 1,
+                        "status": "on",
+                        "rolname": "bigdataops",
+                        "info": "Main bigdata database (Atlas onCloud AWS)",
+                        "name": "SynOpsKrom",
+                        "officesuffix": true,
+                        "credentialId": 3,
+                        "endpointId": 2
+                    },
+                    {
+                        "_id": 2,
+                        "status": "on",
+                        "rolname": "bigdataglobals",
+                        "info": "Globals bigdata database (Atlas onCloud AWS)",
+                        "name": "SynGlobals",
+                        "officesuffix": false,
+                        "credentialId": 3,
+                        "endpointId": 3
+                    },
+                    {
+                        "_id": 4,
+                        "status": "on",
+                        "rolname": "bigdataodfs",
+                        "info": "Flat dimensional ops bigdata (Atlas onCloud AWS)",
+                        "name": "SynOdfKrom",
+                        "officesuffix": false,
+                        "credentialId": 3,
+                        "endpointId": 4
+                    },
+					{
+                        "_id": 3,
+                        "status": "on",
+                        "rolname": "bigdataglobalkrom",
+                        "info": "Globals bigdata database (Atlas onCloud AWS)",
+                        "name": "SynGlobalKrom",
+                        "officesuffix": false,
+                        "credentialId": 3,
+                        "endpointId": 3
+                    },
+                    {
+                        "_id": 5,
+                        "status": "off",
+                        "rolname": "bigdataops",
+                        "info": "Main bigdata database (localhost)",
+                        "name": "SynOpsKrom",
+                        "officesuffix": true,
+                        "credentialId": 2,
+                        "endpointId": 5
+                    },
+                    {
+                        "_id": 6,
+                        "status": "off",
+                        "rolname": "bigdataglobals",
+                        "info": "Globals bigdata database (localhost)",
+                        "name": "SynGlobals",
+                        "officesuffix": false,
+                        "credentialId": 2,
+                        "endpointId": 5
+                    },					
+                    {
+                        "_id": 7,
+                        "status": "off",
+                        "rolname": "bigdataglobalkrom",
+                        "info": "Globals bigdata database (localhost)",
+                        "name": "SynGlobalKrom",
+                        "officesuffix": false,
+                        "credentialId": 2,
+                        "endpointId": 5
+                    },
+                    {
+                        "_id": 8,
+                        "status": "off",
+                        "rolname": "bigdataodfs",
+                        "info": "Flat dimensional ops bigdata (localhost)",
+                        "name": "SynOdfKrom",
+                        "officesuffix": false,
+                        "credentialId": 2,
+                        "endpointId": 5
+                    },
+                    {
+                        "_id": 9,
+                        "status": "off",
+                        "rolname": "bigdataops",
+                        "info": "Main bigdata database (M20)",
+                        "name": "SynOpsKrom",
+                        "officesuffix": true,
+                        "credentialId": 3,
+                        "endpointId": 11
+                    },
+                    {
+                        "_id": 10,
+                        "status": "off",
+                        "rolname": "bigdataglobals",
+                        "info": "Globals bigdata database (M20)",
+                        "name": "SynGlobals",
+                        "officesuffix": false,
+                        "credentialId": 3,
+                        "endpointId": 11
+                    },
+                    {
+                        "_id": 11,
+                        "status": "off",
+                        "rolname": "bigdataglobalkrom",
+                        "info": "Globals bigdata database (M20)",
+                        "name": "SynGlobalKrom",
+                        "officesuffix": false,
+                        "credentialId": 3,
+                        "endpointId": 11
+                    },
+                    {
+                        "_id": 12,
+                        "status": "off",
+                        "rolname": "bigdataodfs",
+                        "info": "Flat dimensional ops bigdata (M20)",
+                        "name": "SynOdfKrom",
+                        "officesuffix": false,
+                        "credentialId": 3,
+                        "endpointId": 11
+                    },
+                    {
+                        "_id": 13,
+                        "status": "on",
+                        "rolname": "bigdatadocs",
+                        "info": "Documents bigdata database (localhost)",
+                        "name": "SynDocs",
+                        "officesuffix": false,
+                        "credentialId": 2,
+                        "endpointId": 5
+                    },
+                ]
+            },
+            "firebase": {
+                "version": null,
+                "rol": [
+                    {
+                        "_id": 1,
+                        "status": "off",
+                        "rolname": "replicaDocs",
+                        "info": "Main bigdata datase",
+                        "name": "SynapsisC0001",
+                        "credentialId": 4,
+                        "endpointId": 8
+                    }
+                ]
+            }
+        },
+        "sql": {
+            "mssql": {
+                "version": "12",
+                "rol": [
+                    {
+                        "_id": 1,
+                        "status": "off",
+                        "rolname": "master",
+                        "info": "Main rdbms datase",
+                        "name": "Sax",
+                        "credentialId": 1,
+                        "endpointId": 1
+                    },
+                    {
+                        "_id": 2,
+                        "status": "on",
+                        "rolname": "dimensional",
+                        "info": "dimentional model",
+                        "name": "KBSDIM",
+                        "credentialId": 6,
+                        "endpointId": 10
+                    },
+                    {
+                        "_id": 3,
+                        "status": "on",
+                        "rolname": "log",
+                        "info": "log model",
+                        "name": "KBSBIT",
+                        "credentialId": 6,
+                        "endpointId": 10
+                    },
+                    {
+                        "_id": 4,
+                        "status": "on",
+                        "rolname": "master",
+                        "info": "Producción Oracle",
+                        "name": "Solium",
+                        "credentialId": 6,
+                        "endpointId": 10
+                    }
+                ]
+            },
+            "mysql": {
+                "version": "6.5",
+                "rol": [
+                    {
+                        "_id": 1,
+                        "status": "off",
+                        "rolname": "master",
+                        "info": "Main rdbms datase",
+                        "name": "rku_extranet",
+                        "credentialId": 4,
+                        "endpointId": 9
+                    }
+                ]
+            }
+        }
+    }
+}

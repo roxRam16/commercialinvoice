@@ -1,0 +1,9 @@
+C:\SAX\projects\synapsis.hyb\comercialinvoice\libs\bin\Controllers\Syn.CustomBrokers.Controllers.FacturasSubdividibles64.0.0.0.0.dll
+C:\SAX\projects\synapsis.hyb\comercialinvoice\libs\bin\Controllers\Syn.CustomBrokers.Controllers.FacturasSubdividibles64.0.0.0.0.pdb
+C:\SAX\projects\synapsis.hyb\comercialinvoice\dev\controllers\syn.custombrokers\1_0_stdFacturaSubdividible64_dll\FacturaSubdividible64\obj\Debug\FacturaSubdividible64.vbproj.AssemblyReference.cache
+C:\SAX\projects\synapsis.hyb\comercialinvoice\dev\controllers\syn.custombrokers\1_0_stdFacturaSubdividible64_dll\FacturaSubdividible64\obj\Debug\Syn.CustomBrokers.Controllers.Resources.resources
+C:\SAX\projects\synapsis.hyb\comercialinvoice\dev\controllers\syn.custombrokers\1_0_stdFacturaSubdividible64_dll\FacturaSubdividible64\obj\Debug\FacturaSubdividible64.vbproj.GenerateResource.cache
+C:\SAX\projects\synapsis.hyb\comercialinvoice\dev\controllers\syn.custombrokers\1_0_stdFacturaSubdividible64_dll\FacturaSubdividible64\obj\Debug\FacturaSubdividible64.vbproj.CoreCompileInputs.cache
+C:\SAX\projects\synapsis.hyb\comercialinvoice\dev\controllers\syn.custombrokers\1_0_stdFacturaSubdividible64_dll\FacturaSubdividible64\obj\Debug\FacturaS.2FFC6330.Up2Date
+C:\SAX\projects\synapsis.hyb\comercialinvoice\dev\controllers\syn.custombrokers\1_0_stdFacturaSubdividible64_dll\FacturaSubdividible64\obj\Debug\Syn.CustomBrokers.Controllers.FacturasSubdividibles64.0.0.0.0.dll
+C:\SAX\projects\synapsis.hyb\comercialinvoice\dev\controllers\syn.custombrokers\1_0_stdFacturaSubdividible64_dll\FacturaSubdividible64\obj\Debug\Syn.CustomBrokers.Controllers.FacturasSubdividibles64.0.0.0.0.pdb

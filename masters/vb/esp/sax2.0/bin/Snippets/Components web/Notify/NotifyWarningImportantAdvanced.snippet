@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Notify Warning Important Advanced</Title>
+			<Shortcut>notifyWarningImportantAdvanced</Shortcut>
+			<Description> ✪ Genera un GWC:NotifyControl sobresaliente, en color amarillo, que cubra el formulario, con dos botones al frente ✪ </Description>
+			<Author>Francisco Olvera</Author>
+		</Header>
+		<Snippet>
+			<Code Language="HTML">
+				<![CDATA[
+        <GWC:NotifyControl runat="server" ID="$Id$" Important="true" Color="advertencia" Icon="$Icono$" Message="$Mensaje$" 
+		TextButton="$TextoBoton$" OnClick="$Funcion$" TextButtonTwo="$TextoBotonTwo$" OnClickTwo="$FuncionTwo$"/>
+        ]]>
+			</Code>
+			<Declarations>
+				<Literal>
+					<ID>Id</ID>
+					<ToolTip>Ingrese el ID correspondiente que debe utilizar.</ToolTip>
+					<Default>ntNotify</Default>
+				</Literal>
+				<Literal>
+					<ID>Icono</ID>
+					<ToolTip>Visite la página de Google Icons y seleccione el icono que desea utilizar.</ToolTip>
+					<Default>warning</Default>
+				</Literal>
+				<Literal>
+					<ID>Mensaje</ID>
+					<ToolTip>Ingrese el mensaje que se mostrará en la advertencia.</ToolTip>
+					<Default>Texto del mensaje...</Default>
+				</Literal>
+				<Literal>
+					<ID>TextoBoton</ID>
+					<ToolTip>Ingrese el texto que tendrá el primer botón.</ToolTip>
+					<Default>Texto del primer botón...</Default>
+				</Literal>
+				<Literal>
+					<ID>Funcion</ID>
+					<ToolTip>Ingrese la función que ejecutará el primer botón.</ToolTip>
+					<Default>FuncionEjemplo()</Default>
+				</Literal>
+				<Literal>
+					<ID>TextoBotonTwo</ID>
+					<ToolTip>Ingrese el texto que tendrá el segundo botón.</ToolTip>
+					<Default>Texto del segundo botón...</Default>
+				</Literal>
+				<Literal>
+					<ID>FuncionTwo</ID>
+					<ToolTip>Ingrese la función que ejecutará el segundo botón.</ToolTip>
+					<Default>Ingrese la función que ejecutará el segundo botón.</Default>
+				</Literal>
+			</Declarations>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

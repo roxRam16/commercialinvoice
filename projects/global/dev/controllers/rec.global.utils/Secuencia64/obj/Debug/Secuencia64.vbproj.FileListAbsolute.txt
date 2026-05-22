@@ -1,0 +1,8 @@
+C:\SAX\projects\global\lib\controllers\rec.globals.utils\Rec.Globals.Utils.Secuencia64.0.0.0.0.dll
+C:\SAX\projects\global\lib\controllers\rec.globals.utils\Rec.Globals.Utils.Secuencia64.0.0.0.0.pdb
+C:\SAX\projects\global\dev\controllers\rec.global.utils\Secuencia64\obj\Debug\Secuencia64.vbproj.AssemblyReference.cache
+C:\SAX\projects\global\dev\controllers\rec.global.utils\Secuencia64\obj\Debug\Rec.Globals.Utils.Resources.resources
+C:\SAX\projects\global\dev\controllers\rec.global.utils\Secuencia64\obj\Debug\Secuencia64.vbproj.GenerateResource.cache
+C:\SAX\projects\global\dev\controllers\rec.global.utils\Secuencia64\obj\Debug\Secuencia64.vbproj.CoreCompileInputs.cache
+C:\SAX\projects\global\dev\controllers\rec.global.utils\Secuencia64\obj\Debug\Rec.Globals.Utils.Secuencia64.0.0.0.0.dll
+C:\SAX\projects\global\dev\controllers\rec.global.utils\Secuencia64\obj\Debug\Rec.Globals.Utils.Secuencia64.0.0.0.0.pdb

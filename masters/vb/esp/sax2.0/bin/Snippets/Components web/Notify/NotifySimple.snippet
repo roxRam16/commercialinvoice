@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Notify Simple</Title>
+			<Shortcut>notifySimple</Shortcut>
+			<Description> ✪ Genera un GWC:NotifyControl de tamaño pequeño, en color purpura, dentro del formulario, permitiendo que el usuario lo cierre ✪ </Description>
+			<Author>Francisco Olvera</Author>
+		</Header>
+		<Snippet>
+			<Code Language="HTML">
+				<![CDATA[
+        <GWC:NotifyControl runat="server" ID="$Id$" Important="false" Title="$Titulo$" CloseNotify="false" Color="normal" Message="$Mensaje$"/>
+        ]]>
+			</Code>
+			<Declarations>
+				<Literal>
+					<ID>Id</ID>
+					<ToolTip>Ingrese el ID correspondiente que debe utilizar.</ToolTip>
+					<Default>ntNotify</Default>
+				</Literal>
+				<Literal>
+					<ID>Mensaje</ID>
+					<ToolTip>Ingrese el mensaje que se mostrará en la notificación.</ToolTip>
+					<Default>Texto del mensaje...</Default>
+				</Literal>
+				<Literal>
+					<ID>Titulo</ID>
+					<ToolTip>Ingrese el titulo que se mostrara en la notificación.</ToolTip>
+					<Default>Titulo de la notificación...</Default>
+				</Literal>
+			</Declarations>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

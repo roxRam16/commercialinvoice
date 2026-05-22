@@ -1,0 +1,8 @@
+C:\SAX\projects\synapsis.hyb\products\libs\bin\controllers\Syn.CustomBrokers.Controllers.IControladorProductos64.0.0.0.0.dll
+C:\SAX\projects\synapsis.hyb\products\libs\bin\controllers\Syn.CustomBrokers.Controllers.IControladorProductos64.0.0.0.0.pdb
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.custombrokers\1_0_stdIControladorProductos64_dll\IControladorProductos64\IControladorProductos64\obj\Debug\IControladorProductos64.vbproj.AssemblyReference.cache
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.custombrokers\1_0_stdIControladorProductos64_dll\IControladorProductos64\IControladorProductos64\obj\Debug\Syn.CustomBrokers.Controllers.Resources.resources
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.custombrokers\1_0_stdIControladorProductos64_dll\IControladorProductos64\IControladorProductos64\obj\Debug\IControladorProductos64.vbproj.GenerateResource.cache
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.custombrokers\1_0_stdIControladorProductos64_dll\IControladorProductos64\IControladorProductos64\obj\Debug\IControladorProductos64.vbproj.CoreCompileInputs.cache
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.custombrokers\1_0_stdIControladorProductos64_dll\IControladorProductos64\IControladorProductos64\obj\Debug\Syn.CustomBrokers.Controllers.IControladorProductos64.0.0.0.0.dll
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.custombrokers\1_0_stdIControladorProductos64_dll\IControladorProductos64\IControladorProductos64\obj\Debug\Syn.CustomBrokers.Controllers.IControladorProductos64.0.0.0.0.pdb

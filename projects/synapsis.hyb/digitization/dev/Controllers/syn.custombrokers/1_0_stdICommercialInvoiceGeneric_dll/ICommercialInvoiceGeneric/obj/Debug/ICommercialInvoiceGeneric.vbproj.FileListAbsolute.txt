@@ -1,0 +1,14 @@
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.custombrokers\1_0_stdICommercialInvoice_dll\ICommercialInvoice\obj\Debug\ICommercialInvoiceGeneric.vbproj.AssemblyReference.cache
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.custombrokers\1_0_stdICommercialInvoice_dll\ICommercialInvoice\obj\Debug\Syn.CustomBrokers.Controllers.Digitalization.Resources.resources
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.custombrokers\1_0_stdICommercialInvoice_dll\ICommercialInvoice\obj\Debug\ICommercialInvoiceGeneric.vbproj.GenerateResource.cache
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.custombrokers\1_0_stdICommercialInvoice_dll\ICommercialInvoice\obj\Debug\ICommercialInvoiceGeneric.vbproj.CoreCompileInputs.cache
+C:\SAX\projects\synapsis.hyb\digitization\libs\bin\Controllers\Syn.CustomBrokers.Controllers.ICommercialInvoiceGeneric.0.0.0.0.dll
+C:\SAX\projects\synapsis.hyb\digitization\libs\bin\Controllers\Syn.CustomBrokers.Controllers.ICommercialInvoiceGeneric.0.0.0.0.pdb
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.custombrokers\1_0_stdICommercialInvoice_dll\ICommercialInvoice\obj\Debug\Syn.CustomBrokers.Controllers.ICommercialInvoiceGeneric.0.0.0.0.dll
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.custombrokers\1_0_stdICommercialInvoice_dll\ICommercialInvoice\obj\Debug\Syn.CustomBrokers.Controllers.ICommercialInvoiceGeneric.0.0.0.0.pdb
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.custombrokers\1_0_stdICommercialInvoiceGeneric_dll\ICommercialInvoiceGeneric\obj\Debug\ICommercialInvoiceGeneric.vbproj.AssemblyReference.cache
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.custombrokers\1_0_stdICommercialInvoiceGeneric_dll\ICommercialInvoiceGeneric\obj\Debug\Syn.CustomBrokers.Controllers.Digitalization.Resources.resources
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.custombrokers\1_0_stdICommercialInvoiceGeneric_dll\ICommercialInvoiceGeneric\obj\Debug\ICommercialInvoiceGeneric.vbproj.GenerateResource.cache
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.custombrokers\1_0_stdICommercialInvoiceGeneric_dll\ICommercialInvoiceGeneric\obj\Debug\ICommercialInvoiceGeneric.vbproj.CoreCompileInputs.cache
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.custombrokers\1_0_stdICommercialInvoiceGeneric_dll\ICommercialInvoiceGeneric\obj\Debug\Syn.CustomBrokers.Controllers.ICommercialInvoiceGeneric.0.0.0.0.dll
+C:\SAX\projects\synapsis.hyb\digitization\dev\Controllers\syn.custombrokers\1_0_stdICommercialInvoiceGeneric_dll\ICommercialInvoiceGeneric\obj\Debug\Syn.CustomBrokers.Controllers.ICommercialInvoiceGeneric.0.0.0.0.pdb

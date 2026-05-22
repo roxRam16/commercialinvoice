@@ -1,0 +1,8 @@
+C:\SAX\projects\synapsis.hyb\globals\libs\bin\controllers\Syn.CustomBrokers.Controllers.ControladorRecursosAduanales64.dll
+C:\SAX\projects\synapsis.hyb\globals\libs\bin\controllers\Syn.CustomBrokers.Controllers.ControladorRecursosAduanales64.pdb
+C:\SAX\projects\synapsis.hyb\globals\dev\controllers\syn.custombrokers\1_0_stdControladorRecursosAduanales64_dll\ControladorRecursosAduanales64\obj\Debug\ControladorRecursosAduanales64.vbproj.AssemblyReference.cache
+C:\SAX\projects\synapsis.hyb\globals\dev\controllers\syn.custombrokers\1_0_stdControladorRecursosAduanales64_dll\ControladorRecursosAduanales64\obj\Debug\Syn.CustomBrokers.Controllers.Resources.resources
+C:\SAX\projects\synapsis.hyb\globals\dev\controllers\syn.custombrokers\1_0_stdControladorRecursosAduanales64_dll\ControladorRecursosAduanales64\obj\Debug\ControladorRecursosAduanales64.vbproj.GenerateResource.cache
+C:\SAX\projects\synapsis.hyb\globals\dev\controllers\syn.custombrokers\1_0_stdControladorRecursosAduanales64_dll\ControladorRecursosAduanales64\obj\Debug\ControladorRecursosAduanales64.vbproj.CoreCompileInputs.cache
+C:\SAX\projects\synapsis.hyb\globals\dev\controllers\syn.custombrokers\1_0_stdControladorRecursosAduanales64_dll\ControladorRecursosAduanales64\obj\Debug\Syn.CustomBrokers.Controllers.ControladorRecursosAduanales64.dll
+C:\SAX\projects\synapsis.hyb\globals\dev\controllers\syn.custombrokers\1_0_stdControladorRecursosAduanales64_dll\ControladorRecursosAduanales64\obj\Debug\Syn.CustomBrokers.Controllers.ControladorRecursosAduanales64.pdb

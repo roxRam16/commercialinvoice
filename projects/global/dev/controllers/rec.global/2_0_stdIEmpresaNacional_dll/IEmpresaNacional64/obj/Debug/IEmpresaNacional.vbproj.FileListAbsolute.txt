@@ -1,0 +1,8 @@
+C:\SAX\projects\global\lib\controllers\rec.globals\Rec.Globals.IEmpresaNacional.2.0.0.0.dll
+C:\SAX\projects\global\lib\controllers\rec.globals\Rec.Globals.IEmpresaNacional.2.0.0.0.pdb
+C:\SAX\projects\global\dev\controllers\rec.global\2_0_stdIEmpresaNacional_dll\IEmpresaNacional64\obj\Debug\IEmpresaNacional.vbproj.AssemblyReference.cache
+C:\SAX\projects\global\dev\controllers\rec.global\2_0_stdIEmpresaNacional_dll\IEmpresaNacional64\obj\Debug\Rec.Globals.Empresas.Resources.resources
+C:\SAX\projects\global\dev\controllers\rec.global\2_0_stdIEmpresaNacional_dll\IEmpresaNacional64\obj\Debug\IEmpresaNacional.vbproj.GenerateResource.cache
+C:\SAX\projects\global\dev\controllers\rec.global\2_0_stdIEmpresaNacional_dll\IEmpresaNacional64\obj\Debug\IEmpresaNacional.vbproj.CoreCompileInputs.cache
+C:\SAX\projects\global\dev\controllers\rec.global\2_0_stdIEmpresaNacional_dll\IEmpresaNacional64\obj\Debug\Rec.Globals.IEmpresaNacional.2.0.0.0.dll
+C:\SAX\projects\global\dev\controllers\rec.global\2_0_stdIEmpresaNacional_dll\IEmpresaNacional64\obj\Debug\Rec.Globals.IEmpresaNacional.2.0.0.0.pdb

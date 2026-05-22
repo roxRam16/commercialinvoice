@@ -1,0 +1,8 @@
+C:\SAX\projects\global\lib\controllers\rec.globals.utils\Rec.Globals.Utils.ISecuencia.0.0.0.0.dll
+C:\SAX\projects\global\lib\controllers\rec.globals.utils\Rec.Globals.Utils.ISecuencia.0.0.0.0.pdb
+C:\SAX\projects\global\dev\controllers\rec.global.utils\ISecuencia\obj\Debug\ISecuencia.vbproj.AssemblyReference.cache
+C:\SAX\projects\global\dev\controllers\rec.global.utils\ISecuencia\obj\Debug\Rec.Globals.Utils.Resources.resources
+C:\SAX\projects\global\dev\controllers\rec.global.utils\ISecuencia\obj\Debug\ISecuencia.vbproj.GenerateResource.cache
+C:\SAX\projects\global\dev\controllers\rec.global.utils\ISecuencia\obj\Debug\ISecuencia.vbproj.CoreCompileInputs.cache
+C:\SAX\projects\global\dev\controllers\rec.global.utils\ISecuencia\obj\Debug\Rec.Globals.Utils.ISecuencia.0.0.0.0.dll
+C:\SAX\projects\global\dev\controllers\rec.global.utils\ISecuencia\obj\Debug\Rec.Globals.Utils.ISecuencia.0.0.0.0.pdb

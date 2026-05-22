@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Notify Simple Warning Locked</Title>
+			<Shortcut>notifySimpleWarningLocked</Shortcut>
+			<Description> ✪ Inserta un GWC:NotifyControl pequeño de color amarillo en el formulario, con cierre deshabilitado para el usuario ✪ </Description>
+			<Author>Francisco Olvera</Author>
+		</Header>
+		<Snippet>
+			<Code Language="HTML">
+				<![CDATA[
+        <GWC:NotifyControl runat="server" ID="$Id$" Important="false" CloseNotify="true" Color="advertencia" Message="$Mensaje$"/>
+        ]]>
+			</Code>
+			<Declarations>
+				<Literal>
+					<ID>Id</ID>
+					<ToolTip>Ingrese el ID correspondiente que debe utilizar.</ToolTip>
+					<Default>ntNotify</Default>
+				</Literal>
+				<Literal>
+					<ID>Mensaje</ID>
+					<ToolTip>Ingrese el mensaje que se mostrará en la advertencia.</ToolTip>
+					<Default>Texto del mensaje...</Default>
+				</Literal>
+			</Declarations>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

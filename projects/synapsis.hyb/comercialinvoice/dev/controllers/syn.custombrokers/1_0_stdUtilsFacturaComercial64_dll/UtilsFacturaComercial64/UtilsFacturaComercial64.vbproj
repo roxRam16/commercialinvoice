@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{649F69CE-DC01-406A-BD1C-CC312F2AD621}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Syn.CustomBrokers.Controllers</RootNamespace>
+    <AssemblyName>Syn.CustomBrokers.Controllers.UtilsFacturaComercial64.0.0.0.0</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\..\..\..\libs\bin\Controllers\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Gsol.BaseDatos.Operaciones.IOperacionesCatalogo0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\data\Gsol.BaseDatos.Operaciones.IOperacionesCatalogo0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Gsol.IEspacioTrabajo.1.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\cmf\Gsol.IEspacioTrabajo.1.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="gsol.IRecursosSistemas.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\syn\gsol.IRecursosSistemas.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="gsol.krom.EnlaceDatos64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\lnk\gsol.krom.EnlaceDatos64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="gsol.krom.EntidadDatos64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\lnk\gsol.krom.EntidadDatos64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="gsol.krom.EntidadDatosDocumento64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\lnk\gsol.krom.EntidadDatosDocumento64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="gsol.krom.IEnlaceDatos.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\lnk\gsol.krom.IEnlaceDatos.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="gsol.krom.IEntidadDatos.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\lnk\gsol.krom.IEntidadDatos.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="gsol.krom.Referencia64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\syn\gsol.krom.Referencia64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Gsol.Web.Components.CptFindbarControl64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Components web\Gsol.Web.Components.CptFindbarControl64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Gsol.Web.Components.CptSelectControl64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Components web\Gsol.Web.Components.CptSelectControl64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Gsol.Web.Components.IUIControl64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Components web\Gsol.Web.Components.IUIControl64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Gsol.Web.Components.UIControl64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Components web\Gsol.Web.Components.UIControl64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Gsol.Web.Components.UIInputControl64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Components web\Gsol.Web.Components.UIInputControl64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Gsol.Web.Components.UIInputControlDataConnection64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Components web\Gsol.Web.Components.UIInputControlDataConnection64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Gsol.Web.Components.UIInputControlDataConnector64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Components web\Gsol.Web.Components.UIInputControlDataConnector64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Gsol.Web.Template.FormularioGeneralWeb64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\web\Gsol.Web.Template.FormularioGeneralWeb64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ia.Analysis.Analysis64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\services\libs\bin\controllers\ia\Ia.Analysis.Analysis64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ia.Analysis.AnalysisDocument64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\services\libs\bin\controllers\ia\Ia.Analysis.AnalysisDocument64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ia.Analysis.IAnalysisDocument.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\services\libs\bin\controllers\ia\Ia.Analysis.IAnalysisDocument.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MongoDB.Bson">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Foreign\MongoDB.Bson.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MongoDB.Driver">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Foreign\MongoDB.Driver.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MongoDB.Driver.Core">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Foreign\MongoDB.Driver.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Rec.Globals.Controllers.ControladorEmpresas64.2.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\global\lib\controllers\rec.globals.controllers\Rec.Globals.Controllers.ControladorEmpresas64.2.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Rec.Globals.Controllers.ControladorMonedas64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\global\lib\controllers\rec.globals.controllers\Rec.Globals.Controllers.ControladorMonedas64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Rec.Globals.Controllers.ControladorPaises64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\global\lib\controllers\rec.globals.controllers\Rec.Globals.Controllers.ControladorPaises64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Rec.Globals.Controllers.IControladorEmpresas.2.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\global\lib\controllers\rec.globals.controllers\Rec.Globals.Controllers.IControladorEmpresas.2.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Rec.Globals.Controllers.IControladorMonedas64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\global\lib\controllers\rec.globals.controllers\Rec.Globals.Controllers.IControladorMonedas64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Rec.Globals.Domicilio64.2.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\global\lib\controllers\rec.globals\Rec.Globals.Domicilio64.2.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Rec.Globals.Monedas64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\global\lib\controllers\rec.globals\Rec.Globals.Monedas64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Rec.Globals.Pais64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\global\lib\controllers\rec.globals\Rec.Globals.Pais64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Rec.Globals.Utils.ControladorSecuencia64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\global\lib\controllers\rec.globals.utils\Rec.Globals.Utils.ControladorSecuencia64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Rec.Globals.Utils.IControladorSecuencia.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\global\lib\controllers\rec.globals.utils\Rec.Globals.Utils.IControladorSecuencia.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Rec.Globals.Utils.ISecuencia.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\global\lib\controllers\rec.globals.utils\Rec.Globals.Utils.ISecuencia.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Rec.Globals.Utils.Secuencia64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\global\lib\controllers\rec.globals.utils\Rec.Globals.Utils.Secuencia64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sax.SaxStatements64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\cmf\Sax.SaxStatements64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.Custombrokers.ControladorTIGIE64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\products\libs\bin\Controllers\Syn.Custombrokers.ControladorTIGIE64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.CustomBrokers.Controllers.AdditionalDetails64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\digitization\libs\bin\Controllers\Syn.CustomBrokers.Controllers.AdditionalDetails64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.CustomBrokers.Controllers.CFDIFacturaComercial64.0.0.0.0, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\libs\bin\Controllers\Syn.CustomBrokers.Controllers.CFDIFacturaComercial64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.CustomBrokers.Controllers.Cliente64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\catalogs\libs\bin\Controllers\Syn.CustomBrokers.Controllers.Cliente64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.CustomBrokers.Controllers.CommercialInvoiceAnalysis64">
+      <HintPath>..\..\..\..\..\..\digitization\libs\bin\Controllers\Syn.CustomBrokers.Controllers.CommercialInvoiceAnalysis64.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.CustomBrokers.Controllers.CommercialInvoiceCustomsDocument64.0.0.0.0, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\libs\bin\Controllers\Syn.CustomBrokers.Controllers.CommercialInvoiceCustomsDocument64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.CustomBrokers.Controllers.ConsigneeDetails64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\digitization\libs\bin\Controllers\Syn.CustomBrokers.Controllers.ConsigneeDetails64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.CustomBrokers.Controllers.ControladorClientes64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\catalogs\libs\bin\Controllers\Syn.CustomBrokers.Controllers.ControladorClientes64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.CustomBrokers.Controllers.ControladorFacturaComercial64.0.0.0.0, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\libs\bin\Controllers\Syn.CustomBrokers.Controllers.ControladorFacturaComercial64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.CustomBrokers.Controllers.ControladorProductos64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\products\libs\bin\Controllers\Syn.CustomBrokers.Controllers.ControladorProductos64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.CustomBrokers.Controllers.ControladorRecursosAduanalesGral64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\globals\libs\bin\controllers\Syn.CustomBrokers.Controllers.ControladorRecursosAduanalesGral64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.CustomBrokers.Controllers.ControladorUnidadesMedida64">
+      <HintPath>..\..\..\..\..\..\globals\libs\bin\controllers\Syn.CustomBrokers.Controllers.ControladorUnidadesMedida64.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.CustomBrokers.Controllers.CtrlProveedoresOperativos64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\products\libs\bin\Controllers\Syn.CustomBrokers.Controllers.CtrlProveedoresOperativos64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.CustomBrokers.Controllers.Customer64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\digitization\libs\bin\Controllers\Syn.CustomBrokers.Controllers.Customer64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.CustomBrokers.Controllers.ICommercialInvoiceCustomsDocument.0.0.0.0, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\libs\bin\Controllers\Syn.CustomBrokers.Controllers.ICommercialInvoiceCustomsDocument.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.CustomBrokers.Controllers.IControladorClientes64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\catalogs\libs\bin\Controllers\Syn.CustomBrokers.Controllers.IControladorClientes64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.CustomBrokers.Controllers.IControladorFacturaComercial64.0.0.0.0, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\libs\bin\Controllers\Syn.CustomBrokers.Controllers.IControladorFacturaComercial64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.CustomBrokers.Controllers.IControladorProductos64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\products\libs\bin\Controllers\Syn.CustomBrokers.Controllers.IControladorProductos64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.CustomBrokers.Controllers.ICustomer.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\digitization\libs\bin\Controllers\Syn.CustomBrokers.Controllers.ICustomer.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.CustomBrokers.Controllers.IItem.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\digitization\libs\bin\Controllers\Syn.CustomBrokers.Controllers.IItem.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.CustomBrokers.Controllers.ISupplier.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\digitization\libs\bin\Controllers\Syn.CustomBrokers.Controllers.ISupplier.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.CustomBrokers.Controllers.Item64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\digitization\libs\bin\Controllers\Syn.CustomBrokers.Controllers.Item64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.CustomBrokers.Controllers.Supplier64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\digitization\libs\bin\Controllers\Syn.CustomBrokers.Controllers.Supplier64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.Custombrokers.IControladorTIGIE64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\products\libs\bin\Controllers\Syn.Custombrokers.IControladorTIGIE64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.Documento.Componentes.Campo64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\syn\Syn.Documento.Componentes.Campo64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.Documento.Componentes.Nodo64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\syn\Syn.Documento.Componentes.Nodo64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.Documento.Componentes.NodoGenerico64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\syn\Syn.Documento.Componentes.NodoGenerico64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.Documento.Componentes.Partida64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\syn\Syn.Documento.Componentes.Partida64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.Documento.Componentes.Seccion64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\syn\Syn.Documento.Componentes.Seccion64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.Documento.ConstructorCliente64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\catalogs\libs\bin\Controllers\Syn.Documento.ConstructorCliente64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.Documento.ConstructorDestinatario64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\products\libs\bin\Controllers\Syn.Documento.ConstructorDestinatario64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.Documento.ConstructorFacturaComercial64.0.0.0.0, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\libs\bin\Controllers\Syn.Documento.ConstructorFacturaComercial64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.Documento.ConstructorProveedoresOperativos64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\products\libs\bin\Controllers\Syn.Documento.ConstructorProveedoresOperativos64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.Documento.ConstructorSubdivisionFacturaComercial64.0.0.0.0, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\libs\bin\Controllers\Syn.Documento.ConstructorSubdivisionFacturaComercial64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.Documento.ControladorBusqueda64.0.0.0.0, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\syn\Syn.Documento.ControladorBusqueda64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.Documento.Documento64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\syn\Syn.Documento.Documento64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.Documento.DocumentoElectronico64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\syn\Syn.Documento.DocumentoElectronico64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.Documento.OperacionGenerica64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\syn\Syn.Documento.OperacionGenerica64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.Documento.Recursos64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\syn\Syn.Documento.Recursos64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.Nucleo.RecursosComercioExterior64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\globals\libs\bin\controllers\Syn.Nucleo.RecursosComercioExterior64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.Operaciones.DocumentoAsociado64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\syn\Syn.Operaciones.DocumentoAsociado64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.Operaciones.IMetadatos.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\syn\Syn.Operaciones.IMetadatos.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.Operaciones.Metadatos.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\syn\Syn.Operaciones.Metadatos.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.Operaciones.TransaccionesDocumentos64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\syn\Syn.Operaciones.TransaccionesDocumentos64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.Utils.ControladorDocumentosAsociados64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\syn\Syn.Utils.ControladorDocumentosAsociados64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.Utils.ControladorFirmaElectronica64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\syn\Syn.Utils.ControladorFirmaElectronica64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Syn.Utils.SelectOption64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\syn\Syn.Utils.SelectOption64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="TagWatcher64.0.0.0.0">
+      <HintPath>..\..\..\..\..\..\..\..\masters\vb\esp\sax2.0\bin\Core\syn\TagWatcher64.0.0.0.0.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="UtilsFacturaComercial.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(TargetPath)" "C:\sax\projects\synapsis.hyb\comercialinvoice\dev\main\bin"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

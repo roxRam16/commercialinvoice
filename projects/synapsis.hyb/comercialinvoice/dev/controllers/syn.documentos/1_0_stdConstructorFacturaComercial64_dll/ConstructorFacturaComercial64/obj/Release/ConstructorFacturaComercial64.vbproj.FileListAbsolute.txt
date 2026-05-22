@@ -1,0 +1,8 @@
+C:\SAX\projects\synapsis.hyb\comercialinvoice\libs\bin\controllers\Syn.Documento.ConstructorFacturaComercial64.0.0.0.0.dll
+C:\SAX\projects\synapsis.hyb\comercialinvoice\libs\bin\controllers\Syn.Documento.ConstructorFacturaComercial64.0.0.0.0.pdb
+C:\SAX\projects\synapsis.hyb\comercialinvoice\dev\controllers\syn.documentos\1_0_stdConstructorFacturaComercial64_dll\ConstructorFacturaComercial64\obj\Release\ConstructorFacturaComercial64.vbproj.AssemblyReference.cache
+C:\SAX\projects\synapsis.hyb\comercialinvoice\dev\controllers\syn.documentos\1_0_stdConstructorFacturaComercial64_dll\ConstructorFacturaComercial64\obj\Release\Resources.resources
+C:\SAX\projects\synapsis.hyb\comercialinvoice\dev\controllers\syn.documentos\1_0_stdConstructorFacturaComercial64_dll\ConstructorFacturaComercial64\obj\Release\ConstructorFacturaComercial64.vbproj.GenerateResource.cache
+C:\SAX\projects\synapsis.hyb\comercialinvoice\dev\controllers\syn.documentos\1_0_stdConstructorFacturaComercial64_dll\ConstructorFacturaComercial64\obj\Release\ConstructorFacturaComercial64.vbproj.CoreCompileInputs.cache
+C:\SAX\projects\synapsis.hyb\comercialinvoice\dev\controllers\syn.documentos\1_0_stdConstructorFacturaComercial64_dll\ConstructorFacturaComercial64\obj\Release\Syn.Documento.ConstructorFacturaComercial64.0.0.0.0.dll
+C:\SAX\projects\synapsis.hyb\comercialinvoice\dev\controllers\syn.documentos\1_0_stdConstructorFacturaComercial64_dll\ConstructorFacturaComercial64\obj\Release\Syn.Documento.ConstructorFacturaComercial64.0.0.0.0.pdb

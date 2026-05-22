@@ -1,0 +1,8 @@
+C:\SAX\projects\synapsis.hyb\products\libs\bin\controllers\Syn.Documento.ConstructorProveedoresOperativos64.0.0.0.0.dll
+C:\SAX\projects\synapsis.hyb\products\libs\bin\controllers\Syn.Documento.ConstructorProveedoresOperativos64.0.0.0.0.pdb
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.documentos\1_0_stdConstructorProveedorOperativo64_dll\ConstructorProveedorOperativo64\obj\Debug\ConstructorProveedorOperativo64.vbproj.AssemblyReference.cache
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.documentos\1_0_stdConstructorProveedorOperativo64_dll\ConstructorProveedorOperativo64\obj\Debug\Resources.resources
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.documentos\1_0_stdConstructorProveedorOperativo64_dll\ConstructorProveedorOperativo64\obj\Debug\ConstructorProveedorOperativo64.vbproj.GenerateResource.cache
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.documentos\1_0_stdConstructorProveedorOperativo64_dll\ConstructorProveedorOperativo64\obj\Debug\ConstructorProveedorOperativo64.vbproj.CoreCompileInputs.cache
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.documentos\1_0_stdConstructorProveedorOperativo64_dll\ConstructorProveedorOperativo64\obj\Debug\Syn.Documento.ConstructorProveedoresOperativos64.0.0.0.0.dll
+C:\SAX\projects\synapsis.hyb\products\dev\controllers\syn.documentos\1_0_stdConstructorProveedorOperativo64_dll\ConstructorProveedorOperativo64\obj\Debug\Syn.Documento.ConstructorProveedoresOperativos64.0.0.0.0.pdb

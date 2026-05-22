@@ -1,0 +1,14 @@
+C:\sax\projects\global\lib\rec.globals\Rec.Globals.FacturaComercial64.2.0.0.0.dll
+C:\sax\projects\global\lib\rec.globals\Rec.Globals.FacturaComercial64.2.0.0.0.pdb
+C:\sax\projects\global\dev\rec.global\2_0_stdFacturaComercial_dll\FacturaComercial64\obj\Debug\FacturaComercial64.vbproj.AssemblyReference.cache
+C:\sax\projects\global\dev\rec.global\2_0_stdFacturaComercial_dll\FacturaComercial64\obj\Debug\Rec.Globals.FacturaComercial.Resources.resources
+C:\sax\projects\global\dev\rec.global\2_0_stdFacturaComercial_dll\FacturaComercial64\obj\Debug\FacturaComercial64.vbproj.GenerateResource.cache
+C:\sax\projects\global\dev\rec.global\2_0_stdFacturaComercial_dll\FacturaComercial64\obj\Debug\FacturaComercial64.vbproj.CoreCompileInputs.cache
+C:\sax\projects\global\dev\rec.global\2_0_stdFacturaComercial_dll\FacturaComercial64\obj\Debug\Rec.Globals.FacturaComercial64.2.0.0.0.dll
+C:\sax\projects\global\dev\rec.global\2_0_stdFacturaComercial_dll\FacturaComercial64\obj\Debug\Rec.Globals.FacturaComercial64.2.0.0.0.pdb
+C:\sax\projects\global\dev\rec.global\1_0_stdFacturaComercial64_dll\FacturaComercial64\obj\Debug\FacturaComercial64.vbproj.AssemblyReference.cache
+C:\sax\projects\global\dev\rec.global\1_0_stdFacturaComercial64_dll\FacturaComercial64\obj\Debug\Rec.Globals.FacturaComercial.Resources.resources
+C:\sax\projects\global\dev\rec.global\1_0_stdFacturaComercial64_dll\FacturaComercial64\obj\Debug\FacturaComercial64.vbproj.GenerateResource.cache
+C:\sax\projects\global\dev\rec.global\1_0_stdFacturaComercial64_dll\FacturaComercial64\obj\Debug\FacturaComercial64.vbproj.CoreCompileInputs.cache
+C:\sax\projects\global\dev\rec.global\1_0_stdFacturaComercial64_dll\FacturaComercial64\obj\Debug\Rec.Globals.FacturaComercial64.2.0.0.0.dll
+C:\sax\projects\global\dev\rec.global\1_0_stdFacturaComercial64_dll\FacturaComercial64\obj\Debug\Rec.Globals.FacturaComercial64.2.0.0.0.pdb

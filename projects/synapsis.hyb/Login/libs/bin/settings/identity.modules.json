@@ -1,0 +1,57 @@
+{
+    "about": "Krombase",
+    "scope": "project",
+    "version": "5.0.0.0",
+    "workspace": {
+        "defaults": {
+            "_id": 0,
+            "activated": true,
+            "alternativedatasource": null,
+            "autosets": false,
+            "config": {
+                "EV": null,
+                "WV": null,
+                "allenvironments": "-1",
+                "assemblyname": "Gsol.Modulos.GenericCatalog64.1.0.0.0.dll",
+                "formname": "Gsol.Modulos.GenericCatalog64.Frm000Generic",
+                "keyfield": null,
+                "table": null,
+                "upsertkeyname": null
+            },
+            "customcolumns": null,
+            "datamirrors": null,
+            "datasource": null,
+            "dboperators": {
+                "deleteoperator": "Sp000OperadorCatalogosBorrado",
+                "insertoperator": "Sp000OperadorCatalogosInserciones",
+                "updateoperator": "Sp000OperadorCatalogosModificaciones"
+            },
+            "info": "",
+            "lnksets": {
+                "dimension": "auto",
+                "entity": null,
+                "granularity": null
+            },
+            "operatorform": {
+                "assembly": "Gsol.Modulos.GenericOperators64.1.0.0.0.dll",
+                "cancontrolsw": true,
+                "formname": "Gsol.Modulos.GenericOperators64.frm000Formulario",
+                "showsinglewindow": false
+            },
+            "permissions": {
+                "delete": "118",
+                "insert": "118",
+                "query": "118",
+                "refresh": "118",
+                "update": "118"
+            },
+            "title": "New module",
+            "tokenid": null,
+            "type": "module",
+            "version": "0.0.0.0"
+        },
+        "modules": [
+           
+        ]
+    }
+}

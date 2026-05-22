@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>✪ Button Simple</Title>
+			<Shortcut>buttonSimple</Shortcut>
+			<Description> ✪ Genera un GWC:ButtonControl simple  ✪ </Description>
+			<Author>Francisco Olvera</Author>
+		</Header>
+		<Snippet>
+			<Code Language="HTML">
+				<![CDATA[<GWC:ButtonControl  runat="server" ID="$Id$" OnClick="$Funcion$" Label="$Texto$"/>]]>
+			</Code>
+			<Declarations>
+				<Literal>
+					<ID>Id</ID>
+					<ToolTip>Ingrese el ID correspondiente que debe utilizar.</ToolTip>
+					<Default>bcEjemplo</Default>
+				</Literal>
+				<Literal>
+					<ID>Funcion</ID>
+					<ToolTip>Añada la funcion que va a utilizar al cliquear el botón</ToolTip>
+					<Default>Funcion()</Default>
+				</Literal>
+				<Literal>
+					<ID>Texto</ID>
+					<ToolTip>Añada el texto que tendrá el botón</ToolTip>
+					<Default>OK</Default>
+				</Literal>
+			</Declarations>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>✪ Input Integer</Title>
+			<Shortcut>inputInteger</Shortcut>
+			<Description> ✪ Genera un GWC:InputControl de tipo Integer ✪ </Description>
+			<Author>Francisco Olvera</Author>
+		</Header>
+		<Snippet>
+			<Code Language="HTML">
+				<![CDATA[<GWC:InputControl runat="server" ID="$Id$" Type="Text" Format="Integer" Label="$Texto$"  ExternalAutoPostBack="$Evento$"/>]]>
+			</Code>
+			<Declarations>
+				<Literal>
+					<ID>Id</ID>
+					<ToolTip>Ingrese el ID correspondiente que debe utilizar.</ToolTip>
+					<Default>icEjemplo</Default>
+				</Literal>
+					<Literal>
+					<ID>Evento</ID>
+					<ToolTip>Ponerlo en "true" si se va a estar utilizando algun evento.</ToolTip>
+					<Default>false</Default>
+				</Literal>
+				<Literal>
+					<ID>Texto</ID>
+					<ToolTip>Escriba el texto para la etiqueta.</ToolTip>
+					<Default>Ingrese texto...</Default>
+				</Literal>
+			</Declarations>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

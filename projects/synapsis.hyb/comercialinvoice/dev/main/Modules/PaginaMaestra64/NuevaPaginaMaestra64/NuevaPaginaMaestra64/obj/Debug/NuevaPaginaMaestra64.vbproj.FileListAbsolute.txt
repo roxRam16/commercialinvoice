@@ -1,0 +1,16 @@
+C:\SAX\projects\operations\dev\synapsis.operations\1_0_stdOperations64_dll\Operations64\Modules\PaginaMaestra64\NuevaPaginaMaestra64\NuevaPaginaMaestra64\obj\Debug\NuevaPaginaMaestra64.vbproj.AssemblyReference.cache
+C:\SAX\projects\operations\dev\synapsis.operations\1_0_stdOperations64_dll\Operations64\Modules\PaginaMaestra64\NuevaPaginaMaestra64\NuevaPaginaMaestra64\obj\Debug\NuevaPaginaMaestra64.vbproj.GenerateResource.cache
+C:\SAX\projects\operations\dev\synapsis.operations\1_0_stdOperations64_dll\Operations64\Modules\PaginaMaestra64\NuevaPaginaMaestra64\NuevaPaginaMaestra64\obj\Debug\NuevaPaginaMaestra64.vbproj.CoreCompileInputs.cache
+C:\SAX\projects\operations\libs\bin\Modules\Gsol.Web.Modulos.NuevaPaginaMaestra64.0.0.0.dll
+C:\SAX\projects\operations\libs\bin\Modules\Gsol.Web.Modulos.NuevaPaginaMaestra64.0.0.0.pdb
+C:\SAX\projects\operations\dev\synapsis.operations\1_0_stdOperations64_dll\Operations64\Modules\PaginaMaestra64\NuevaPaginaMaestra64\NuevaPaginaMaestra64\obj\Debug\Gsol.Web.Modulos.Resources.resources
+C:\SAX\projects\operations\dev\synapsis.operations\1_0_stdOperations64_dll\Operations64\Modules\PaginaMaestra64\NuevaPaginaMaestra64\NuevaPaginaMaestra64\obj\Debug\Gsol.Web.Modulos.NuevaPaginaMaestra64.0.0.0.dll
+C:\SAX\projects\operations\dev\synapsis.operations\1_0_stdOperations64_dll\Operations64\Modules\PaginaMaestra64\NuevaPaginaMaestra64\NuevaPaginaMaestra64\obj\Debug\Gsol.Web.Modulos.NuevaPaginaMaestra64.0.0.0.pdb
+C:\SAX\projects\synapsis.hyb\comercialinvoice\libs\bin\Modules\Gsol.Web.Modulos.NuevaPaginaMaestra64.0.0.0.dll
+C:\SAX\projects\synapsis.hyb\comercialinvoice\libs\bin\Modules\Gsol.Web.Modulos.NuevaPaginaMaestra64.0.0.0.pdb
+C:\SAX\projects\synapsis.hyb\comercialinvoice\dev\main\Modules\PaginaMaestra64\NuevaPaginaMaestra64\NuevaPaginaMaestra64\obj\Debug\NuevaPaginaMaestra64.vbproj.AssemblyReference.cache
+C:\SAX\projects\synapsis.hyb\comercialinvoice\dev\main\Modules\PaginaMaestra64\NuevaPaginaMaestra64\NuevaPaginaMaestra64\obj\Debug\Gsol.Web.Modulos.Resources.resources
+C:\SAX\projects\synapsis.hyb\comercialinvoice\dev\main\Modules\PaginaMaestra64\NuevaPaginaMaestra64\NuevaPaginaMaestra64\obj\Debug\NuevaPaginaMaestra64.vbproj.GenerateResource.cache
+C:\SAX\projects\synapsis.hyb\comercialinvoice\dev\main\Modules\PaginaMaestra64\NuevaPaginaMaestra64\NuevaPaginaMaestra64\obj\Debug\NuevaPaginaMaestra64.vbproj.CoreCompileInputs.cache
+C:\SAX\projects\synapsis.hyb\comercialinvoice\dev\main\Modules\PaginaMaestra64\NuevaPaginaMaestra64\NuevaPaginaMaestra64\obj\Debug\Gsol.Web.Modulos.NuevaPaginaMaestra64.0.0.0.dll
+C:\SAX\projects\synapsis.hyb\comercialinvoice\dev\main\Modules\PaginaMaestra64\NuevaPaginaMaestra64\NuevaPaginaMaestra64\obj\Debug\Gsol.Web.Modulos.NuevaPaginaMaestra64.0.0.0.pdb

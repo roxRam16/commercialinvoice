@@ -1,0 +1,14 @@
+C:\sax\projects\global\lib\rec.globals\Rec.Globals.IFacturaComercial.2.0.0.0.dll
+C:\sax\projects\global\lib\rec.globals\Rec.Globals.IFacturaComercial.2.0.0.0.pdb
+C:\sax\projects\global\dev\rec.global\2_0_stdIFacturaComercial64_dll\IFacturaComercial64\obj\Debug\IFacturaComercial.vbproj.AssemblyReference.cache
+C:\sax\projects\global\dev\rec.global\2_0_stdIFacturaComercial64_dll\IFacturaComercial64\obj\Debug\Rec.Globals.FacturaComercial.Resources.resources
+C:\sax\projects\global\dev\rec.global\2_0_stdIFacturaComercial64_dll\IFacturaComercial64\obj\Debug\IFacturaComercial.vbproj.GenerateResource.cache
+C:\sax\projects\global\dev\rec.global\2_0_stdIFacturaComercial64_dll\IFacturaComercial64\obj\Debug\IFacturaComercial.vbproj.CoreCompileInputs.cache
+C:\sax\projects\global\dev\rec.global\2_0_stdIFacturaComercial64_dll\IFacturaComercial64\obj\Debug\Rec.Globals.IFacturaComercial.2.0.0.0.dll
+C:\sax\projects\global\dev\rec.global\2_0_stdIFacturaComercial64_dll\IFacturaComercial64\obj\Debug\Rec.Globals.IFacturaComercial.2.0.0.0.pdb
+C:\sax\projects\global\dev\rec.global\1_0_stdIFacturaComercial_dll\IFacturaComercial64\obj\Debug\IFacturaComercial.vbproj.AssemblyReference.cache
+C:\sax\projects\global\dev\rec.global\1_0_stdIFacturaComercial_dll\IFacturaComercial64\obj\Debug\Rec.Globals.FacturaComercial.Resources.resources
+C:\sax\projects\global\dev\rec.global\1_0_stdIFacturaComercial_dll\IFacturaComercial64\obj\Debug\IFacturaComercial.vbproj.GenerateResource.cache
+C:\sax\projects\global\dev\rec.global\1_0_stdIFacturaComercial_dll\IFacturaComercial64\obj\Debug\IFacturaComercial.vbproj.CoreCompileInputs.cache
+C:\sax\projects\global\dev\rec.global\1_0_stdIFacturaComercial_dll\IFacturaComercial64\obj\Debug\Rec.Globals.IFacturaComercial.2.0.0.0.dll
+C:\sax\projects\global\dev\rec.global\1_0_stdIFacturaComercial_dll\IFacturaComercial64\obj\Debug\Rec.Globals.IFacturaComercial.2.0.0.0.pdb

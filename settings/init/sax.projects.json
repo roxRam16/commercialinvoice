@@ -1,0 +1,659 @@
+{
+	"about": "Sax Framework 28102021. Beta",
+	"version": "2.0.0.0",
+	"saxsh": "%saxpath%\\masters\\vb\\esp\\sax2.0\\saxsh\\saxsh.exe -?",
+	"defaultsettings": "..\\..\\..\\..\\..\\..\\settings\\init\\saxsettings.json",
+	"workdirectory": "..\\..\\..\\..\\..\\projects\\",
+	"projects": [	
+		{
+			"_id": 1,
+			"saxidapp": 16,
+			"name": "Cube",
+			"info": "Cube Online",
+			"type": "Web",
+			"status": "on",
+			"activated": true,
+			"online": false,
+			"roladmin": "slave",
+			"industry": "Broker Agents|import & exports",
+			"language": "es",
+			"directoryname": "services",
+			"prjsettings": "C:\\SAX\\projects\\services\\libs\\bin\\settings\\cube.settings.json",
+			"modulessettings": "C:\\SAX\\projects\\services\\libs\\bin\\settings\\cube.modules.json",
+			"modulesbinaries": "..\\modules"
+		},	
+		{
+			"_id": 2,
+			"saxidapp": 17,
+			"name": "Identity",
+			"info": "Identity Online",
+			"type": "Web",
+			"status": "on",
+			"activated": true,
+			"online": false,
+			"targetenvironment":{
+				                  "_id":1,
+			                     "productionurl":"synapsis-app.click",
+								 "sandboxurl":"localhost",
+								 "activeproduction":false},
+			"roladmin": "slave",
+			"industry": "Broker Agents|import & exports",
+			"endpointpods":[    
+				            {
+  			         	      "_id": 1,
+		                      "info": "Segmento de Login en Pod Accounts",
+							  "name": "SynLogin",
+   				              "url": null,
+                              "ip": "localhost",
+			                  "protocols":[
+						                    {
+								           	  "type": "http",
+			    	                          "port": "14326"
+					                         },
+						                     {
+							            		"type": "https",
+								            	"port": "44326"
+    							         	 }
+							            	  ]
+							},
+				            {
+  				                "_id": 2,
+		                        "info": "Segmento de MasterPage em Pod Accounts",
+								"name": "SynMasterPage",
+					            "url": "synapsis-sandbox.click",
+                                "ip": null,
+			                     "protocols":[
+					                           {
+									             "type": "http",
+			    	                             "port": "14325"
+             					               },
+			                		           {
+							              		"type": "https",
+							             		"port": "44325"
+    								           }
+								  ]
+					       },
+				           {
+  			        	      "_id": 3,
+         		              "info": "Segmento de Operartions en POD Operations",
+							   "name": "SynOperations",
+					            "url": "synapsis-sandbox.click",
+                                "ip": null,
+			                  "protocols":[
+				          		           {
+					          				  "type": "http",
+			    	                          "port": "14329"
+					                       },
+						                   {
+							                   "type": "https",
+									           "port": "44329"
+    							           }
+								  ]
+				         	},
+				           {
+  				              "_id": 4,
+		                       "info": "Segmento de Catalogs en POD Catalogs",
+							   "name": "SynCatalogs",
+					            "url": "synapsis-sandbox.click",
+                                "ip": null,
+		                       "protocols":[
+						           {
+									  "type": "http",
+			    	                  "port": "14333"
+					               },
+						           {
+									"type": "https",
+									"port": "44333"
+    								 }
+								  ]
+					},
+				    {
+  				      "_id": 5,
+		              "info": "Segmento de ComercialInvoices en pod ComercialInvoices",
+					  "name": "SynComercialInvoices",
+					  "url": null,
+                      "ip": "localhost",
+			          "protocols":[
+						           {
+									  "type": "http",
+			    	                  "port": "14330"
+					               },
+						           {
+									"type": "https",
+									"port": "44330"
+    								 }
+								  ]
+					},
+					{
+     				  "_id": 6,
+					  "info": "Segmento de Services en Pod Services",
+					  "name": "SynServices",
+					  "url": null,
+					  "ip": "localhost",
+					  "protocols":[
+								   {
+									  "type": "http",
+									  "port": "14335"
+								   },
+								   {
+  									  "type": "https",
+									  "port": "44435"
+									}
+								  ]
+					},
+					{
+					  "_id": 7,
+    				  "info": "Segmento de Controls en POD Controls",
+					  "name": "SynControls",
+					  "url": "synapsis-sandbox.click",
+					  "ip": null,
+					  "protocols":[
+      							    {
+									  "type": "http",
+									  "port": "80"
+									},
+									{
+									  "type": "https",
+									  "port": "443"
+									 }
+								  ]
+					},
+					{
+						"_id": 8,
+						"info": "Segmento de Globals en POD Globals",
+						"name": "SynGlobals",
+						"url": "synapsis-sandbox.click",
+						"ip": null,
+						"protocols":[
+										{
+										"type": "http",
+										"port": "80"
+									  },
+									  {
+										"type": "https",
+										"port": "443"
+									   }
+									]
+					  },					
+					{
+					  "_id": 9,
+					  "info": "Segmento de Products en POD Products",
+					  "name": "SynProducts",
+					  "url": "synapsis-sandbox.click",
+					  "ip": null,
+					  "protocols":[
+								   {
+									  "type": "http",
+									  "port": "80"
+								   },
+								   {
+					  				  "type": "https",
+									  "port": "443"
+									}
+								  ]
+					},
+					{
+					  "_id": 10,
+					  "info": "Segmento de References en POD References",
+					  "name": "SynReferences",
+					  "url": "synapsis-sandbox.click",
+					  "ip": null,
+					  "protocols":[
+								   {
+					 			      "type": "http",
+									  "port": "80"
+									},
+									{
+									  "type": "https",
+									  "port": "443"
+									}
+								  ]
+					},
+					{
+						"_id": 11,
+						"info": "Segmento de Digitization en POD Services",
+						"name": "SynDigitization",
+						"url":"synapsis-sandbox.click",
+						"ip":  null,
+						"protocols":[
+									 {
+										 "type": "http",
+										"port": "80"
+									  },
+									  {
+										"type": "https",
+										"port": "443"
+									  }
+									]
+					  },
+					  {
+						"_id": 12,
+						"info": "Segmento de Reportings en POD Reporting",
+						"name": "SynReporting",
+						"url": "synapsis-sandbox.click",
+						"ip": null,
+						"protocols":[
+									 {
+										 "type": "http",
+										"port": "80"
+									  },
+									  {
+										"type": "https",
+										"port": "443"
+									  }
+									]
+					  },
+					  {
+						"_id": 13,
+						"info": "Segmento de Third-Party en POD Third-Party",
+						"name": "SynThird-Party",
+						"url": "synapsis-sandbox.click",
+						"ip": null,
+						"protocols":[
+									 {
+										 "type": "http",
+										"port": "80"
+									  },
+									  {
+										"type": "https",
+										"port": "443"
+									  }
+									]
+					  },
+					  {
+						"_id": 14,
+						"info": "Segmento de Machine Learnings en POD MachineLearnings",
+						"name": "SynMachineLearnings ",
+						"url": "synapsis-sandbox.click",
+						"ip": null,
+						"protocols":[
+									 {
+										 "type": "http",
+										"port": "80"
+									  },
+									  {
+										"type": "https",
+										"port": "443"
+									  }
+									]
+					  },
+					  {
+						"_id": 14,
+						"info": "Segmento de Machine Learnings en POD MachineLearnings",
+						"name": "SynTIGIE",
+						"url": "synapsis-sandbox.click",
+						"ip": null,
+						"protocols":[
+									 {
+										 "type": "http",
+										"port": "44340"
+									  },
+									  {
+										"type": "https",
+										"port": "44340"
+									  }
+									]
+					  }																											  
+			],				
+			"language": "es",
+			"directoryname": "services",
+			"prjsettings": "C:\\SAX\\projects\\synapsis.hyb\\login\\libs\\bin\\settings\\identity.settings.json",
+			"modulessettings": "C:\\SAX\\projects\\synapsis.hyb\\login\\libs\\bin\\settings\\identity.modules.json",
+			"modulesbinaries": "..\\modules"
+		},
+		{
+			"_id":3,
+			"saxidapp": 18,
+			"name": "IA",
+			"info": "IA Online",
+			"type": "Web",
+			"status": "on",
+			"activated": true,
+			"online": false,
+			"roladmin": "slave",
+			"industry": "Broker Agents|import & exports",
+			"language": "es",
+			"directoryname": "services",
+			"prjsettings": "C:\\SAX\\projects\\services\\libs\\bin\\settings\\ia.settings.json",
+			"modulessettings": "C:\\SAX\\projects\\services\\libs\\bin\\settings\\ia.modules.json",
+			"modulesbinaries": "..\\modules"
+		},
+		{
+			"_id": 4,
+			"saxidapp": 19,
+			"name": "Synapsis MasterPage",
+			"info": "Website Synapsis",
+			"type": "Web",
+			"status": "on",
+			"activated": true,
+			"online": false,
+			"roladmin":"slave",
+			"slaves":[{"saxappid":16,"name":"Cube", "typeconnection":0},
+			          {"saxappid":17,"name":"Identity", "typeconnection":0},
+			          {"saxappid":18,"name":"IA", "typeconnection":0}],
+			"industry": "Broker Agents|import & exports",
+			"language": "es",
+			"directoryname": "synapsis",
+			"prjsettings": "C:\\SAX\\projects\\synapsis.hyb\\masterpage\\libs\\bin\\settings\\synapsis.settings.json",
+			"modulessettings": "C:\\SAX\\projects\\synapsis.hyb\\masterpage\\libs\\bin\\settings\\synapsis.modules.json",
+			"modulesbinaries": "..\\modules"
+		},
+		{
+			"_id": 5,
+			"saxidapp": 20,
+			"name": "Synapsis Operations",
+			"info": "Website Synapsis",
+			"type": "Web",
+			"status": "on",
+			"activated": true,
+			"online": false,
+			"roladmin":"slave",
+			"slaves":[{"saxappid":16,"name":"Cube", "typeconnection":0},
+			         {"saxappid":17,"name":"Identity", "typeconnection":0},
+			          {"saxappid":18,"name":"IA", "typeconnection":0},
+					  {"saxappid":22,"name":"Synapsis Catalogs", "typeconnection":0},
+					  {"saxappid":26,"name":"Synapsis Globals", "typeconnection":0},
+					  {"saxappid":27,"name":"Synapsis Products", "typeconnection":0}],
+			"industry": "Broker Agents|import & exports",
+			"language": "es",
+			"directoryname": "synapsis",
+			"prjsettings": "C:\\SAX\\projects\\synapsis.hyb\\operations\\libs\\bin\\settings\\synapsis.settings.json",
+			"modulessettings": "C:\\SAX\\projects\\synapsis.hyb\\operations\\libs\\bin\\settings\\synapsis.modules.json",
+			"modulesbinaries": "..\\modules"
+		},
+		{
+			"_id": 6,
+			"saxidapp": 21,
+			"name": "Synapsis ComercialInvoice",
+			"info": "Website Synapsis",
+			"type": "Web",
+			"status": "on",
+			"activated": true,
+			"online": false,
+			"roladmin":"master",
+			"slaves":[{"saxappid":16,"name":"Cube", "typeconnection":0},
+		            	{"saxappid":17,"name":"Identity", "typeconnection":0},
+			          {"saxappid":18,"name":"IA", "typeconnection":0},
+					  {"saxappid":20,"name":"Synapsis Operations", "typeconnection":0},
+					   {"saxappid":22,"name":"Synapsis Catalogs", "typeconnection":0},
+					  {"saxappid":26,"name":"Synapsis Globals", "typeconnection":0},
+					  {"saxappid":27,"name":"Synapsis Products", "typeconnection":0},
+					  {"saxappid":28,"name":"Synapsis References", "typeconnection":0},
+					  {"saxappid":29, "name": "Synapsis Digitization", "typeconnection":0},
+					{"saxappid":33,"name":"Synapsis Tigie", "typeconnection":0}
+					],								  
+			"industry": "Broker Agents|import & exports",
+			"language": "es",
+			"directoryname": "synapsis",
+			"prjsettings": "c:\\sax\\projects\\synapsis.hyb\\comercialinvoice\\libs\\bin\\settings\\synapsis.settings.json",
+			"modulessettings": "c:\\sax\\projects\\synapsis.hyb\\comercialinvoice\\libs\\bin\\settings\\synapsis.modules.json",
+			"modulesbinaries": "..\\modules"
+		},
+		{
+			"_id": 7,
+			"saxidapp": 22,
+			"name": "Synapsis Catalogs",
+			"info": "Website Synapsis",
+			"type": "Web",
+			"status": "on",
+			"activated": true,
+			"online": false,
+			"roladmin":"slave",
+			"slaves":[{"saxappid":16,"name":"Cube", "typeconnection":0},
+			          {"saxappid":17,"name":"Identity", "typeconnection":0},
+			          {"saxappid":18,"name":"IA", "typeconnection":0},
+				{"saxappid":28,"name":"Synapsis References", "typeconnection":0},
+								{"saxappid":26,"name":"Synapsis Globals", "typeconnection":0}],			  	
+			"industry": "Broker Agents|import & exports",
+			"language": "es",
+			"directoryname": "synapsis",
+			"prjsettings": "c:\\sax\\projects\\synapsis.hyb\\catalogs\\libs\\bin\\settings\\synapsis.settings.json",
+			"modulessettings": "c:\\sax\\projects\\synapsis.hyb\\catalogs\\libs\\bin\\settings\\synapsis.modules.json",
+			"modulesbinaries": "..\\modules"
+		},
+		{
+			"_id": 8,
+			"saxidapp": 23,
+			"name": "Synapsis Accounts",
+			"info": "Website Synapsis",
+			"type": "Web",
+			"status": "on",
+			"activated": true,
+			"online": false,
+			"roladmin":"slave",
+			"slaves":[{"saxappid":16,"name":"Cube", "typeconnection":0},
+			          {"saxappid":17,"name":"Identity", "typeconnection":0},
+			          {"saxappid":18,"name":"IA", "typeconnection":0}],				  	
+			"industry": "Broker Agents|import & exports",
+			"language": "es",
+			"directoryname": "synapsis",
+			"prjsettings": "c:\\sax\\projects\\synapsis.hyb\\accounts\\libs\\bin\\settings\\synapsis.settings.json",
+			"modulessettings": "c:\\sax\\projects\\synapsis.hyb\\accounts\\libs\\bin\\settings\\synapsis.modules.json",
+			"modulesbinaries": "..\\modules"
+		},
+		{
+			"_id": 9,
+			"saxidapp": 24,
+			"name": "Synapsis Controls",
+			"info": "Website Synapsis",
+			"type": "Web",
+			"status": "on",
+			"activated": true,
+			"online": false,
+			"roladmin":"slave",
+			"slaves":[{"saxappid":16,"name":"Cube", "typeconnection":0},
+			          {"saxappid":17,"name":"Identity", "typeconnection":0},
+			          {"saxappid":18,"name":"IA", "typeconnection":0}],							  	
+			"industry": "Broker Agents|import & exports",
+			"language": "es",
+			"directoryname": "synapsis",
+			"prjsettings": "c:\\sax\\projects\\synapsis.hyb\\controls\\libs\\bin\\settings\\synapsis.settings.json",
+			"modulessettings": "c:\\sax\\projects\\synapsis.hyb\\controls\\libs\\bin\\settings\\synapsis.modules.json",
+			"modulesbinaries": "..\\modules"
+		},
+		{
+			"_id": 10,
+			"saxidapp": 25,
+			"name": "Synapsis Services",
+			"info": "Website Synapsis",
+			"type": "Web",
+			"status": "on",
+			"activated": true,
+			"online": false,
+			"roladmin":"slave",
+			"slaves":[{"saxappid":16,"name":"Cube", "typeconnection":0},
+			          {"saxappid":17,"name":"Identity", "typeconnection":0},
+			          {"saxappid":18,"name":"IA", "typeconnection":0},
+					  {"saxappid":20,"name":"Synapsis Operations", "typeconnection":0},
+					  {"saxappid":22,"name":"Synapsis Catalogs", "typeconnection":0},
+					  {"saxappid":26,"name":"Synapsis Globals", "typeconnection":0}],
+			"industry": "Broker Agents|import & exports",
+			"language": "es",
+			"directoryname": "synapsis",
+			"prjsettings": "c:\\sax\\projects\\synapsis.hyb\\services\\libs\\bin\\settings\\synapsis.settings.json",
+			"modulessettings": "c:\\sax\\projects\\synapsis.hyb\\services\\libs\\bin\\settings\\synapsis.modules.json",
+			"modulesbinaries": "..\\modules"
+		},
+		{
+			"_id": 11,
+			"saxidapp": 26,
+			"name": "Synapsis Globals",
+			"info": "Website Synapsis",
+			"type": "Web",
+			"status": "on",
+			"activated": true,
+			"online": false,
+			"roladmin":"slave",
+			"slaves":[{"saxappid":16,"name":"Cube", "typeconnection":0},
+			          {"saxappid":18,"name":"IA", "typeconnection":0}],
+			"industry": "Broker Agents|import & exports",
+			"language": "es",
+			"directoryname": "synapsis",
+			"prjsettings": "c:\\sax\\projects\\synapsis.hyb\\globals\\libs\\bin\\settings\\synapsis.settings.json",
+			"modulessettings": "c:\\sax\\projects\\synapsis.hyb\\globals\\libs\\bin\\settings\\synapsis.modules.json",
+			"modulesbinaries": "..\\modules"
+		},
+		{
+			"_id": 12,
+			"saxidapp": 27,
+			"name": "Synapsis Products",
+			"info": "Website Synapsis",
+			"type": "Web",
+			"status": "on",
+			"activated": true,
+			"online": false,
+			"roladmin":"slave",
+			"slaves":[{"saxappid":16,"name":"Cube", "typeconnection":0},
+			{"saxappid":17,"name":"Identity", "typeconnection":0},
+		  {"saxappid":18,"name":"IA", "typeconnection":0},
+		  {"saxappid":20,"name":"Synapsis Operations", "typeconnection":0},
+		  {"saxappid":21,"name":"Synapsis CommercialInvoice", "typeconnection":0},
+		   {"saxappid":22,"name":"Synapsis Catalogs", "typeconnection":0},
+		   {"saxappid":26,"name":"Synapsis Globals", "typeconnection":0},
+		{"saxappid":33,"name":"TIGIE", "typeconnection":0}],
+		   
+			"industry": "Broker Agents|import & exports",
+			"language": "es",
+			"directoryname": "synapsis",
+			"prjsettings": "c:\\sax\\projects\\synapsis.hyb\\products\\libs\\bin\\settings\\synapsis.settings.json",
+			"modulessettings": "c:\\sax\\projects\\synapsis.hyb\\products\\libs\\bin\\settings\\synapsis.modules.json",
+			"modulesbinaries": "..\\modules"
+		},
+		{
+			"_id": 13,
+			"saxidapp": 28,
+			"name": "Synapsis References",
+			"info": "Website Synapsis",
+			"type": "Web",
+			"status": "on",
+			"activated": true,
+			"online": false,
+			"roladmin":"slave",
+			"slaves":[{"saxappid":16,"name":"Cube", "typeconnection":0},
+			{"saxappid":17,"name":"Identity", "typeconnection":0},
+		  {"saxappid":18,"name":"IA", "typeconnection":0},
+		  {"saxappid":20,"name":"Synapsis Operations", "typeconnection":0},
+		   {"saxappid":22,"name":"Synapsis Catalogs", "typeconnection":0},
+		   {"saxappid":26,"name":"Synapsis Globals", "typeconnection":0},
+		   {"saxappid":29,"name":"Synapsis Digitization", "typeconnection":0}],
+			"industry": "Broker Agents|import & exports",
+			"language": "es",
+			"directoryname": "synapsis",
+			"prjsettings": "c:\\sax\\projects\\synapsis.hyb\\references\\libs\\bin\\settings\\synapsis.settings.json",
+			"modulessettings": "c:\\sax\\projects\\synapsis.hyb\\references\\libs\\bin\\settings\\synapsis.modules.json",
+			"modulesbinaries": "..\\modules"
+		},
+		{
+			"_id": 14,
+			"saxidapp": 29,
+			"name": "Synapsis Digitization",
+			"info": "Website Synapsis",
+			"type": "Web",
+			"status": "on",
+			"activated": true,
+			"online": false,
+			"roladmin":"slave",
+			"slaves":[{"saxappid":16,"name":"Cube", "typeconnection":0},
+			{"saxappid":17,"name":"Identity", "typeconnection":0},
+		  	{"saxappid":18,"name":"IA", "typeconnection":0},
+		  	{"saxappid":20,"name":"Synapsis Operations", "typeconnection":0},
+		    {"saxappid":21,"name":"Synapsis CommercialInvoice", "typeconnection":0},
+		   	{"saxappid":22,"name":"Synapsis Catalogs", "typeconnection":0},
+		   	{"saxappid":26,"name":"Synapsis Globals", "typeconnection":0},
+			{"saxappid":27,"name":"Synapsis Products", "typeconnection":0}],
+			"industry": "Broker Agents|import & exports",
+			"language": "es",
+			"directoryname": "synapsis",
+			"prjsettings": "c:\\sax\\projects\\synapsis.hyb\\digitization\\libs\\bin\\settings\\synapsis.settings.json",
+			"modulessettings": "c:\\sax\\projects\\synapsis.hyb\\digitization\\libs\\bin\\settings\\synapsis.modules.json",
+			"modulesbinaries": "..\\modules"
+		},
+		{
+			"_id": 15,
+			"saxidapp": 30,
+			"name": "Synapsis Reportings",
+			"info": "Website Synapsis",
+			"type": "Web",
+			"status": "on",
+			"activated": true,
+			"online": false,
+			"roladmin":"slave",
+			"slaves":[{"saxappid":16,"name":"Cube", "typeconnection":0},
+			{"saxappid":17,"name":"Identity", "typeconnection":0},
+		  {"saxappid":18,"name":"IA", "typeconnection":0},
+		  {"saxappid":20,"name":"Synapsis Operations", "typeconnection":0},
+		   {"saxappid":22,"name":"Synapsis Catalogs", "typeconnection":0}],
+			"industry": "Broker Agents|import & exports",
+			"language": "es",
+			"directoryname": "synapsis",
+			"prjsettings": "c:\\sax\\projects\\synapsis.hyb\\reportings\\libs\\bin\\settings\\synapsis.settings.json",
+			"modulessettings": "c:\\sax\\projects\\synapsis.hyb\\reportings\\libs\\bin\\settings\\synapsis.modules.json",
+			"modulesbinaries": "..\\modules"
+		},
+		{
+			"_id": 16,
+			"saxidapp": 31,
+			"name": "Third-Party",
+			"info": "Website Synapsis",
+			"type": "Web",
+			"status": "on",
+			"activated": true,
+			"online": false,
+			"roladmin":"slave",
+			"slaves":[{"saxappid":16,"name":"Cube", "typeconnection":0},
+			{"saxappid":17,"name":"Identity", "typeconnection":0},
+		  {"saxappid":18,"name":"IA", "typeconnection":0},
+		  {"saxappid":20,"name":"Synapsis Operations", "typeconnection":0},
+		   {"saxappid":22,"name":"Synapsis Catalogs", "typeconnection":0}],
+			"industry": "Broker Agents|import & exports",
+			"language": "es",
+			"directoryname": "synapsis",
+			"prjsettings": "c:\\sax\\projects\\synapsis.hyb\\third-party\\libs\\bin\\settings\\synapsis.settings.json",
+			"modulessettings": "c:\\sax\\projects\\synapsis.hyb\\third-party\\libs\\bin\\settings\\synapsis.modules.json",
+			"modulesbinaries": "..\\modules"
+		},
+		{
+			"_id": 17,
+			"saxidapp": 32,
+			"name": "Machine Learnings",
+			"info": "Website Synapsis",
+			"type": "Web",
+			"status": "on",
+			"activated": true,
+			"online": false,
+			"roladmin":"slave",
+			"slaves":[{"saxappid":16,"name":"Cube", "typeconnection":0},
+			{"saxappid":17,"name":"Identity", "typeconnection":0},
+		  {"saxappid":18,"name":"IA", "typeconnection":0},
+		  {"saxappid":20,"name":"Synapsis Operations", "typeconnection":0},
+		   {"saxappid":22,"name":"Synapsis Catalogs", "typeconnection":0}],
+			"industry": "Broker Agents|import & exports",
+			"language": "es",
+			"directoryname": "synapsis",
+			"prjsettings": "c:\\sax\\projects\\synapsis.hyb\\machinelearnings\\libs\\bin\\settings\\synapsis.settings.json",
+			"modulessettings": "c:\\sax\\projects\\synapsis.hyb\\machinelearnings\\libs\\bin\\settings\\synapsis.modules.json",
+			"modulesbinaries": "..\\modules"
+		},
+		        {
+            "_id": 18,
+            "saxidapp": 33,
+            "name": "Synapsis Tigie",
+            "info": "Website Synapsis",
+            "type": "Web",
+            "status": "on",
+            "activated": true,
+            "online": false,
+            "roladmin":"slave",
+            "slaves":[{"saxappid":17,"name":"Identity", "typeconnection":0},      
+                     {"saxappid":22,"name":"Synapsis Catalogs", "typeconnection":0},
+                     {"saxappid":26,"name":"Synapsis Globals", "typeconnection":0}
+                    ],                    
+            "industry": "Broker Agents|import & exports",
+            "language": "es",
+            "directoryname": "synapsis",
+            "prjsettings": "c:\\SAX\\projects\\synapsis.hyb\\tigie\\libs\\bin\\settings\\synapsis.settings.json",
+            "modulessettings": "c:\\SAX\\projects\\synapsis.hyb\\tigie\\libs\\bin\\settings\\synapsis.modules.json",
+            "modulesbinaries": "..\\modules"
+        }													
+	]
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>✪ Catalog Simple</Title>
+			<Shortcut>catalogSimple</Shortcut>
+			<Description> ✪ Genera un GWC:Catalog para personalizar segun tus necesidades ✪ </Description>
+			<Author>Francisco Olvera</Author>
+		</Header>
+		<Snippet>
+			<Code Language="HTML">
+				<![CDATA[<GWC:CatalogControl ID="$Id$" runat="server"  KeyField="$KeyField$" CanDelete="$CanDelete$" CanAdd="$CanAdd$" CanClone="$CanClone$" CanPrint="$CanPrint$" OnRowPrint="$OnRowPrint$" CssClass="$CssClass$" >
+                                <Columns>
+
+							$Seguimiento$
+
+                                </Columns>
+                            </GWC:CatalogControl>]]>
+			</Code>
+			<Declarations>
+				<Literal>
+					<ID>Id</ID>
+					<ToolTip>Ingrese el ID correspondiente que debe utilizar.</ToolTip>
+					<Default>iCatalogo</Default>
+				</Literal>
+				<Literal>
+					<ID>KeyField</ID>
+					<ToolTip>Ingrese el KeyField correspondiente que debe utilizar.</ToolTip>
+					<Default>KeyExample</Default>
+				</Literal>
+				<Literal>
+					<ID>CanDelete</ID>
+					<ToolTip>Activar o desactivar el botón Eliminar.</ToolTip>
+					<Default>false</Default>
+				</Literal>
+				<Literal>
+					<ID>CanAdd</ID>
+					<ToolTip>Activar o desactivar el botón Añadir.</ToolTip>
+					<Default>false</Default>
+				</Literal>
+				<Literal>
+					<ID>CanClone</ID>
+					<ToolTip>Activar o desactivar el botón Clonar.</ToolTip>
+					<Default>false</Default>
+				</Literal>
+				<Literal>
+					<ID>CanPrint</ID>
+					<ToolTip>Activar o desactivar el botón Imprimir.</ToolTip>
+					<Default>false</Default>
+				</Literal>
+				<Literal>
+					<ID>OnRowPrint</ID>
+					<ToolTip>Ingrese la funcion que utilizara al ejecutar el botón Imprimir.</ToolTip>
+					<Default>FuncionImprimir()</Default>
+				</Literal>
+				<Literal>
+					<ID>CssClass</ID>
+					<ToolTip>Añada las clases de Bootstrap a utilizar.</ToolTip>
+					<Default>w-100</Default>
+				</Literal>
+				<Literal>
+					<ID>Seguimiento</ID>
+					<ToolTip></ToolTip>
+					<Default>&lt;%--Añade los componentes que tendra en su interior.--%&gt;.</Default>
+				</Literal>
+			</Declarations>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

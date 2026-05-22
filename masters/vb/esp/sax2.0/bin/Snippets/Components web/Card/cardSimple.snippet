@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>✪ Card Simple</Title>
+			<Shortcut>cardSimple</Shortcut>
+			<Description> ✪ Genera un GWC:CardControl con su estructura base ✪ </Description>
+			<Author>Francisco Olvera</Author>
+		</Header>
+		<Snippet>
+			<Code Language="HTML">
+				<![CDATA[
+				 <GWC:CardControl runat="server" ID="$Id$" CanClose="$CanClose$" CssClass="$CssClass$" Design="$Design$">                
+				            
+					<listcontrols>
+								<%--$Continue$--%>
+					</listcontrols>
+
+				</GWC:CardControl> 				
+				]]>
+			</Code>
+			<Declarations>
+				<Literal>
+					<ID>Id</ID>
+					<ToolTip>Ingrese el ID correspondiente que debe utilizar.</ToolTip>
+					<Default>ccCard</Default>
+				</Literal>
+				<Literal>
+					<ID>CssClass</ID>
+					<ToolTip>Añada los estilos de Bootstrap</ToolTip>
+					<Default>w-100</Default>
+				</Literal>
+				<Literal>
+					<ID>CanClose</ID>
+					<ToolTip>Muestra u oculta el botón para poder cerrar el CardControl</ToolTip>
+					<Default>true</Default>
+				</Literal>
+				<Literal>
+					<ID>Design</ID>
+					<ToolTip>
+					
+					🎨 Diseños disponibles:
+
+					⚪️ borderOne - Obtienes un diseño con un borde transparente y una sombra minimalista con la información en fila
+
+					🟣 borderTwo - Obtienes un diseño con un borde color morado con la información en fila
+
+					</ToolTip>
+					<Default>Default</Default>
+				</Literal>
+				<Literal>
+					<ID>Continue</ID>
+					<ToolTip>Continue inserte lo necesario para su componente</ToolTip>
+					<Default>Aqui van los componentes que iran dentro</Default>
+				</Literal>
+			</Declarations>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

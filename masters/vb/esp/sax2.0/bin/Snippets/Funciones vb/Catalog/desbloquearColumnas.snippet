@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>✪ Desbloquear Columnas Catalog</Title>
+      <Shortcut>CatalogDesbloquearColumnas</Shortcut>
+      <Description> ✪ Código para poder desbloquear columnas del CatalogControl ✪ </Description>
+      <Author>Francisco Olvera</Author>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>IdCatalog</ID>
+          <ToolTip>Ingrese el ID del Catalog que se va a afectar.</ToolTip>
+          <Default>IdCatalog</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="VB">
+        <![CDATA[
+        $IdCatalog$.DisableColumns = New List(Of String)()
+        ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,8 @@
+C:\SAX\projects\global\lib\controllers\rec.globals\Rec.Globals.Curp64.2.0.0.0.dll
+C:\SAX\projects\global\lib\controllers\rec.globals\Rec.Globals.Curp64.2.0.0.0.pdb
+C:\SAX\projects\global\dev\controllers\rec.global\2_0_stdCurp64_dll\Curp64\obj\Debug\Curp64.vbproj.AssemblyReference.cache
+C:\SAX\projects\global\dev\controllers\rec.global\2_0_stdCurp64_dll\Curp64\obj\Debug\Rec.Globals.Empresas.Resources.resources
+C:\SAX\projects\global\dev\controllers\rec.global\2_0_stdCurp64_dll\Curp64\obj\Debug\Curp64.vbproj.GenerateResource.cache
+C:\SAX\projects\global\dev\controllers\rec.global\2_0_stdCurp64_dll\Curp64\obj\Debug\Curp64.vbproj.CoreCompileInputs.cache
+C:\SAX\projects\global\dev\controllers\rec.global\2_0_stdCurp64_dll\Curp64\obj\Debug\Rec.Globals.Curp64.2.0.0.0.dll
+C:\SAX\projects\global\dev\controllers\rec.global\2_0_stdCurp64_dll\Curp64\obj\Debug\Rec.Globals.Curp64.2.0.0.0.pdb

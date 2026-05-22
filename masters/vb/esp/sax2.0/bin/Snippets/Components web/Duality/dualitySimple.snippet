@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>✪ Duality Simple</Title>
+			<Shortcut>dualitySimple</Shortcut>
+			<Description> ✪ Genera un GWC:DualityControl simple  ✪ </Description>
+			<Author>Francisco Olvera</Author>
+		</Header>
+		<Snippet>
+			<Code Language="HTML">
+				<![CDATA[<GWC:DualityBarControl runat="server" ID="$ID$" CssClass="$CssClass$" Enabled="$Enabled$" Label="$Label$" LabelDetail="$LabelDetail$" VisibleButton="$VisibleButton$"/>]]>
+			</Code>
+			<Declarations>
+			<Literal>
+					<ID>ID</ID>
+					<ToolTip>Ingrese el ID correspondiente que debe utilizar.</ToolTip>
+					<Default>lLabel</Default>
+				</Literal>
+				<Literal>
+					<ID>CssClass</ID>
+					<ToolTip>Ingrese diseño de Bootstrap.</ToolTip>
+					<Default>col-xs-12 col-md-6 mb-5</Default>
+				</Literal>
+					<Literal>
+					<ID>Enabled</ID>
+					<ToolTip>Habilitar o deshabilitar el componente.</ToolTip>
+					<Default>true</Default>
+				</Literal>
+				<Literal>
+					<ID>Label</ID>
+					<ToolTip>Ingrese el texto que tendra de presentación su Duality de lado izquierdo</ToolTip>
+					<Default>EjemploIzquierda</Default>
+				</Literal>
+					<Literal>
+					<ID>LabelDetail</ID>
+					<ToolTip>Ingrese el texto que tendra de presentación su Duality de lado derecho</ToolTip>
+					<Default>EjemploDerecha</Default>
+				</Literal>
+					<Literal>
+					<ID>VisibleButton</ID>
+					<ToolTip>Para mostar u ocultar el botón que contiene el Duality</ToolTip>
+					<Default>true</Default>
+				</Literal>
+			</Declarations>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

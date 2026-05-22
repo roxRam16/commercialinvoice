@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante Version="3.3" Folio="94271352" Fecha="2021-12-01T17:49:47" Sello="pSy+2viigF6FMFneSG0aDaLvBTi072tlcltkp+xWDg5VTvp62p6kPMJoJc0NsmO3NmW5DEuJJCmj1Hurgb16NaQueeoWVF7o6n8i+CNRNewX/2aER8sWUxkabEM+AaBcXMcp/XBw/iGXHqvP60bGiPNpJfUrNaBSTtp/oqvS1+3GJBPmytkb0t6+B3i2bypXt729ZTmrh0DjfdVcEAi8Q00QkpI1qL5q82hilFdQz3slwtKnqHo1jaYAIAcP9WbueYn74fSy/BQuu/Kg8sEmac+wPQ6Mr1n9UvAT8oQqO8Qcf3/MFsTQrz+LpqAGFtfzZA+YfhqQStC4MQBith3Pow==" FormaPago="99" NoCertificado="00001000000504128880" Certificado="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" SubTotal="9730.20" Moneda="USD" TipoCambio="21.44530" Total="9730.20" TipoDeComprobante="I" MetodoPago="PPD" LugarExpedicion="76130" xmlns:cce11="http://www.sat.gob.mx/ComercioExterior11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/ComercioExterior11 http://www.sat.gob.mx/sitio_internet/cfd/ComercioExterior11/ComercioExterior11.xsd" xmlns:cfdi="http://www.sat.gob.mx/cfd/3">
+  <cfdi:Emisor Rfc="IEQ800311A55" Nombre="INDUSTRIA ENVASADORA DE QUERETARO, S.A. DE C.V." RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="XEXX010101000" Nombre="THE COCA COLA EXPORT CORPORATION-PANAMA BRAND" ResidenciaFiscal="PAN" NumRegIdTrib="212-26-50212(DU) 55" UsoCFDI="P01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="73131500" NoIdentificacion="VEMFABAMA1070" Cantidad="2340" ClaveUnidad="XBX" Unidad="20" Descripcion="DEL VALLE STR-MN 330ML LEAN 6P EXP MULTI" ValorUnitario="4.0300" Importe="9430.20">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="9430.20" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="24112701" NoIdentificacion="000000000002000100" Cantidad="20" ClaveUnidad="H87" Unidad="6" Descripcion="TARIMA DE MADERA ESTUFADA 40¨X 48¨" ValorUnitario="15.0000" Importe="300.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="300.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="0.00">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <cce11:ComercioExterior Version="1.1" TipoOperacion="2" ClaveDePedimento="A1" CertificadoOrigen="0" Incoterm="EXW" Subdivision="0" TipoCambioUSD="21.44530" TotalUSD="9730.20" xmlns:cce11="http://www.sat.gob.mx/ComercioExterior11">
+      <cce11:Emisor>
+        <cce11:Domicilio Calle="Ave 5 de Febrero" NumeroExterior="1323" Colonia="0108" Localidad="01" Municipio="014" Estado="QUE" Pais="MEX" CodigoPostal="76130" />
+      </cce11:Emisor>
+      <cce11:Receptor>
+        <cce11:Domicilio Calle="WORLD TRADE CENTER 8th FLOOR" Estado="PAN" Pais="PAN" CodigoPostal="32401" />
+      </cce11:Receptor>
+      <cce11:Destinatario>
+        <cce11:Domicilio Calle="BLVD DEL NORTE, CARR SALIDA A PUERT" Estado="HON" Pais="HND" CodigoPostal="21102" />
+      </cce11:Destinatario>
+      <cce11:Mercancias>
+        <cce11:Mercancia NoIdentificacion="VEMFABAMA1070" FraccionArancelaria="2202990300" CantidadAduana="18532.80" UnidadAduana="08" ValorUnitarioAduana="0.51" ValorDolares="9430.20">
+          <cce11:DescripcionesEspecificas Marca="JDV EXP MANGO-FRES" />
+        </cce11:Mercancia>
+        <cce11:Mercancia NoIdentificacion="000000000002000100" FraccionArancelaria="4415200299" CantidadAduana="440.00" UnidadAduana="01" ValorUnitarioAduana="0.68" ValorDolares="300.00">
+          <cce11:DescripcionesEspecificas Marca="TARIMA" />
+        </cce11:Mercancia>
+      </cce11:Mercancias>
+    </cce11:ComercioExterior>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="B58245C5-BDB7-4EC9-8C77-04901CFFFBC3" FechaTimbrado="2021-12-01T17:49:49" RfcProvCertif="INT020124V62" SelloCFD="pSy+2viigF6FMFneSG0aDaLvBTi072tlcltkp+xWDg5VTvp62p6kPMJoJc0NsmO3NmW5DEuJJCmj1Hurgb16NaQueeoWVF7o6n8i+CNRNewX/2aER8sWUxkabEM+AaBcXMcp/XBw/iGXHqvP60bGiPNpJfUrNaBSTtp/oqvS1+3GJBPmytkb0t6+B3i2bypXt729ZTmrh0DjfdVcEAi8Q00QkpI1qL5q82hilFdQz3slwtKnqHo1jaYAIAcP9WbueYn74fSy/BQuu/Kg8sEmac+wPQ6Mr1n9UvAT8oQqO8Qcf3/MFsTQrz+LpqAGFtfzZA+YfhqQStC4MQBith3Pow==" NoCertificadoSAT="00001000000505211329" SelloSAT="IqysyNgA/x1i3qsB4Ftg57QbTTdJVAMUy7OUxOIYWDAAPaYLLXRfZReTa25ys19xmc9m1yCwqScT8miIgK1bqm6odN/TrUVL0eydMosVbyvlzAeTGS6lAlCGp7mHm07MswQLkwjD17/ds5oe5Cy1OUfWNOVcbhLieDv9cOXYBb0LV27AskahaQWY6SmKK4emAzyFfiAeE6RjLEjGPo073+Ay3+LxxhjYv2egCUMXYI/twYCrpPf8S+nR7pFzmsNnNZ56VbNI0OGqZTI78ppF0xcUBg7ZdY8T79sXluChUEcPn5BztAPFxpteD7MH6bK67/f3rnKjI1blZbkDH9+aoQ==" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>
